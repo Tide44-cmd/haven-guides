@@ -1,0 +1,488 @@
+[
+  {
+    "name": "Chapter 1 — Beginnings",
+    "intro": "First New York visit. Complete all three Heart of Gold errands and collect both outfits before the story moves into the Underworld.",
+    "items": [
+      {
+        "id": "0-0",
+        "type": "heart",
+        "name": "George Handel — first favour",
+        "where": "Canal Street, stairs to Chinatown",
+        "desc": "Speak to George, confront Compton Scarr downstairs and tell him to let George play. Return to George for your reward.",
+        "warning": false
+      },
+      {
+        "id": "0-1",
+        "type": "heart",
+        "name": "Charlane Warburton — four coins",
+        "where": "Fulton Street station",
+        "desc": "Find Charlane on the unused-train side of the station. Collect all four coins from the tracks in one attempt. If you miss one, ask her to try again.",
+        "warning": false
+      },
+      {
+        "id": "0-2",
+        "type": "heart",
+        "name": "Ingrid Pulanski — lost bracelet",
+        "where": "Fulton Street, incoming-train platform",
+        "desc": "Search the tracks below the platform edge for her bracelet. Return it to Ingrid. Watch for incoming trains.",
+        "warning": false
+      },
+      {
+        "id": "0-3",
+        "type": "outfit",
+        "name": "Potato Sack",
+        "where": "Chinatown, immediately outside the subway",
+        "desc": "After climbing the subway stairs, look straight ahead for a glowing glass display case against the wall near the alley. Smash it and collect the outfit.",
+        "warning": false
+      },
+      {
+        "id": "0-4",
+        "type": "outfit",
+        "name": "Jungle Outfit",
+        "where": "Hunterspoint Alley, near Dutch Oven Harry's hideout",
+        "desc": "After the pool hall, find Matty Forehand, who gives you Harry's password. To his left is a locked door with a vent/window above it. Send Creeping Dark through the opening, unlock the door from inside and collect the outfit.",
+        "warning": false
+      }
+    ]
+  },
+  {
+    "name": "Chapter 2 — No Man's Land",
+    "intro": "First Underworld visit. All 17 letters must be collected before leaving. There are no Heart of Gold errands or outfits in this chapter.",
+    "items": [
+      {
+        "id": "1-0",
+        "type": "letter",
+        "name": "First trenches — bunker hatch",
+        "where": "After the initial plane crash",
+        "desc": "Leave the first bunker and go left. Find the low wall overlooking a bunker hatch. Break the hatch and climb down to the letter.",
+        "warning": false
+      },
+      {
+        "id": "1-1",
+        "type": "letter",
+        "name": "Barbed-wire bridge",
+        "where": "Ruined battlefield",
+        "desc": "Cross the small bridge made from barbed wire and reach the top of the bunker. Collect the letter.",
+        "warning": false
+      },
+      {
+        "id": "1-2",
+        "type": "letter",
+        "name": "Crucified creature",
+        "where": "Battlefield with the enormous gas-mask creature",
+        "desc": "When the creature lifts the surrounding air, use Creeping Dark to retrieve the letter near its feet.",
+        "warning": false
+      },
+      {
+        "id": "1-3",
+        "type": "letter",
+        "name": "Outside enemy bunker",
+        "where": "After using a Kamikaze Darkling",
+        "desc": "Once the Darkling blows open the bunker wall, exit left and use Creeping Dark along the outer ledge.",
+        "warning": false
+      },
+      {
+        "id": "1-4",
+        "type": "letter",
+        "name": "British soldier's bunker",
+        "where": "Friendly trenches",
+        "desc": "Find the underground room with the British soldier playing harmonica. Search near him before climbing the ladder to the village.",
+        "warning": false
+      },
+      {
+        "id": "1-5",
+        "type": "letter",
+        "name": "Village shack",
+        "where": "Immediately after entering the village",
+        "desc": "Turn right from the ladder and follow the short path towards the shack.",
+        "warning": false
+      },
+      {
+        "id": "1-6",
+        "type": "letter",
+        "name": "Ruined building near church",
+        "where": "Village upper paths",
+        "desc": "Climb the stairs, cross two bridges and find the door marked with a cross. Search the ruined building on the left.",
+        "warning": false
+      },
+      {
+        "id": "1-7",
+        "type": "letter",
+        "name": "Above the bell",
+        "where": "Path towards The Hills",
+        "desc": "Use Creeping Dark to reach the raised platform above the large bell.",
+        "warning": false
+      },
+      {
+        "id": "1-8",
+        "type": "letter",
+        "name": "Side trench",
+        "where": "No Man's Land",
+        "desc": "Follow the illuminated path towards the Crucified. Search the trench branching to the left before reaching the hilltop.",
+        "warning": false
+      },
+      {
+        "id": "1-9",
+        "type": "letter",
+        "name": "Destroyed house fireplace",
+        "where": "Return route after obtaining Darkness Guns",
+        "desc": "Head towards the earlier trench and take the sharp left into the ruined house. Search its fireplace.",
+        "warning": false
+      },
+      {
+        "id": "1-10",
+        "type": "letter",
+        "name": "Behind sewer entrance",
+        "where": "Village return route — extremely missable",
+        "desc": "After descending into the sewers and crouching through the narrow passage, immediately turn around. Collect the letter behind you before crossing the loading boundary.",
+        "warning": true
+      },
+      {
+        "id": "1-11",
+        "type": "letter",
+        "name": "Lower platform at staircase",
+        "where": "Sewer staircase",
+        "desc": "After climbing the winding stairs, turn right at the top. Send Creeping Dark over the railing to reach the lower platform.",
+        "warning": false
+      },
+      {
+        "id": "1-12",
+        "type": "letter",
+        "name": "Pump tunnels",
+        "where": "After draining the water",
+        "desc": "Open the lower door, take the first left and enter the large room. Find the letter on the left.",
+        "warning": false
+      },
+      {
+        "id": "1-13",
+        "type": "letter",
+        "name": "Upper bunker railing",
+        "where": "Multi-level bunker towards Gustav cannon",
+        "desc": "On the upper level, search beside the railing overlooking the staircase before leaving.",
+        "warning": false
+      },
+      {
+        "id": "1-14",
+        "type": "letter",
+        "name": "Cannon railway gate",
+        "where": "Outside Gustav cannon",
+        "desc": "Run along the tracks towards the large locked gate. Collect the letter beside it.",
+        "warning": false
+      },
+      {
+        "id": "1-15",
+        "type": "letter",
+        "name": "Beneath cannon catwalk",
+        "where": "Inside Gustav cannon",
+        "desc": "In the lower room with the star, use Creeping Dark underneath the catwalk to retrieve the letter.",
+        "warning": false
+      },
+      {
+        "id": "1-16",
+        "type": "letter",
+        "name": "Cannon roof ledge",
+        "where": "Top of Gustav cannon — extremely missable",
+        "desc": "With your back towards the control-room hatch, send Creeping Dark along the right side and climb onto the ledge. Collect the letter before entering the controls.",
+        "warning": true
+      }
+    ]
+  },
+  {
+    "name": "Chapter 3 — Return to New York",
+    "intro": "Complete the New York side quests, collecting the four remaining outfits as their locations become available. Post all 17 Chapter 2 letters at a mailbox.",
+    "items": [
+      {
+        "id": "2-0",
+        "type": "heart",
+        "name": "Dana Cutrone — apartment key",
+        "where": "Subway station → Chinatown",
+        "desc": "Speak to Dana after returning to New York. Find her apartment in the passage between Lester Street and Mulberry Alley. Obtain the keys from Joey Skelton.",
+        "warning": false
+      },
+      {
+        "id": "2-1",
+        "type": "outfit",
+        "name": "Lumberjack Outfit",
+        "where": "Inside Dana's apartment",
+        "desc": "Before leaving Joey's apartment, find the glass display case in the room and collect the outfit.",
+        "warning": false
+      },
+      {
+        "id": "2-2",
+        "type": "heart",
+        "name": "Dana Cutrone — return the key",
+        "where": "Subway station",
+        "desc": "Return the recovered apartment key to Dana to complete her favour.",
+        "warning": false
+      },
+      {
+        "id": "2-3",
+        "type": "heart",
+        "name": "Jimmy the Grape — informant",
+        "where": "Canal Street → Grinder's Lane",
+        "desc": "Speak to Jimmy. Go to Grinder's Lane, turn left twice, eliminate the guards outside and inside the apartment, kill the informant and recover his list.",
+        "warning": false
+      },
+      {
+        "id": "2-4",
+        "type": "outfit",
+        "name": "Fireman Outfit",
+        "where": "Grinder's Lane, informant's apartment",
+        "desc": "Before leaving the apartment where you killed the informant, find and smash the outfit display case.",
+        "warning": false
+      },
+      {
+        "id": "2-5",
+        "type": "heart",
+        "name": "Jimmy the Grape — return the list",
+        "where": "Canal Street",
+        "desc": "Give Jimmy the recovered list to finish his mission.",
+        "warning": false
+      },
+      {
+        "id": "2-6",
+        "type": "heart",
+        "name": "Vinny Mortarello — contract 1",
+        "where": "Fulton Street → Lower East Side",
+        "desc": "Find the target near the lamppost behind and right of the subway exit near Aunt Sarah's house. Kill him and return to Vinny.",
+        "warning": false
+      },
+      {
+        "id": "2-7",
+        "type": "heart",
+        "name": "Vinny Mortarello — contract 2",
+        "where": "Grinder's Lane",
+        "desc": "Eliminate the target guarded by police with TMPs. Demon Arm can pull him away quickly. Return to Vinny.",
+        "warning": false
+      },
+      {
+        "id": "2-8",
+        "type": "heart",
+        "name": "Vinny Mortarello — contract 3",
+        "where": "Lower East Side",
+        "desc": "Behind and left of Aunt Sarah's subway exit, destroy the noisy car and kill its occupants. Return to Vinny.",
+        "warning": false
+      },
+      {
+        "id": "2-9",
+        "type": "heart",
+        "name": "Vinny Mortarello — contract 4",
+        "where": "Chinatown",
+        "desc": "Find the dealer in the alley between Orchid and Plum. Kill him and report back.",
+        "warning": false
+      },
+      {
+        "id": "2-10",
+        "type": "heart",
+        "name": "Vinny Mortarello — contract 5",
+        "where": "Gun Hill, near Eddie Shrote's building",
+        "desc": "Before entering the elevator building, look right for an elevated open window. Send Creeping Dark through it and kill the man watching Eddie. Do this before progressing Eddie's storyline.",
+        "warning": true
+      },
+      {
+        "id": "2-11",
+        "type": "outfit",
+        "name": "Sledgehammer Outfit",
+        "where": "Gun Hill, fifth target's surveillance room",
+        "desc": "While Creeping Dark is inside the room, look to the right of the surveillance equipment for the outfit case. Collect it before leaving.",
+        "warning": false
+      },
+      {
+        "id": "2-12",
+        "type": "heart",
+        "name": "Vinny Mortarello — final report",
+        "where": "Fulton Street",
+        "desc": "Return to Vinny after the fifth target for his final reward.",
+        "warning": false
+      },
+      {
+        "id": "2-13",
+        "type": "heart",
+        "name": "George Handel — stolen harmonica",
+        "where": "Canal Street → Lower East Side",
+        "desc": "Speak to George again. Find Compton Scarr and two companions on Waterfront Street along the route towards Whitefish. Kill them, recover the harmonica and return it to George.",
+        "warning": false
+      },
+      {
+        "id": "2-14",
+        "type": "heart",
+        "name": "Terence Willis — Whitefish gang",
+        "where": "Canal Street → Whitefish",
+        "desc": "Speak to Terence sitting on a box at the train-entry end of the platform. Clear the gang at Whitefish and return for his advice.",
+        "warning": false
+      },
+      {
+        "id": "2-15",
+        "type": "heart",
+        "name": "Lucas Hellinger — shell game",
+        "where": "Canal Street",
+        "desc": "Use Terence's advice. Distract Lucas, then select the marked cup to win.",
+        "warning": false
+      },
+      {
+        "id": "2-16",
+        "type": "heart",
+        "name": "Mitch Duval — missing brother",
+        "where": "Fulton Street → City Hall tunnels",
+        "desc": "Accept Mitch's quest at the locked platform gate. Follow the tunnels towards the Turkish Baths. Disable electrified water with Creeping Dark, remove chain traps with Demon Arm, reposition the crate and open the locked door through the overhead grate.",
+        "warning": false
+      },
+      {
+        "id": "2-17",
+        "type": "outfit",
+        "name": "Jackhammer Outfit",
+        "where": "Abandoned City Hall station",
+        "desc": "While following the tracks towards the Turkish Baths, enter the old subway carriage before taking the path to the right. Collect the outfit inside.",
+        "warning": false
+      },
+      {
+        "id": "2-18",
+        "type": "heart",
+        "name": "Mitch Duval — finish the mission",
+        "where": "City Hall tunnels → Fulton Street",
+        "desc": "Find and kill Mitch's hostile brother. Break the padlocks, move a crate to climb and use Black Hole to clear the exit. Return to Mitch and report what happened.",
+        "warning": false
+      }
+    ]
+  },
+  {
+    "name": "Chapter 4 — Second Underworld Visit",
+    "intro": "Collect the final ten letters. Charlie Hazelgrove's Heart of Gold quest occurs between letters 21 and 22, so don't miss him.",
+    "items": [
+      {
+        "id": "3-0",
+        "type": "letter",
+        "name": "Under Gustav cannon platform",
+        "where": "Immediately after leaving the cannon hatch",
+        "desc": "Climb down the ladder and use Creeping Dark to search beneath the raised platform behind it.",
+        "warning": false
+      },
+      {
+        "id": "3-1",
+        "type": "letter",
+        "name": "Building ladder and grate",
+        "where": "Return path towards the village",
+        "desc": "Fight through the soldiers to the building containing a ladder. Climb down, turn right and collect the letter in front of the grate.",
+        "warning": false
+      },
+      {
+        "id": "3-2",
+        "type": "letter",
+        "name": "Sewer entrance grate",
+        "where": "Return route into the sewers",
+        "desc": "Follow the path into the sewers. Collect the letter directly in front of the grate before breaking through.",
+        "warning": false
+      },
+      {
+        "id": "3-3",
+        "type": "letter",
+        "name": "Waterway platform",
+        "where": "Inside the sewers",
+        "desc": "After passing through the grate, follow the water to the right and climb onto the platform with the ladder.",
+        "warning": false
+      },
+      {
+        "id": "3-4",
+        "type": "heart",
+        "name": "Charlie Hazelgrove — message for Rosie",
+        "where": "Village return route, near trench ladder",
+        "desc": "As you leave the village towards Tony's tank, find Charlie among the British soldiers on the right side near the double staircase. Speak to him and accept the message and locket for Rosie. Deliver it in Chapter 5.",
+        "warning": true
+      },
+      {
+        "id": "3-5",
+        "type": "letter",
+        "name": "Room after giant creature",
+        "where": "After Tony's tank battle",
+        "desc": "Once the huge creature is defeated, enter the room on your left before following Tony onwards.",
+        "warning": false
+      },
+      {
+        "id": "3-6",
+        "type": "letter",
+        "name": "Castle upper catwalk",
+        "where": "Castle bunker interior",
+        "desc": "After clearing the soldiers, climb the stairs to the upper catwalk. Turn right and follow it to the end.",
+        "warning": false
+      },
+      {
+        "id": "3-7",
+        "type": "letter",
+        "name": "Path after firing cannon",
+        "where": "Return from Gustav cannon",
+        "desc": "After firing the cannon and descending, follow the right-hand path. Before crossing the wooden planks, search beside the light on the left.",
+        "warning": false
+      },
+      {
+        "id": "3-8",
+        "type": "letter",
+        "name": "Outside castle entrance",
+        "where": "Approach to castle gate",
+        "desc": "Find the last light on the right before entering the open castle gate. Collect the letter beside it.",
+        "warning": false
+      },
+      {
+        "id": "3-9",
+        "type": "letter",
+        "name": "Dirt mound in corridor",
+        "where": "Inside the castle",
+        "desc": "In the dark corridor, use Creeping Dark to climb the dirt mound on the left and collect the letter.",
+        "warning": false
+      },
+      {
+        "id": "3-10",
+        "type": "letter",
+        "name": "Final room with four chairs",
+        "where": "Castle interior — last letter",
+        "desc": "Enter the large room with four chairs. Head straight towards the gate and collect the final letter before interacting with the chairs.",
+        "warning": false
+      }
+    ]
+  },
+  {
+    "name": "Chapter 5 — Final Return to New York",
+    "intro": "Finish all remaining Heart of Gold objectives, post the ten Chapter 4 letters and verify your achievements before going to the final mansion.",
+    "items": [
+      {
+        "id": "4-0",
+        "type": "heart",
+        "name": "Rosie Hazelgrove — Charlie's message",
+        "where": "Fulton Street station",
+        "desc": "Find Rosie asleep on a bench near Vinny's former position. Wake her and deliver Charlie's message and locket.",
+        "warning": false
+      },
+      {
+        "id": "4-1",
+        "type": "heart",
+        "name": "Little Petey — letter delivery",
+        "where": "Fulton Street → Canal Street",
+        "desc": "Take Petey's letter to Mickey Famiano near the Canal Street Chinatown exit. Mickey wears a dark red hat and stands beside a vending machine. No return trip is required.",
+        "warning": false
+      },
+      {
+        "id": "4-2",
+        "type": "heart",
+        "name": "Enzo Scardina — briefcase exchange",
+        "where": "Canal Street → Fulton Street",
+        "desc": "Find Enzo near the Trinity Church stairs. Take his briefcase to Frankie 'Noses' Tieri near the information booth at Fulton Street. Swap the cases and return to Enzo.",
+        "warning": false
+      },
+      {
+        "id": "4-3",
+        "type": "heart",
+        "name": "Alfred Blackmoore — eviction",
+        "where": "Canal Street → Chinatown",
+        "desc": "Find Alfred near the Chinatown exit, wearing a white number-10 top. Visit Dana's apartment, confront her and take back the keys. Return to Alfred.",
+        "warning": false
+      },
+      {
+        "id": "4-4",
+        "type": "heart",
+        "name": "Frank Rottenberg — insulin",
+        "where": "Trinity Cemetery bathroom",
+        "desc": "Find Frank outside the bathroom where you first acquired Darkness powers. Send Creeping Dark inside, retrieve the insulin from the table beside his bed and give it to Frank.",
+        "warning": true
+      }
+    ]
+  }
+]
