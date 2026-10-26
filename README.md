@@ -1,14 +1,15 @@
 # Haven Guide
 
-Static GitHub Pages website, containing the interactive **The Darkness (Xbox 360)** walkthrough.
+Static GitHub Pages website containing interactive guides for **The Darkness** and **State of Decay 2**.
 
 ## Deploy to GitHub Pages
 
-Upload the contents of this ZIP **to the root of your `haven-guide` repository**, preserving the folder structure. Your repository is currently publishing from `master` → `/ (root)`; **leave this setting as-is**. Commit the files and GitHub Pages will publish them.
+The repository publishes from `master` → `/ (root)` through GitHub Pages. Commit changes to `master` and GitHub Pages will publish them.
 
 Expected URLs:
-- Homepage: `https://tide44-cmd.github.io/haven-guide/`
-- The Darkness: `https://tide44-cmd.github.io/haven-guide/guides/the-darkness/`
+- Homepage: `https://tide44-cmd.github.io/haven-guides/`
+- The Darkness: `https://tide44-cmd.github.io/haven-guides/guides/the-darkness/`
+- State of Decay 2: `https://tide44-cmd.github.io/haven-guides/guides/state-of-decay-2/`
 
 ## New guides
 
@@ -23,7 +24,8 @@ Expected URLs:
 - Progress stored automatically with `localStorage`
 - Export / import progress to move browsers, reset progress, incomplete-only filter
 - **Compatible with existing tracker progress**, if old tracker was previously on the same GitHub Pages domain (reuses `darkness-tracker-v1` localStorage key and original checkbox IDs)
+- State of Decay 2 completion route with locally saved playthrough objectives
 
 **Note:** Opening `index.html` directly from your file system can prevent JSON loads in some browsers. Use GitHub Pages or a local web server for testing.
 
-The source chapter text is taken from the supplied checklist, and not every game location has been independently checked. This website does not claim to be an officially licensed game guide.
+The source chapter text is taken from the supplied checklist, and not every game location has been independently checked. The Darkness page credits the GameFAQs walkthrough used for supporting route and phone-number details. This website does not claim to be an officially licensed game guide.

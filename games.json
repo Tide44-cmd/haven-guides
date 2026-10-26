@@ -5,6 +5,16 @@
     "year": "2007",
     "description": "Complete single-player achievement checklist, with missables, outfits, letters and phone numbers.",
     "url": "guides/the-darkness/",
-    "tag": "Single-player \u2022 52 objectives"
+    "tag": "Single-player \u2022 52 objectives",
+    "theme": "darkness"
+  },
+  {
+    "title": "State of Decay 2",
+    "platform": "Xbox / PC",
+    "year": "2018",
+    "description": "A practical completion roadmap covering survivors, legacy runs, maps, Plague Hearts, Daybreak and Heartland.",
+    "url": "guides/state-of-decay-2/",
+    "tag": "Completion roadmap \u2022 4 legacy runs",
+    "theme": "state-of-decay"
   }
 ]
