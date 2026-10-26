@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="The Darkness achievement and collectible tracker for Xbox 360.">
+  <title>The Darkness — Haven Guide</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="shell">
+    <nav class="top-nav"><a href="index.html">← Haven Guide</a></nav>
+    <header class="tracker-header">
+      <div>
+        <div class="eyebrow">THE DARKNESS · XBOX 360</div>
+        <h1>Achievement Tracker</h1>
+      </div>
+      <button class="button danger" id="reset-achievements" type="button">Reset</button>
+    </header>
+    <p class="intro">Heart of Gold, Darkling outfits and Underworld letters, arranged chapter by chapter. Your progress is saved on this device.</p>
+
+    <section class="panel" aria-labelledby="achievement-heading">
+      <h2 class="sr-only" id="achievement-heading">Achievement checklist</h2>
+      <div class="stats" id="stats"></div>
+      <p class="progress-line" id="overall"></p>
+      <div class="controls">
+        <button class="button" id="filter" type="button">Show incomplete only: Off</button>
+        <button class="button" id="export" type="button">Export progress</button>
+        <button class="button" id="import" type="button">Import progress</button>
+        <input id="file" type="file" accept="application/json" hidden>
+      </div>
+      <div id="chapters"></div>
+    </section>
+
+    <section class="collectibles" aria-labelledby="phone-heading">
+      <div class="eyebrow">EXTRAS</div>
+      <h2 id="phone-heading">All 73 collectible telephone numbers</h2>
+      <p>Enter these from any accessible payphone in the game. Tap a number to mark it entered.</p>
+      <div class="number-panel" data-number-tracker="phones"></div>
+    </section>
+
+    <section class="collectibles" aria-labelledby="keeper-heading">
+      <h2 id="keeper-heading">Keeper of Secrets numbers</h2>
+      <p>Enter all 18 secret numbers. Tap a number to track your progress.</p>
+      <div class="number-panel" data-number-tracker="keepers"></div>
+    </section>
+  </main>
+  <script src="darkness.js"></script>
+</body>
+</html>
