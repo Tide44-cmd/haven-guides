@@ -164,7 +164,7 @@ function renderCharacterTiles() {
       const portrait = meta.image
         ? `<img src="${escapeHtml(meta.image)}" alt="" loading="lazy">`
         : `<span class="character-initials" aria-hidden="true">${escapeHtml(initials(name))}</span>`;
-      return `<button class="character-tile ${current === name ? 'active' : ''}" type="button" data-character="${escapeHtml(name)}" data-role="${role}">
+      return `<button class="character-tile ${role.toLowerCase()}-tile ${current === name ? 'active' : ''}" type="button" data-character="${escapeHtml(name)}" data-role="${role}">
         <span class="character-portrait">${portrait}</span><span class="character-name">${escapeHtml(meta.label || name)}</span><span class="character-count">${earned}/${value.items.length}</span>
       </button>`;
     }).join('');
@@ -183,8 +183,26 @@ function populateSelect(id, values) {
   });
 }
 
+function updateCharacterOptions(role, preferredCharacter = byId('character-filter').value) {
+  const select = byId('character-filter');
+  const characters = [...new Set(achievements
+    .filter(item => item.character && (!role || item.role === role))
+    .map(item => item.character))]
+    .sort((a, b) => a.localeCompare(b));
+  select.innerHTML = '<option value="">All characters</option>';
+  characters.forEach(character => {
+    const option = document.createElement('option');
+    option.value = character;
+    option.textContent = character;
+    select.append(option);
+  });
+  select.value = characters.includes(preferredCharacter) ? preferredCharacter : '';
+  select.disabled = characters.length === 0;
+}
+
 function clearAchievementFilters() {
   ['achievement-search', 'role-filter', 'character-filter', 'map-filter', 'achievement-dlc-filter'].forEach(id => { byId(id).value = ''; });
+  updateCharacterOptions('');
   renderAchievements();
 }
 
@@ -199,7 +217,12 @@ document.addEventListener('change', event => {
     achievementInput.checked ? earnedAchievements.add(achievementInput.dataset.achievementId) : earnedAchievements.delete(achievementInput.dataset.achievementId);
     saveProgress(); renderAchievements(); return;
   }
-  if (event.target.matches('#role-filter,#character-filter,#map-filter,#achievement-dlc-filter')) renderAchievements();
+  if (event.target.matches('#role-filter')) {
+    updateCharacterOptions(event.target.value);
+    renderAchievements();
+    return;
+  }
+  if (event.target.matches('#character-filter,#map-filter,#achievement-dlc-filter')) renderAchievements();
 });
 
 document.addEventListener('click', event => {
@@ -207,8 +230,8 @@ document.addEventListener('click', event => {
   if (tab) setView(tab.dataset.viewTarget);
   const tile = event.target.closest('[data-character]');
   if (tile) {
-    byId('character-filter').value = tile.dataset.character;
     byId('role-filter').value = tile.dataset.role;
+    updateCharacterOptions(tile.dataset.role, tile.dataset.character);
     renderAchievements();
     document.querySelector('.achievement-filters').scrollIntoView({ behavior: 'smooth', block: 'start' });
   }
@@ -280,7 +303,7 @@ Promise.all([
   dlcCatalogue = dlcItems;
   achievements = achievementItems;
   characterMetadata = characterItems;
-  populateSelect('character-filter', achievements.map(item => item.character));
+  updateCharacterOptions('');
   populateSelect('map-filter', achievements.map(item => item.map));
   populateSelect('achievement-dlc-filter', achievements.map(item => item.dlc));
   renderDlc();
