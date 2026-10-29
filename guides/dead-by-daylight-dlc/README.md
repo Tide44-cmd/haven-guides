@@ -43,7 +43,7 @@ Character tiles are created automatically from `achievements.json`. To add a por
 
 Characters without image metadata use a styled initials tile, so portrait entries are optional.
 
-The current catalogue is sourced from the community wiki’s [Killer](https://deadbydaylight.fandom.com/wiki/Killers) and [Survivor](https://deadbydaylight.fandom.com/wiki/Survivors) tables. Portrait URLs deliberately stop at `.png`, without the wiki revision suffix.
+The portrait catalogue is sourced from the community wiki’s [Killer](https://deadbydaylight.fandom.com/wiki/Killers) and [Survivor](https://deadbydaylight.fandom.com/wiki/Survivors) tables, with newer characters supplied from [Dead by Daylight Wiki on wiki.gg](https://deadbydaylight.wiki.gg/wiki/Characters). Fandom portrait URLs deliberately stop at `.png`, without the wiki revision suffix.
 
 To refresh every portrait after the wiki adds characters, run this from the repository root:
 
@@ -51,7 +51,7 @@ To refresh every portrait after the wiki adds characters, run this from the repo
 node guides/dead-by-daylight-dlc/update-portraits.mjs
 ```
 
-The updater preserves custom records such as Jason’s separately supplied image. Review `characters.json`, then commit both changed files to `master` as normal.
+The updater preserves records marked with `"source": "wiki.gg"`, so the newer portraits are not replaced by older wiki data. Review `characters.json`, then commit both changed files to `master` as normal.
 
 ## Add DLC
 

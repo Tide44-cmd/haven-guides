@@ -356,7 +356,48 @@
     "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/ce/S48_VeeBoonyasak_Portrait.png"
   },
   "The Slasher": {
-    "label": "The Slasher (Jason)",
-    "image": "https://store-images.s-microsoft.com/image/apps.2490.13807460820281388.f61706ef-d0dc-4ab4-9ceb-4040f0ee4731.9bedc078-019d-4330-96c5-00c8d645ef26?q=90&w=177&h=265"
+    "role": "Killer",
+    "image": "portraits/K43_TheSlasher_Portrait.png",
+    "source": "wiki.gg"
+  },
+  "The First": {
+    "role": "Killer",
+    "image": "portraits/K42_TheFirst_Portrait.png",
+    "source": "wiki.gg"
+  },
+  "The Judgment": {
+    "role": "Killer",
+    "image": "portraits/K44_TheJudgment_Portrait.png",
+    "source": "wiki.gg"
+  },
+  "Aurora": {
+    "role": "Survivor",
+    "image": "portraits/S54_AuroraStardotter_Portrait.png",
+    "source": "wiki.gg"
+  },
+  "Dustin Henderson": {
+    "role": "Survivor",
+    "image": "portraits/S50_DustinHenderson_Portrait.png",
+    "source": "wiki.gg"
+  },
+  "Eleven": {
+    "role": "Survivor",
+    "image": "portraits/S51_Eleven_Portrait.png",
+    "source": "wiki.gg"
+  },
+  "Kwon Tae-young": {
+    "role": "Survivor",
+    "image": "portraits/S52_KwonTae-young_Portrait.png",
+    "source": "wiki.gg"
+  },
+  "Orela Rose": {
+    "role": "Survivor",
+    "image": "portraits/S46_OrelaRose_Portrait.png",
+    "source": "wiki.gg"
+  },
+  "Shane Wiigwaas": {
+    "role": "Survivor",
+    "image": "portraits/S53_ShaneWiigwaas_Portrait.png",
+    "source": "wiki.gg"
   }
 }

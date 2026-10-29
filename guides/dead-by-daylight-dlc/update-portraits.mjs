@@ -42,7 +42,9 @@ const existing = JSON.parse(fs.readFileSync(charactersUrl, 'utf8'));
 const achievements = JSON.parse(fs.readFileSync(achievementsUrl, 'utf8'));
 const output = { ...scraped };
 
-for (const [name, value] of Object.entries(existing)) output[name] = output[name] ? { ...value, ...output[name] } : value;
+for (const [name, value] of Object.entries(existing)) {
+  output[name] = value.source === 'wiki.gg' ? value : output[name] ? { ...value, ...output[name] } : value;
+}
 fs.writeFileSync(charactersUrl, `${JSON.stringify(output, null, 2)}\n`);
 
 const trackerCharacters = [...new Set(achievements.map(item => item.character).filter(Boolean))];
