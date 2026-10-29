@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="An interactive Dead by Daylight DLC ownership tracker.">
-  <title>Dead by Daylight DLC Tracker — Haven Guide</title>
+  <meta name="description" content="Dead by Daylight DLC and achievement trackers with local progress saving.">
+  <title>Dead by Daylight Trackers — Haven Guide</title>
   <link rel="stylesheet" href="../../assets/style.css">
   <link rel="stylesheet" href="style.css">
 </head>
@@ -16,68 +16,91 @@
     </header>
 
     <section class="dbd-hero">
-      <div class="eyebrow">Dead by Daylight · Collection tracker</div>
-      <h1>Which DLC<br><span>made the cut?</span></h1>
-      <p>Tap each chapter or pack you own. Your collection is saved automatically in this browser.</p>
-      <div class="collection-progress" aria-live="polite">
-        <div class="progress-copy"><b id="owned-count">0</b><span>of <span id="total-count">0</span> owned</span></div>
-        <div class="progress-track" aria-hidden="true"><span id="progress-bar"></span></div>
-        <strong id="progress-percent">0%</strong>
+      <div class="eyebrow">Dead by Daylight · Personal trackers</div>
+      <h1>Keep the grind<br><span>out of the fog.</span></h1>
+      <p>Track the DLC you own and turn 304 achievements into a clean, focused to-do list. Everything saves automatically on this device.</p>
+      <div class="hero-stats" aria-live="polite">
+        <div><b id="hero-dlc-count">0/0</b><span>DLC owned</span></div>
+        <div><b id="hero-achievement-count">0/304</b><span>Achievements earned</span></div>
       </div>
     </section>
 
-    <section class="tracker-panel" aria-labelledby="tracker-title">
-      <div class="tracker-heading">
-        <div>
-          <div class="eyebrow">Your collection</div>
-          <h2 id="tracker-title">DLC checklist</h2>
-        </div>
-        <div class="summary-pills">
-          <span><b id="licensed-owned">0</b> licensed owned</span>
-          <span><b id="original-owned">0</b> original owned</span>
-        </div>
-      </div>
+    <nav class="view-tabs" aria-label="Dead by Daylight tracker views">
+      <button class="view-tab active" type="button" data-view-target="dlc-view" aria-selected="true">DLC collection</button>
+      <button class="view-tab" type="button" data-view-target="achievements-view" aria-selected="false">Achievement tracker</button>
+    </nav>
 
-      <div class="tracker-tools">
-        <label class="search-box">
-          <span class="sr-only">Search DLC</span>
-          <svg aria-hidden="true" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-4-4"></path></svg>
-          <input id="search" type="search" placeholder="Search chapters and packs…" autocomplete="off">
-        </label>
-        <div class="filter-row" aria-label="Filter DLC">
-          <button class="filter active" type="button" data-filter="all" aria-pressed="true">All</button>
-          <button class="filter" type="button" data-filter="owned" aria-pressed="false">Owned</button>
-          <button class="filter" type="button" data-filter="missing" aria-pressed="false">Missing</button>
-          <button class="filter" type="button" data-filter="licensed" aria-pressed="false">Licensed</button>
-          <button class="filter" type="button" data-filter="original" aria-pressed="false">Original</button>
+    <section class="tracker-view active" id="dlc-view">
+      <section class="tracker-panel" aria-labelledby="dlc-title">
+        <div class="tracker-heading">
+          <div><div class="eyebrow">Your collection</div><h2 id="dlc-title">DLC checklist</h2></div>
+          <div class="summary-pills"><span><b id="licensed-owned">0</b> licensed owned</span><span><b id="original-owned">0</b> original owned</span></div>
         </div>
-      </div>
-
-      <p class="result-line" id="result-line">Loading DLC…</p>
-      <div class="dlc-grid" id="dlc-grid"></div>
-      <div class="empty-state" id="empty-state" hidden>No DLC matches those filters.</div>
-
-      <div class="tracker-footer">
-        <span>Ownership is stored only on this device.</span>
-        <div>
-          <button class="quiet-button" id="mark-all" type="button">Mark all owned</button>
-          <button class="quiet-button danger-button" id="reset" type="button">Reset collection</button>
+        <div class="collection-progress" aria-live="polite">
+          <div class="progress-copy"><b id="owned-count">0</b><span>of <span id="total-count">0</span> owned</span></div>
+          <div class="progress-track" aria-hidden="true"><span id="dlc-progress-bar"></span></div>
+          <strong id="dlc-progress-percent">0%</strong>
         </div>
-      </div>
+        <div class="tracker-tools">
+          <label class="search-box"><span class="sr-only">Search DLC</span><svg aria-hidden="true" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-4-4"></path></svg><input id="dlc-search" type="search" placeholder="Search chapters and packs…" autocomplete="off"></label>
+          <div class="filter-row" aria-label="Filter DLC">
+            <button class="filter active" type="button" data-dlc-filter="all" aria-pressed="true">All</button><button class="filter" type="button" data-dlc-filter="owned" aria-pressed="false">Owned</button><button class="filter" type="button" data-dlc-filter="missing" aria-pressed="false">Missing</button><button class="filter" type="button" data-dlc-filter="licensed" aria-pressed="false">Licensed</button><button class="filter" type="button" data-dlc-filter="original" aria-pressed="false">Original</button>
+          </div>
+        </div>
+        <p class="result-line" id="dlc-result-line">Loading DLC…</p>
+        <div class="dlc-grid" id="dlc-grid"></div>
+        <div class="empty-state" id="dlc-empty-state" hidden>No DLC matches those filters.</div>
+        <div class="tracker-footer"><span>Ownership is stored only on this device.</span><div><button class="quiet-button" id="mark-all-dlc" type="button">Mark all owned</button><button class="quiet-button danger-button" id="reset-dlc" type="button">Reset collection</button></div></div>
+      </section>
+    </section>
+
+    <section class="tracker-view" id="achievements-view" hidden>
+      <section class="tracker-panel achievement-panel" aria-labelledby="achievements-title">
+        <div class="tracker-heading">
+          <div><div class="eyebrow">Less clutter, clearer goals</div><h2 id="achievements-title">Achievement tracker</h2></div>
+          <div class="achievement-score"><b id="achievement-earned-count">0</b><span>/ <span id="achievement-total-count">304</span> earned</span></div>
+        </div>
+        <div class="collection-progress achievement-progress" aria-live="polite">
+          <div class="progress-copy"><b id="achievement-percent">0%</b><span>complete</span></div>
+          <div class="progress-track" aria-hidden="true"><span id="achievement-progress-bar"></span></div>
+          <strong id="achievement-remaining">304 left</strong>
+        </div>
+        <div class="action-strip">
+          <button class="action-button active" id="incomplete-toggle" type="button" aria-pressed="true">Show incomplete only: On</button>
+          <button class="action-button" id="export-progress" type="button">Export progress</button>
+          <button class="action-button" id="import-progress" type="button">Import progress</button>
+          <button class="action-button danger-button" id="reset-achievements" type="button">Reset progress</button>
+          <input id="progress-file" type="file" accept="application/json,.json" hidden>
+        </div>
+        <details class="character-browser" open>
+          <summary><span>Browse by character</span><small>Choose a tile to see only their achievements</small></summary>
+          <div class="character-browser-body">
+            <div class="character-heading"><h3>Killers</h3><button class="text-button" type="button" data-clear-character>Clear character filter</button></div>
+            <div class="character-grid" id="killer-characters"></div>
+            <div class="character-heading"><h3>Survivors</h3></div>
+            <div class="character-grid" id="survivor-characters"></div>
+          </div>
+        </details>
+        <div class="achievement-filters">
+          <label class="search-box wide"><span class="sr-only">Search achievements</span><svg aria-hidden="true" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-4-4"></path></svg><input id="achievement-search" type="search" placeholder="Search names and descriptions…" autocomplete="off"></label>
+          <label><span>Role</span><select id="role-filter"><option value="">All roles</option><option>Killer</option><option>Survivor</option><option>Misc</option></select></label>
+          <label><span>Character</span><select id="character-filter"><option value="">All characters</option></select></label>
+          <label><span>Map</span><select id="map-filter"><option value="">All maps</option></select></label>
+          <label><span>Chapter / update</span><select id="achievement-dlc-filter"><option value="">All content</option></select></label>
+        </div>
+        <div class="active-filter-line" id="active-filter-line" hidden></div>
+        <p class="result-line" id="achievement-result-line">Loading achievements…</p>
+        <div class="achievement-list" id="achievement-list"></div>
+        <div class="empty-state" id="achievement-empty-state" hidden><strong>Nothing left in this view.</strong><span>Change a filter or turn off “incomplete only” to see earned achievements.</span></div>
+      </section>
     </section>
 
     <details class="legend-card">
-      <summary>What do the labels mean?</summary>
-      <div>
-        <p><span class="type-badge licensed">Licensed</span> contains characters or worlds from another franchise.</p>
-        <p><span class="type-badge original">Original</span> is Dead by Daylight’s own content.</p>
-      </div>
+      <summary>How progress and updates work</summary>
+      <div><p>Your checks stay in this browser until you reset them or clear browser storage. Export a backup before changing device or browser.</p><p>The achievement catalogue lives in <code>achievements.json</code>, so names, requirements, characters and maps can be updated without rebuilding the page.</p></div>
     </details>
-
-    <footer class="dbd-footer">
-      <p>The catalogue is loaded from <code>dlc.json</code>, keeping future updates separate from the tracker code.</p>
-    </footer>
+    <footer class="dbd-footer"><p>Achievement names and requirements are compiled from the in-game list and <a href="https://www.trueachievements.com/game/dead-by-daylight/achievements">TrueAchievements</a>. Dead by Daylight is owned by Behaviour Interactive.</p></footer>
   </main>
-  <script src="tracker.js" defer></script>
+  <script src="app.js" defer></script>
 </body>
 </html>

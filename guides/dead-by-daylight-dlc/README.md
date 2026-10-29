@@ -1,4 +1,49 @@
-# Updating the Dead by Daylight DLC list
+# Updating the Dead by Daylight trackers
+
+The page has two independent trackers:
+
+- `dlc.json` controls the DLC collection.
+- `achievements.json` controls the achievement list, filters and character counts.
+- `characters.json` optionally adds a nicer display name or portrait to a character tile.
+
+Progress is saved in the visitor's browser. Exported backups contain both DLC ownership and earned achievements.
+
+## Add or edit an achievement
+
+Each entry in `achievements.json` is a plain object:
+
+```json
+{
+  "id": "a-stable-unique-id",
+  "name": "Achievement name",
+  "role": "Killer",
+  "character": "The Example",
+  "map": "",
+  "dlc": "New Chapter",
+  "description": "The current in-game requirement."
+}
+```
+
+Use `Killer`, `Survivor` or `Misc` for `role`. Leave `character` or `map` as an empty string when there is no specific requirement. Keep an existing `id` unchanged when editing an achievement because saved progress is linked to it. For a new achievement, use a short lowercase ID with words separated by hyphens.
+
+Add new entries before the closing `]`, put a comma after the previous entry, and keep the JSON valid. The filters and totals update automatically.
+
+## Add a character portrait
+
+Character tiles are created automatically from `achievements.json`. To add a portrait or friendlier label, add an entry to `characters.json` whose key exactly matches the achievement character:
+
+```json
+{
+  "The Example": {
+    "label": "The Example (Character Name)",
+    "image": "https://example.com/portrait.jpg"
+  }
+}
+```
+
+Characters without image metadata use a styled initials tile, so portrait entries are optional.
+
+## Add DLC
 
 The tracker reads its catalogue from `dlc.json`. No HTML or JavaScript changes are needed when a new DLC releases.
 
