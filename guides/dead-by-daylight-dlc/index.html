@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="An interactive Dead by Daylight DLC ownership tracker.">
+  <title>Dead by Daylight DLC Tracker — Haven Guide</title>
+  <link rel="stylesheet" href="../../assets/style.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="dbd-page">
+  <main class="shell dbd-shell">
+    <header class="topbar">
+      <a class="brand" href="../../">HAVEN <i>GUIDE</i></a>
+      <a class="navlink" href="../../">← All games</a>
+    </header>
+
+    <section class="dbd-hero">
+      <div class="eyebrow">Dead by Daylight · Collection tracker</div>
+      <h1>Which DLC<br><span>made the cut?</span></h1>
+      <p>Tap each chapter or pack you own. Your collection is saved automatically in this browser.</p>
+      <div class="collection-progress" aria-live="polite">
+        <div class="progress-copy"><b id="owned-count">0</b><span>of <span id="total-count">0</span> owned</span></div>
+        <div class="progress-track" aria-hidden="true"><span id="progress-bar"></span></div>
+        <strong id="progress-percent">0%</strong>
+      </div>
+    </section>
+
+    <section class="tracker-panel" aria-labelledby="tracker-title">
+      <div class="tracker-heading">
+        <div>
+          <div class="eyebrow">Your collection</div>
+          <h2 id="tracker-title">DLC checklist</h2>
+        </div>
+        <div class="summary-pills">
+          <span><b id="licensed-owned">0</b> licensed owned</span>
+          <span><b id="original-owned">0</b> original owned</span>
+        </div>
+      </div>
+
+      <div class="tracker-tools">
+        <label class="search-box">
+          <span class="sr-only">Search DLC</span>
+          <svg aria-hidden="true" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-4-4"></path></svg>
+          <input id="search" type="search" placeholder="Search chapters and packs…" autocomplete="off">
+        </label>
+        <div class="filter-row" aria-label="Filter DLC">
+          <button class="filter active" type="button" data-filter="all" aria-pressed="true">All</button>
+          <button class="filter" type="button" data-filter="owned" aria-pressed="false">Owned</button>
+          <button class="filter" type="button" data-filter="missing" aria-pressed="false">Missing</button>
+          <button class="filter" type="button" data-filter="licensed" aria-pressed="false">Licensed</button>
+          <button class="filter" type="button" data-filter="original" aria-pressed="false">Original</button>
+        </div>
+      </div>
+
+      <p class="result-line" id="result-line">Loading DLC…</p>
+      <div class="dlc-grid" id="dlc-grid"></div>
+      <div class="empty-state" id="empty-state" hidden>No DLC matches those filters.</div>
+
+      <div class="tracker-footer">
+        <span>Ownership is stored only on this device.</span>
+        <div>
+          <button class="quiet-button" id="mark-all" type="button">Mark all owned</button>
+          <button class="quiet-button danger-button" id="reset" type="button">Reset collection</button>
+        </div>
+      </div>
+    </section>
+
+    <details class="legend-card">
+      <summary>What do the labels mean?</summary>
+      <div>
+        <p><span class="type-badge licensed">Licensed</span> contains characters or worlds from another franchise.</p>
+        <p><span class="type-badge original">Original</span> is Dead by Daylight’s own content.</p>
+      </div>
+    </details>
+
+    <footer class="dbd-footer">
+      <p>The catalogue is loaded from <code>dlc.json</code>, keeping future updates separate from the tracker code.</p>
+    </footer>
+  </main>
+  <script src="tracker.js" defer></script>
+</body>
+</html>

@@ -16,5 +16,14 @@
     "url": "guides/state-of-decay-2/",
     "tag": "Completion roadmap \u2022 4 legacy runs",
     "theme": "state-of-decay"
+  },
+  {
+    "title": "Dead by Daylight",
+    "platform": "Multiplatform",
+    "year": "2016",
+    "description": "Track every chapter and expansion pack you own, with quick search and licensed-content filters.",
+    "url": "guides/dead-by-daylight-dlc/",
+    "tag": "DLC collection tracker",
+    "theme": "dead-by-daylight"
   }
 ]
