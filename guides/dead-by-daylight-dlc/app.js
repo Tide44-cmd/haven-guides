@@ -157,6 +157,7 @@ function renderCharacterTiles() {
 
   const tileHtml = role => [...grouped.entries()]
     .filter(([, value]) => value.role === role)
+    .filter(([, value]) => value.items.some(item => !earnedAchievements.has(item.id)))
     .sort(([a], [b]) => a.localeCompare(b))
     .map(([name, value]) => {
       const meta = characterMetadata[name] || {};
