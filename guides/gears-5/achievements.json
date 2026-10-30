@@ -1,0 +1,1631 @@
+[
+  {
+    "id": "1",
+    "section": "Campaign",
+    "sourcePack": "Base Game",
+    "name": "All Aboard the Crazy Train!",
+    "description": "Completed all Acts of the Campaign on Insane",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "2",
+    "section": "Campaign",
+    "sourcePack": "Base Game",
+    "name": "You Know I Ain't Going Out Like That",
+    "description": "Got back to the New Ephyra wall",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "3",
+    "section": "Campaign",
+    "sourcePack": "Base Game",
+    "name": "Then We Watch Each Other's Back",
+    "description": "Planted the last beacon in the Old Ephyra ruins",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "4",
+    "section": "Campaign",
+    "sourcePack": "Base Game",
+    "name": "Let's Keep Pissin it Off!",
+    "description": "Survived the Kraken fight",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "5",
+    "section": "Campaign",
+    "sourcePack": "Base Game",
+    "name": "Throw a Switch, See What Happens",
+    "description": "Assembled the UIR Hammer of Dawn rocket",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "6",
+    "section": "Campaign",
+    "sourcePack": "Base Game",
+    "name": "Cutting it Close",
+    "description": "Secured the UIR rocket",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "7",
+    "section": "Campaign",
+    "sourcePack": "Base Game",
+    "name": "We Need the Old Plan",
+    "description": "Killed the Matriarch",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "8",
+    "section": "Campaign",
+    "sourcePack": "Base Game",
+    "name": "It Takes Three to Make a Thing Go Right",
+    "description": "Completed an Act of Campaign in 3-player co-op",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "9",
+    "section": "Campaign",
+    "sourcePack": "Base Game",
+    "name": "Jack of One Trade",
+    "description": "Completed an Act of the Campaign as playable Jack (any difficulty)",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "10",
+    "section": "Campaign",
+    "sourcePack": "Base Game",
+    "name": "Let's Get You Some Answers",
+    "description": "Used the Comm Towers to locate the hidden facility",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "11",
+    "section": "Horde",
+    "sourcePack": "Base Game",
+    "name": "Can't Stop, Won't Stop",
+    "description": "Beat 50 Consecutive Waves of Horde (any difficulty)",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "12",
+    "section": "Escape",
+    "sourcePack": "Base Game",
+    "name": "Homegrown Hive",
+    "description": "Completed a Featured community built Escape Hive",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "13",
+    "section": "Versus",
+    "sourcePack": "Base Game",
+    "name": "My Place in the Machine",
+    "description": "Completed 5 Matches in a Competitive playlist",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "14",
+    "section": "Horde",
+    "sourcePack": "Base Game",
+    "name": "Withdrawal Symptoms",
+    "description": "As a team, collected Power from all 4 Power Taps within one wave of Horde",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "15",
+    "section": "Cross-Mode/Misc",
+    "sourcePack": "Base Game",
+    "name": "Sire, Interrupted",
+    "description": "Killed a Sire while it's kidnapping a teammate (any mode)",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "16",
+    "section": "Versus",
+    "sourcePack": "Base Game",
+    "name": "Beginning of a Beautiful Friendship",
+    "description": "Played a match of Arcade",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "17",
+    "section": "Progression/Tour/Re-Ups",
+    "sourcePack": "Base Game",
+    "name": "Generally Awesome",
+    "description": "Reached the rank of General in Tour of Duty",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "18",
+    "section": "Campaign",
+    "sourcePack": "Base Game",
+    "name": "That Old COG Technology",
+    "description": "Opened the old COG gate in Kadar Valley",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "19",
+    "section": "Campaign",
+    "sourcePack": "Base Game",
+    "name": "Shock and Awe",
+    "description": "Used Jack's Shock Trap ability to shock 6 enemies at once in Campaign",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "20",
+    "section": "Campaign",
+    "sourcePack": "Base Game",
+    "name": "Jameson Shipping Depot",
+    "description": "Found a way into New Hope",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "21",
+    "section": "Campaign",
+    "sourcePack": "Base Game",
+    "name": "It's Time We Fight Them Together",
+    "description": "Saved the Riftworm village",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "22",
+    "section": "Campaign",
+    "sourcePack": "Base Game",
+    "name": "Back on Your Feet, Soldier!",
+    "description": "Used Jack's STIM upgraded ability to revive a DBNO friendly in Campaign",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "23",
+    "section": "Campaign",
+    "sourcePack": "Base Game",
+    "name": "A Mouthful of Boom",
+    "description": "Headshot the Swarmak at the theatre",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "24",
+    "section": "Campaign",
+    "sourcePack": "Base Game",
+    "name": "I Was Born in a Crossfire Hurricane",
+    "description": "Used Jack's Flash ability to stun 3 enemies at once in Campaign",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "25",
+    "section": "Campaign",
+    "sourcePack": "Base Game",
+    "name": "Now I Gotta Get Up Again",
+    "description": "Reinforced Carmine at the Plaza",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "26",
+    "section": "Campaign",
+    "sourcePack": "Base Game",
+    "name": "And… He's All Yours",
+    "description": "Upgraded Del's New Best Friend",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "27",
+    "section": "Campaign",
+    "sourcePack": "Base Game",
+    "name": "Not There to Buy a Timeshare",
+    "description": "Launched the Rocket",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "28",
+    "section": "Progression/Tour/Re-Ups",
+    "sourcePack": "Base Game",
+    "name": "I'm The Captain Now",
+    "description": "Reached the rank of Captain in Tour of Duty",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "29",
+    "section": "Progression/Tour/Re-Ups",
+    "sourcePack": "Base Game",
+    "name": "LOOTenant",
+    "description": "Reached the rank of Lieutenant in Tour of Duty",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "30",
+    "section": "Progression/Tour/Re-Ups",
+    "sourcePack": "Base Game",
+    "name": "Sergeant at Arms",
+    "description": "Reached the rank of Sergeant in Tour of Duty",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "31",
+    "section": "Progression/Tour/Re-Ups",
+    "sourcePack": "Base Game",
+    "name": "Corporal Punishment",
+    "description": "Reached the rank of Corporal in a Tour of Duty",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "32",
+    "section": "Progression/Tour/Re-Ups",
+    "sourcePack": "Base Game",
+    "name": "Once More From the Top",
+    "description": "Re-upped!",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "33",
+    "section": "Horde",
+    "sourcePack": "Base Game",
+    "name": "Perky's Revenge!",
+    "description": "Got a kill with 3 Perks active in Horde",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "34",
+    "section": "Progression/Tour/Re-Ups",
+    "sourcePack": "Base Game",
+    "name": "You've Got a Friend in Me",
+    "description": "Made a new Ally in Gears Allies",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "35",
+    "section": "Progression/Tour/Re-Ups",
+    "sourcePack": "Base Game",
+    "name": "One, Two, Three Sorties",
+    "description": "Completed 3 Objectives for Tour of Duty in a day",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "36",
+    "section": "Versus",
+    "sourcePack": "Base Game",
+    "name": "One Sec, I'll Be Right Back",
+    "description": "Switched characters in an Arcade match and killed an opponent who previously killed you",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "37",
+    "section": "Escape",
+    "sourcePack": "Base Game",
+    "name": "I Made It All By Myself",
+    "description": "Created and published an Escape Hive",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "38",
+    "section": "Cross-Mode/Misc",
+    "sourcePack": "Base Game",
+    "name": "My Body is Ready",
+    "description": "Completed Boot Camp",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "39",
+    "section": "Campaign",
+    "sourcePack": "Base Game",
+    "name": "Back Atcha",
+    "description": "Got a kill with ricochet bullets using Jack's Barrier Ability",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "40",
+    "section": "Campaign",
+    "sourcePack": "Base Game",
+    "name": "Pennies from Heaven",
+    "description": "Scavenged supplies from all fallen Condors in Act 2 and Act 3",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "41",
+    "section": "Escape",
+    "sourcePack": "Base Game",
+    "name": "Pass the Soap",
+    "description": "Passed through a refuge shower with 3 Hivebusters in the same shower cubicle",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "42",
+    "section": "Progression/Tour/Re-Ups",
+    "sourcePack": "Base Game",
+    "name": "BFFs",
+    "description": "Completed a Versus match with a team of four Level 5 Gears Allies",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "43",
+    "section": "Progression/Tour/Re-Ups",
+    "sourcePack": "Base Game",
+    "name": "Did We Just Become Best Friends?",
+    "description": "Reached Level 5 with an ally in Gears Allies",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "44",
+    "section": "Cross-Mode/Misc",
+    "sourcePack": "Base Game",
+    "name": "Seriously 5.0 - Chapter 1",
+    "description": "Insane Campaign, Mastered Horde & Escape Launch Maps & Characters, 20 Re-ups, General in Tour",
+    "note": "",
+    "defaultCompleted": false
+  },
+  {
+    "id": "45",
+    "section": "Campaign",
+    "sourcePack": "Base Game",
+    "name": "Safe and Sound",
+    "description": "Secured the UIR satellites",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "46",
+    "section": "Campaign",
+    "sourcePack": "Base Game",
+    "name": "Discovered the True Threat to Sera",
+    "description": "Completed all Acts of the Campaign (Any difficulty)",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "47",
+    "section": "Cross-Mode/Misc",
+    "sourcePack": "Base Game",
+    "name": "A Good Plan, Violently Executed",
+    "description": "Executed 100 Rejects (any mode)",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "48",
+    "section": "Campaign",
+    "sourcePack": "Base Game",
+    "name": "An Enemy Among Us",
+    "description": "Got a kill with a Hijacked Pouncer, Warden, Stump and Elite Hunter in Campaign",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "49",
+    "section": "Campaign",
+    "sourcePack": "Base Game",
+    "name": "Jack of All Trades",
+    "description": "Acquired all of Jack's Ultimate upgrades in Campaign",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "50",
+    "section": "Campaign",
+    "sourcePack": "Base Game",
+    "name": "Seraninja",
+    "description": "Used Jack's Cloak ability to cloak and executed 3 enemies before de-cloaking in Campaign",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "51",
+    "section": "Campaign",
+    "sourcePack": "Base Game",
+    "name": "JACKed Up!",
+    "description": "Fully upgraded Jack's Abilities and Passives in Campaign",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "52",
+    "section": "Campaign",
+    "sourcePack": "Base Game",
+    "name": "Gimme, Gimme, Gimme",
+    "description": "Used Jack's Fetch ability to acquire each Heavy Weapon in Campaign",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "53",
+    "section": "Campaign",
+    "sourcePack": "Base Game",
+    "name": "Relic Hunter",
+    "description": "Equipped 3 Relic Weapons at one time in Campaign",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "54",
+    "section": "Campaign",
+    "sourcePack": "Base Game",
+    "name": "Relics of the Past",
+    "description": "Killed an enemy with every Relic Weapon in Campaign",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "55",
+    "section": "Progression/Tour/Re-Ups",
+    "sourcePack": "Base Game",
+    "name": "Master Escape Artist",
+    "description": "Reached Character Level 15 with Tactician, Anchor and Blademaster Class",
+    "note": "",
+    "defaultCompleted": false
+  },
+  {
+    "id": "56",
+    "section": "Progression/Tour/Re-Ups",
+    "sourcePack": "Base Game",
+    "name": "Who's Your Escape Main?",
+    "description": "Reached Character Level 15 with either Tactician, Anchor or Blademaster Class",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "57",
+    "section": "Escape",
+    "sourcePack": "Base Game",
+    "name": "Master of My Domain",
+    "description": "Completed a Launch Hive on each difficulty (The Hive, The Descent, The Gauntlet or The Mines)",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "58",
+    "section": "Escape",
+    "sourcePack": "Base Game",
+    "name": "Who You Gonna Call? Hivebusters!",
+    "description": "Completed 5 Escape Hives as each one of Mac, Lahni and Keegan",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "59",
+    "section": "Escape",
+    "sourcePack": "Base Game",
+    "name": "Brought a Knife to a Gun Fight",
+    "description": "Completed an Escape Hive without firing a shot on Master Difficulty",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "60",
+    "section": "Escape",
+    "sourcePack": "Base Game",
+    "name": "The Three Musketeers",
+    "description": "Inflicted 9000 damage in Escape while 3 Ultimate Abilities were active",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "61",
+    "section": "Escape",
+    "sourcePack": "Base Game",
+    "name": "On the Razor's Edge",
+    "description": "Got 5 kills while inside Hivebuster Venom",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "62",
+    "section": "Progression/Tour/Re-Ups",
+    "sourcePack": "Base Game",
+    "name": "Compulsive Horder",
+    "description": "Reached Character Level 15 with Infiltrator, Demolitions, Mechanic, Veteran, Marksman and Jack",
+    "note": "",
+    "defaultCompleted": false
+  },
+  {
+    "id": "63",
+    "section": "Progression/Tour/Re-Ups",
+    "sourcePack": "Base Game",
+    "name": "Who's Your Horde Main?",
+    "description": "Reached Character Level 15 with Infiltrator, Demolitions, Mechanic, Veteran, Marksman OR Jack",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "64",
+    "section": "Horde",
+    "sourcePack": "Base Game",
+    "name": "Reduce, Reuse, Recycle",
+    "description": "As Jack, converted one of each weapon to Power using the Forge in Horde",
+    "note": "quick",
+    "defaultCompleted": false
+  },
+  {
+    "id": "65",
+    "section": "Horde",
+    "sourcePack": "Base Game",
+    "name": "And I'll Form the Head!",
+    "description": "Killed a Boss in Horde while all 5 players had active Ultimate Abilities",
+    "note": "",
+    "defaultCompleted": false
+  },
+  {
+    "id": "66",
+    "section": "Versus",
+    "sourcePack": "Base Game",
+    "name": "Where's My Product Endorsement Deal?",
+    "description": "Won 5 matches of Arcade",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "67",
+    "section": "Versus",
+    "sourcePack": "Base Game",
+    "name": "Grind Season",
+    "description": "Won 25 Ranked matches in one Competitive Season",
+    "note": "",
+    "defaultCompleted": false
+  },
+  {
+    "id": "68",
+    "section": "Collections/Skins",
+    "sourcePack": "Base Game",
+    "name": "It’s Not Hoarding if Your Stuff is Cool",
+    "description": "Collected all Campaign Collectibles",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "69",
+    "section": "Progression/Tour/Re-Ups",
+    "sourcePack": "Operation 3: Gridiron",
+    "name": "Expanded Expertise",
+    "description": "Reached Character Level 15 with Combat Medic, Pilot, Gunner, Robotics Expert or Brawler",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "70",
+    "section": "Versus",
+    "sourcePack": "Operation 3: Gridiron",
+    "name": "Lay of the Land",
+    "description": "Completed a Versus Match on Allfathers Arena, Lift, Mid, Boxes, Nethercutt, Pit & Core",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "71",
+    "section": "Progression/Tour/Re-Ups",
+    "sourcePack": "Operation 3: Gridiron",
+    "name": "Destroy Them, My Children",
+    "description": "Re-upped 20 Times",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "72",
+    "section": "Progression/Tour/Re-Ups",
+    "sourcePack": "Operation 3: Gridiron",
+    "name": "Go, Hunt In Packs",
+    "description": "Re-upped 10 Times",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "73",
+    "section": "Versus",
+    "sourcePack": "Operation 3: Gridiron",
+    "name": "All of Allfathers",
+    "description": "Won a Versus round on every customized map piece in Allfathers Arena (9)",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "74",
+    "section": "Versus",
+    "sourcePack": "Operation 3: Gridiron",
+    "name": "Line Them Up",
+    "description": "Defeated 10 different opponents in a Free For All Match",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "75",
+    "section": "Versus",
+    "sourcePack": "Operation 3: Gridiron",
+    "name": "Ring Leader",
+    "description": "Won a Match of Arcade Blitz with the most Points earned in a Ring",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "76",
+    "section": "Versus",
+    "sourcePack": "Operation 3: Gridiron",
+    "name": "Sampler",
+    "description": "Completed a Match of Free For All, Arcade Blitz and Gridiron",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "77",
+    "section": "Escape",
+    "sourcePack": "Operation 3: Gridiron",
+    "name": "Buying Time",
+    "description": "Used the Scrubber Room to slow down the Venom in Escape",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "78",
+    "section": "Versus",
+    "sourcePack": "Operation 3: Gridiron",
+    "name": "Shutout",
+    "description": "Won a match of Gridiron and kept your opponents scoreless",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "79",
+    "section": "Versus",
+    "sourcePack": "Operation 3: Gridiron",
+    "name": "Paydirt",
+    "description": "Scored a Touchdown with the Flag in Gridiron",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "80",
+    "section": "Progression/Tour/Re-Ups",
+    "sourcePack": "Operation 3: Gridiron",
+    "name": "The Path To Victory",
+    "description": "Re-upped 5 Times",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "81",
+    "section": "Collections/Skins",
+    "sourcePack": "Operation 3: Gridiron",
+    "name": "In the Name of..",
+    "description": "Acquired Character Skins for 3 different post launch Characters",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "82",
+    "section": "Versus",
+    "sourcePack": "Operation 3: Gridiron",
+    "name": "Planned and Executed",
+    "description": "Executed both members of the enemy team within a round of 2vs2 Gnashers",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "83",
+    "section": "Versus",
+    "sourcePack": "Operation 3: Gridiron",
+    "name": "Dynamic Duo",
+    "description": "Won 10 Competitive Matches of 2vs2 Gnashers",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "84",
+    "section": "Versus",
+    "sourcePack": "Operation 3: Gridiron",
+    "name": "Close Call",
+    "description": "Won a Match of Arcade Blitz where the opposition team is within 25 points of winning",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "85",
+    "section": "Versus",
+    "sourcePack": "Operation 3: Gridiron",
+    "name": "Come From Behind",
+    "description": "Were 10 kills behind the leader of a Free For All round, then came back to win",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "86",
+    "section": "Versus",
+    "sourcePack": "Operation 3: Gridiron",
+    "name": "Resourceful",
+    "description": "Defeated an opponent with every Pickup Weapon in a single Free For All Match",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "87",
+    "section": "Versus",
+    "sourcePack": "Operation 3: Gridiron",
+    "name": "Victory Seized",
+    "description": "Placed first in a Match of Free For All",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "88",
+    "section": "Versus",
+    "sourcePack": "Operation 3: Gridiron",
+    "name": "Optimal Armaments",
+    "description": "Completed a Match of Arcade Blitz as a Hero or Villain from Operation 2 or Operation 3",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "89",
+    "section": "Cross-Mode/Misc",
+    "sourcePack": "Operation 3: Gridiron",
+    "name": "Proficiency",
+    "description": "Mastered an Operation 2 Escape Hive and Horde Map",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "90",
+    "section": "Cross-Mode/Misc",
+    "sourcePack": "Operation 3: Gridiron",
+    "name": "Highly Capable",
+    "description": "Mastered an Operation 3 Escape Hive and Horde Map",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "91",
+    "section": "Progression/Tour/Re-Ups",
+    "sourcePack": "Operation 3: Gridiron",
+    "name": "A Very Particular Set of Skills",
+    "description": "Acquired 30 Skill Cards of Level 3 or above",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "92",
+    "section": "Progression/Tour/Re-Ups",
+    "sourcePack": "Operation 3: Gridiron",
+    "name": "Be Aggressive, Devious",
+    "description": "Re-upped 30 Times",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "93",
+    "section": "Horde",
+    "sourcePack": "Operation 3: Gridiron",
+    "name": "HordeBusters",
+    "description": "Completed 50 Waves of Horde with Mac, Keegan and Lahni in your squad",
+    "note": "",
+    "defaultCompleted": false
+  },
+  {
+    "id": "94",
+    "section": "Horde",
+    "sourcePack": "Operation 3: Gridiron",
+    "name": "These New Recruits Got Grit",
+    "description": "Completed 50 Consecutive Waves of Horde with Lizzie Carmine, Clayton Carmine, Baird or Cole",
+    "note": "",
+    "defaultCompleted": false
+  },
+  {
+    "id": "95",
+    "section": "Horde",
+    "sourcePack": "Operation 3: Gridiron",
+    "name": "Hi-Ho, Silverback",
+    "description": "Killed 200 enemies using the Silverback in Horde",
+    "note": "quick",
+    "defaultCompleted": false
+  },
+  {
+    "id": "96",
+    "section": "Escape",
+    "sourcePack": "Operation 3: Gridiron",
+    "name": "Fresh Lineup",
+    "description": "Escaped a Hive with a team of COG Soldier, Lizzie Carmine, Clayton Carmine, Baird or Cole",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "97",
+    "section": "Escape",
+    "sourcePack": "Operation 3: Gridiron",
+    "name": "New Hivebusters",
+    "description": "Escaped a Hive with Lizzie Carmine, Clayton Carmine, Baird or Cole",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "98",
+    "section": "Escape",
+    "sourcePack": "Operation 3: Gridiron",
+    "name": "Destroy From Within",
+    "description": "Escaped all Operation 2 Hives on Experienced Difficulty or Higher",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "99",
+    "section": "Escape",
+    "sourcePack": "Operation 3: Gridiron",
+    "name": "Stop 'Em Cold",
+    "description": "Defeated the Matriarch in Escape using the Relic Dropshot",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "100",
+    "section": "Escape",
+    "sourcePack": "Operation 3: Gridiron",
+    "name": "Hives: Busted",
+    "description": "Escaped all Operation 3 Hives on Experienced Difficulty or Higher",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "101",
+    "section": "Horde",
+    "sourcePack": "Operation 4: Brothers in Arms",
+    "name": "Brothers in Arms",
+    "description": "Completed 12 consecutive waves of Horde Frenzy with Baird & Paduk in your Squad",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "102",
+    "section": "Horde",
+    "sourcePack": "Operation 4: Brothers in Arms",
+    "name": "Fresh Grubs",
+    "description": "Completed a Featured Horde Map from Operation 4",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "103",
+    "section": "Versus",
+    "sourcePack": "Operation 4: Brothers in Arms",
+    "name": "A Nice Present For You",
+    "description": "Killed an enemy using a planted Grenade in Gridiron mode",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "104",
+    "section": "Versus",
+    "sourcePack": "Operation 4: Brothers in Arms",
+    "name": "Take a Look Around",
+    "description": "Completed a Versus match on Reactor, Blood Drive & Checkout",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "105",
+    "section": "Versus",
+    "sourcePack": "Operation 4: Brothers in Arms",
+    "name": "Protect This House",
+    "description": "Got a Denial on an Enemy while they were inside your Endzone with the flag in Gridiron Mode",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "106",
+    "section": "Horde",
+    "sourcePack": "Operation 4: Brothers in Arms",
+    "name": "Controlled Bursts",
+    "description": "Won a Match of Horde Frenzy (any difficulty)",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "107",
+    "section": "Escape",
+    "sourcePack": "Operation 4: Brothers in Arms",
+    "name": "Bah! Child's Play",
+    "description": "Escaped a Hive with Paduk",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "108",
+    "section": "Escape",
+    "sourcePack": "Operation 4: Brothers in Arms",
+    "name": "What's This Thing Doing Here?",
+    "description": "Acquired any Weapon from the Fabricator in Escape",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "109",
+    "section": "Escape",
+    "sourcePack": "Operation 4: Brothers in Arms",
+    "name": "Payload Delivered",
+    "description": "Escaped all Operation 4 Hives on Experienced Difficulty or Higher",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "110",
+    "section": "Escape",
+    "sourcePack": "Operation 4: Brothers in Arms",
+    "name": "Let's Try That One Again, Shall We?",
+    "description": "Woke-up in the Med bay while escaping a Hive in Escape",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "111",
+    "section": "Escape",
+    "sourcePack": "Operation 4: Brothers in Arms",
+    "name": "Year of the Scorpion",
+    "description": "Completed all Year One Escape Hives",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "112",
+    "section": "Horde",
+    "sourcePack": "Operation 4: Brothers in Arms",
+    "name": "Efficient Excellence",
+    "description": "Won a Match of Horde Frenzy on Master Difficulty",
+    "note": "",
+    "defaultCompleted": false
+  },
+  {
+    "id": "113",
+    "section": "Horde",
+    "sourcePack": "Operation 4: Brothers in Arms",
+    "name": "Now We Understand Each Other",
+    "description": "Mastered All Featured Horde Maps from Operation 4",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "114",
+    "section": "Cross-Mode/Misc",
+    "sourcePack": "Operation 4: Brothers in Arms",
+    "name": "Make 'em Bleed",
+    "description": "Dealt 30,000,000 damage in Versus",
+    "note": "",
+    "defaultCompleted": false
+  },
+  {
+    "id": "115",
+    "section": "Cross-Mode/Misc",
+    "sourcePack": "Operation 4: Brothers in Arms",
+    "name": "Absolute Carnage",
+    "description": "Dealt 100,000,000 damage in Versus",
+    "note": "",
+    "defaultCompleted": false
+  },
+  {
+    "id": "116",
+    "section": "Cross-Mode/Misc",
+    "sourcePack": "Operation 4: Brothers in Arms",
+    "name": "Yep, I'd Say They're Dead",
+    "description": "Killed 25,000 enemies in Versus",
+    "note": "",
+    "defaultCompleted": false
+  },
+  {
+    "id": "117",
+    "section": "Cross-Mode/Misc",
+    "sourcePack": "Operation 4: Brothers in Arms",
+    "name": "Nothin' But Bits!",
+    "description": "Killed 100,000 enemies in Versus",
+    "note": "",
+    "defaultCompleted": false
+  },
+  {
+    "id": "118",
+    "section": "Cross-Mode/Misc",
+    "sourcePack": "Operation 4: Brothers in Arms",
+    "name": "Eyes on Target",
+    "description": "Got 12,500 assists in Versus",
+    "note": "",
+    "defaultCompleted": false
+  },
+  {
+    "id": "119",
+    "section": "Cross-Mode/Misc",
+    "sourcePack": "Operation 4: Brothers in Arms",
+    "name": "Covering Fire",
+    "description": "Got 50,000 assists in Versus",
+    "note": "",
+    "defaultCompleted": false
+  },
+  {
+    "id": "120",
+    "section": "Progression/Tour/Re-Ups",
+    "sourcePack": "Operation 4: Brothers in Arms",
+    "name": "A War That Will Be Won",
+    "description": "Re-upped 40 Times",
+    "note": "",
+    "defaultCompleted": false
+  },
+  {
+    "id": "121",
+    "section": "Progression/Tour/Re-Ups",
+    "sourcePack": "Operation 4: Brothers in Arms",
+    "name": "Illustrious",
+    "description": "Reached Character Level 15 with 10 Characters",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "122",
+    "section": "Versus",
+    "sourcePack": "Operation 4: Brothers in Arms",
+    "name": "Decorated Soldier",
+    "description": "Won a match of Gridiron with an Operation 4 Hero or Villain",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "123",
+    "section": "Cross-Mode/Misc",
+    "sourcePack": "Operation 4: Brothers in Arms",
+    "name": "Teamwork Makes the Dream Work",
+    "description": "Mastered an Escape Hive and Horde Map from Operation 4",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "124",
+    "section": "Versus",
+    "sourcePack": "Operation 4: Brothers in Arms",
+    "name": "A Challenger Emerges",
+    "description": "Unlocked a reward in any Competitive playlist",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "125",
+    "section": "Horde",
+    "sourcePack": "August 2020 Update",
+    "name": "Swift and Grimy",
+    "description": "Completed 60 Waves of Horde Frenzy on Insane or Higher",
+    "note": "",
+    "defaultCompleted": false
+  },
+  {
+    "id": "126",
+    "section": "Cross-Mode/Misc",
+    "sourcePack": "August 2020 Update",
+    "name": "And Stay Down!",
+    "description": "Eliminated 25,000 enemies in Horde or Escape",
+    "note": "",
+    "defaultCompleted": false
+  },
+  {
+    "id": "127",
+    "section": "Cross-Mode/Misc",
+    "sourcePack": "August 2020 Update",
+    "name": "Rest in Pieces",
+    "description": "Eliminated 100,000 enemies in Horde or Escape",
+    "note": "",
+    "defaultCompleted": false
+  },
+  {
+    "id": "128",
+    "section": "Cross-Mode/Misc",
+    "sourcePack": "August 2020 Update",
+    "name": "Destruction",
+    "description": "Dealt 60,000,000 damage in Horde or Escape",
+    "note": "",
+    "defaultCompleted": false
+  },
+  {
+    "id": "129",
+    "section": "Cross-Mode/Misc",
+    "sourcePack": "August 2020 Update",
+    "name": "Total Devastation",
+    "description": "Dealt 200,000,000 damage in Horde or Escape",
+    "note": "",
+    "defaultCompleted": false
+  },
+  {
+    "id": "130",
+    "section": "Cross-Mode/Misc",
+    "sourcePack": "August 2020 Update",
+    "name": "Cool Off, Baby!",
+    "description": "Killed 100 enemies using Brawler Class Flame Ability & Flame Skill Cards in Horde or Escape",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "131",
+    "section": "Cross-Mode/Misc",
+    "sourcePack": "August 2020 Update",
+    "name": "I'm Rubber, You're Glue!",
+    "description": "Killed 100 enemies using Gunner Class Reflect ability in Horde or Escape",
+    "note": "Easy",
+    "defaultCompleted": true
+  },
+  {
+    "id": "132",
+    "section": "Cross-Mode/Misc",
+    "sourcePack": "August 2020 Update",
+    "name": "You Better Run!",
+    "description": "Killed 100 enemies under the effect of Nomad's Fear ability, as Nomad Class, in Horde or Escape",
+    "note": "Easy",
+    "defaultCompleted": false
+  },
+  {
+    "id": "133",
+    "section": "Versus",
+    "sourcePack": "Operation 8",
+    "name": "Event Planner",
+    "description": "Won 10 matches in Versus Events",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "134",
+    "section": "Progression/Tour/Re-Ups",
+    "sourcePack": "Operation 8",
+    "name": "Legendary Operator",
+    "description": "Reached Legend 25 in an Operation",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "135",
+    "section": "Horde",
+    "sourcePack": "Operation 8",
+    "name": "Breezing Through",
+    "description": "Completed a match of Horde Frenzy on Turbine",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "136",
+    "section": "Versus",
+    "sourcePack": "Operation 8",
+    "name": "Destroyed Beauty",
+    "description": "Won a Versus match on Ephyra",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "137",
+    "section": "Versus",
+    "sourcePack": "Operation 8",
+    "name": "Grave Consequences",
+    "description": "Won a Versus match on Tomb",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "138",
+    "section": "Versus",
+    "sourcePack": "Operation 8",
+    "name": "In Total Control",
+    "description": "Won a Control and/or KOTH match on 10 different maps",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "139",
+    "section": "Progression/Tour/Re-Ups",
+    "sourcePack": "Operation 8",
+    "name": "A Real Gear",
+    "description": "Reached Re-Up 50",
+    "note": "",
+    "defaultCompleted": false
+  },
+  {
+    "id": "140",
+    "section": "Progression/Tour/Re-Ups",
+    "sourcePack": "Operation 8",
+    "name": "Re-Up Mastery",
+    "description": "Reached Re-Up 60",
+    "note": "",
+    "defaultCompleted": false
+  },
+  {
+    "id": "141",
+    "section": "Cross-Mode/Misc",
+    "sourcePack": "Operation 8",
+    "name": "Seriously 5.0 - Chapter 2",
+    "description": "50 Re-Ups, Inconceivable Campaign, Mastered All hives & Horde Maps , All Classes at Level 20",
+    "note": "",
+    "defaultCompleted": false
+  },
+  {
+    "id": "142",
+    "section": "Versus",
+    "sourcePack": "Operation 8",
+    "name": "Back In Style",
+    "description": "Won 10 matches of Execution",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "143",
+    "section": "Cross-Mode/Misc",
+    "sourcePack": "Operation 8",
+    "name": "Bernie is Back",
+    "description": "Won 5 matches with Bernie COG character",
+    "note": "quick",
+    "defaultCompleted": true
+  },
+  {
+    "id": "144",
+    "section": "Cross-Mode/Misc",
+    "sourcePack": "Operation 8",
+    "name": "Trusted Advisor",
+    "description": "Won 5 matches with the Vrol character",
+    "note": "quick",
+    "defaultCompleted": true
+  },
+  {
+    "id": "145",
+    "section": "Versus",
+    "sourcePack": "Operation 8",
+    "name": "Last Rites",
+    "description": "Won a Versus match on Ritual",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "146",
+    "section": "Horde",
+    "sourcePack": "Operation 8",
+    "name": "Chamber of Horrors",
+    "description": "Completed a match of Horde Frenzy on Atrium",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "147",
+    "section": "Horde",
+    "sourcePack": "Operation 8",
+    "name": "Take Command",
+    "description": "Completed a match of Horde Frenzy on Command",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "148",
+    "section": "Cross-Mode/Misc",
+    "sourcePack": "Operation 8",
+    "name": "Total Annihilation",
+    "description": "Did 400,000,000 damage in Horde or Escape",
+    "note": "",
+    "defaultCompleted": false
+  },
+  {
+    "id": "149",
+    "section": "Campaign",
+    "sourcePack": "Campaign Update",
+    "name": "Ironed Out",
+    "description": "Completed all chapters in Ironman Mode on Experienced difficulty or above",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "150",
+    "section": "Campaign",
+    "sourcePack": "Campaign Update",
+    "name": "That’s Inconceivable!",
+    "description": "Completed all chapters on Inconceivable difficulty",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "151",
+    "section": "Collections/Skins",
+    "sourcePack": "Campaign Update",
+    "name": "Showin' a Little Skin",
+    "description": "Completed a chapter of Campaign while using a Custom Skin",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "152",
+    "section": "Collections/Skins",
+    "sourcePack": "Campaign Update",
+    "name": "Just Showing it Off",
+    "description": "Killed 10 enemies using a weapon with a Custom Skin",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "153",
+    "section": "Campaign",
+    "sourcePack": "Campaign Update",
+    "name": "Batista Bomb",
+    "description": "Completed all chapters in one Act while Batista as Marcus is enabled",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "154",
+    "section": "Collections/Skins",
+    "sourcePack": "Operation 5: Hollow Storm",
+    "name": "Didn't Want to Look Too Civilized",
+    "description": "Collected 20 Epic character skins",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "155",
+    "section": "Versus",
+    "sourcePack": "Operation 5: Hollow Storm",
+    "name": "Exterminating the Hollow",
+    "description": "Got 100 eliminations in Nexus",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "156",
+    "section": "Collections/Skins",
+    "sourcePack": "Operation 5: Hollow Storm",
+    "name": "You've Got Character, Kid",
+    "description": "Own 50 character skins",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "157",
+    "section": "Collections/Skins",
+    "sourcePack": "Operation 5: Hollow Storm",
+    "name": "Gun Collector",
+    "description": "Own 360 weapon skins",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "158",
+    "section": "Collections/Skins",
+    "sourcePack": "Operation 5: Hollow Storm",
+    "name": "So There's the Hero",
+    "description": "Collected first Heroic skin",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "159",
+    "section": "Versus",
+    "sourcePack": "Operation 5: Hollow Storm",
+    "name": "A Gear of Many Talents",
+    "description": "Completed a Versus match in each of Regency, River, Nexus, Clocktower, and Gridlock",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "160",
+    "section": "Progression/Tour/Re-Ups",
+    "sourcePack": "Operation 5: Hollow Storm",
+    "name": "Class Act",
+    "description": "Reached level five on any one Assault, one Tank and one Support",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "161",
+    "section": "Versus",
+    "sourcePack": "Operation 5: Hollow Storm",
+    "name": "Ben Would Have Loved This Thing",
+    "description": "Got an elimination with the Scorcher",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "162",
+    "section": "Progression/Tour/Re-Ups",
+    "sourcePack": "Operation 5: Hollow Storm",
+    "name": "The Centaur Set",
+    "description": "Maxed out each of the Anchor, Gunner, Pilot, Veteran, Brawler classes",
+    "note": "",
+    "defaultCompleted": false
+  },
+  {
+    "id": "163",
+    "section": "Versus",
+    "sourcePack": "Operation 5: Hollow Storm",
+    "name": "Places to Go, Monsters to Kill",
+    "description": "Won a Ranked match in each of Regency, River, Nexus, Clocktower, and Gridlock",
+    "note": "",
+    "defaultCompleted": false
+  },
+  {
+    "id": "164",
+    "section": "Escape",
+    "sourcePack": "Operation 5: Hollow Storm",
+    "name": "Solid Gold",
+    "description": "Beat the Gold Time in a Featured Escape",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "165",
+    "section": "Versus",
+    "sourcePack": "Operation 5: Hollow Storm",
+    "name": "Such Carnage",
+    "description": "Got 2000 points in a Competitive match from eliminations",
+    "note": "",
+    "defaultCompleted": false
+  },
+  {
+    "id": "166",
+    "section": "Versus",
+    "sourcePack": "Operation 5: Hollow Storm",
+    "name": "Break Them. Brutalize Them.",
+    "description": "Got 1000 points in a Competitive match from ring breaks",
+    "note": "",
+    "defaultCompleted": false
+  },
+  {
+    "id": "167",
+    "section": "Hivebusters Campaign",
+    "sourcePack": "Hivebusters",
+    "name": "The Spirit Walk",
+    "description": "Opened up the Spirit Walk on Pahanu",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "168",
+    "section": "Hivebusters Campaign",
+    "sourcePack": "Hivebusters",
+    "name": "Rite of Passage",
+    "description": "Completed all Chapters of the Hivebusters DLC on Insane",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "169",
+    "section": "Hivebusters Campaign",
+    "sourcePack": "Hivebusters",
+    "name": "Face the Creature",
+    "description": "Defeated the Wakaatu",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "170",
+    "section": "Hivebusters Campaign",
+    "sourcePack": "Hivebusters",
+    "name": "The Awakening",
+    "description": "Activated Keegan, Lahni and Mac's Abilities in the Hivebuster Campaign Expansion",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "171",
+    "section": "Hivebusters Campaign",
+    "sourcePack": "Hivebusters",
+    "name": "Renewed, Not Consumed",
+    "description": "Found all Character Ability upgrades in the Hivebusters DLC",
+    "note": "",
+    "defaultCompleted": true
+  },
+  {
+    "id": "172",
+    "section": "Hivebusters Campaign",
+    "sourcePack": "Hivebusters",
+    "name": "Designation: Scorpio",
+    "description": "Arrived at Sanctum to infiltrate the Heart of the Hive",
+    "note": "",
+    "defaultCompleted": false
+  },
+  {
+    "id": "173",
+    "section": "Hivebusters Campaign",
+    "sourcePack": "Hivebusters",
+    "name": "Out of the Frying Pan",
+    "description": "Escaped the Swarm-infested Sanctum",
+    "note": "",
+    "defaultCompleted": false
+  },
+  {
+    "id": "174",
+    "section": "Hivebusters Campaign",
+    "sourcePack": "Hivebusters",
+    "name": "New Island, New Mission",
+    "description": "Arrived on Weilehi",
+    "note": "",
+    "defaultCompleted": false
+  },
+  {
+    "id": "175",
+    "section": "Hivebusters Campaign",
+    "sourcePack": "Hivebusters",
+    "name": "A Breath of Fresh Air",
+    "description": "Saved Hana from the Snatcher",
+    "note": "",
+    "defaultCompleted": false
+  },
+  {
+    "id": "176",
+    "section": "Hivebusters Campaign",
+    "sourcePack": "Hivebusters",
+    "name": "Electroblade",
+    "description": "Killed 50 enemies using Lahni's Electroblade Ability in the Hivebuster Campaign Expansion as Lahni",
+    "note": "",
+    "defaultCompleted": false
+  },
+  {
+    "id": "177",
+    "section": "Hivebusters Campaign",
+    "sourcePack": "Hivebusters",
+    "name": "Ready to Frontline",
+    "description": "Killed 50 enemies through your Barrier Ability in the Hivebuster Campaign Expansion as Mac",
+    "note": "",
+    "defaultCompleted": false
+  },
+  {
+    "id": "178",
+    "section": "Hivebusters Campaign",
+    "sourcePack": "Hivebusters",
+    "name": "Supplies for the Effort",
+    "description": "Activated Resupply ability 25 times in the Hivebuster Campaign Expansion as Keegan",
+    "note": "",
+    "defaultCompleted": false
+  },
+  {
+    "id": "179",
+    "section": "Hivebusters Campaign",
+    "sourcePack": "Hivebusters",
+    "name": "Enter Hivebusters",
+    "description": "Completed all Chapters of the Hivebusters DLC (any difficulty)",
+    "note": "",
+    "defaultCompleted": false
+  },
+  {
+    "id": "180",
+    "section": "Hivebusters Campaign",
+    "sourcePack": "Hivebusters",
+    "name": "Operation: Ride the Snatcher",
+    "description": "Completed the Hivebusters DLC in 3-Player Co-Op (Scorpio squad, dupes not allowed)",
+    "note": "",
+    "defaultCompleted": false
+  },
+  {
+    "id": "181",
+    "section": "Hivebusters Campaign",
+    "sourcePack": "Hivebusters",
+    "name": "Searching for Answers",
+    "description": "Collected all Campaign Collectibles in the Hivebusters DLC",
+    "note": "",
+    "defaultCompleted": false
+  }
+]

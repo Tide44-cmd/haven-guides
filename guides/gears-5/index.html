@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Gears 5 achievement and class progress tracker with local saving.">
+  <title>Gears 5 Tracker — Haven Guide</title>
+  <link rel="stylesheet" href="../../assets/style.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="gears-page">
+  <main class="shell gears-shell">
+    <header class="topbar">
+      <a class="brand" href="../../">HAVEN <i>GUIDE</i></a>
+      <a class="navlink" href="../../">← All games</a>
+    </header>
+
+    <section class="gears-hero">
+      <div class="hero-copy">
+        <div class="eyebrow">Gears 5 · Achievement tracker</div>
+        <h1>Finish the fight.<br><span>Track the grind.</span></h1>
+        <p>Filter the full achievement list by mode, hide completed work, and keep class XP estimates in one place. Progress saves automatically on this device.</p>
+      </div>
+      <div class="hero-meter" aria-live="polite">
+        <strong id="hero-complete">0/181</strong>
+        <span>achievements complete</span>
+        <div class="hero-track" aria-hidden="true"><i id="hero-bar"></i></div>
+        <small id="hero-percent">0%</small>
+      </div>
+    </section>
+
+    <section class="tracker-panel" aria-labelledby="achievement-title">
+      <div class="panel-heading">
+        <div><div class="eyebrow">Choose a mode</div><h2 id="achievement-title">Achievement tracker</h2></div>
+        <div class="panel-count"><b id="completed-count">0</b><span>/ <span id="total-count">181</span> complete</span></div>
+      </div>
+
+      <div class="category-grid" id="category-grid" aria-label="Filter achievements by type"></div>
+
+      <div class="tracker-tools">
+        <label class="search-box">
+          <span class="sr-only">Search achievements</span>
+          <svg aria-hidden="true" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-4-4"></path></svg>
+          <input id="achievement-search" type="search" placeholder="Search achievements…" autocomplete="off">
+        </label>
+        <label class="select-filter"><span>Source pack</span><select id="pack-filter"><option value="">All packs</option></select></label>
+      </div>
+
+      <div class="action-strip">
+        <button class="action-button active" id="incomplete-toggle" type="button" aria-pressed="true">Show incomplete only: Yes</button>
+        <button class="action-button" id="export-progress" type="button">Export progress</button>
+        <button class="action-button" id="import-progress" type="button">Import progress</button>
+        <button class="action-button danger-button" id="reset-progress" type="button">Reset progress</button>
+        <input id="progress-file" type="file" accept="application/json,.json" hidden>
+      </div>
+
+      <p class="result-line" id="result-line">Loading achievements…</p>
+      <div class="achievement-list" id="achievement-list"></div>
+      <div class="empty-state" id="empty-state" hidden>
+        <strong>Nothing left in this view.</strong>
+        <span>Choose another type or turn off “incomplete only” to see completed achievements.</span>
+      </div>
+    </section>
+
+    <details class="class-panel">
+      <summary>
+        <span><small class="eyebrow">Optional progress calculator</small><strong>Class progress &amp; remaining time</strong></span>
+        <span class="class-summary"><b id="class-done-summary">0/19</b><small id="time-summary">Calculating…</small></span>
+      </summary>
+      <div class="class-body">
+        <div class="class-intro">
+          <p>Enter each class’s current level and XP into that level. The estimate uses the workbook’s XP curve and updates instantly.</p>
+          <label><span>Estimated XP per hour</span><input id="xp-rate" type="number" min="1" step="1" inputmode="numeric"></label>
+        </div>
+        <div class="class-overview" aria-live="polite">
+          <div><b id="classes-complete">0</b><span>Classes at level 20</span></div>
+          <div><b id="xp-remaining">0</b><span>XP remaining</span></div>
+          <div><b id="time-remaining">0h</b><span>Estimated time</span></div>
+        </div>
+        <div class="class-groups" id="class-groups"></div>
+      </div>
+    </details>
+
+    <details class="info-card">
+      <summary>How progress is saved</summary>
+      <div><p>Your checks and class values stay in this browser until you reset them or clear browser storage. Export a backup before changing device or browser.</p><p>The catalogues live in <code>achievements.json</code> and <code>classes.json</code>, so the tracker can be maintained without rebuilding the page.</p></div>
+    </details>
+
+    <footer class="gears-footer">Gears 5 is owned by Xbox Game Studios and The Coalition. Tracker data was converted from the supplied Tide workbook.</footer>
+  </main>
+  <script src="app.js" defer></script>
+</body>
+</html>

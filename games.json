@@ -25,5 +25,14 @@
     "url": "guides/dead-by-daylight-dlc/",
     "tag": "DLC collection tracker",
     "theme": "dead-by-daylight"
+  },
+  {
+    "title": "Gears 5",
+    "platform": "Xbox / PC",
+    "year": "2019",
+    "description": "Track all 181 achievements by mode, hide completed goals and estimate the class XP grind still ahead.",
+    "url": "guides/gears-5/",
+    "tag": "Achievement tracker • 181 achievements",
+    "theme": "gears-5"
   }
 ]

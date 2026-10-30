@@ -1,0 +1,222 @@
+{
+  "xpPerHour": 21487,
+  "maxLifetimeXp": 369100,
+  "xpCurve": [
+    {
+      "level": 1,
+      "xpToNext": 100,
+      "lifetimeXp": 0
+    },
+    {
+      "level": 2,
+      "xpToNext": 500,
+      "lifetimeXp": 100
+    },
+    {
+      "level": 3,
+      "xpToNext": 1000,
+      "lifetimeXp": 600
+    },
+    {
+      "level": 4,
+      "xpToNext": 1500,
+      "lifetimeXp": 1600
+    },
+    {
+      "level": 5,
+      "xpToNext": 2000,
+      "lifetimeXp": 3100
+    },
+    {
+      "level": 6,
+      "xpToNext": 2500,
+      "lifetimeXp": 5100
+    },
+    {
+      "level": 7,
+      "xpToNext": 3000,
+      "lifetimeXp": 7600
+    },
+    {
+      "level": 8,
+      "xpToNext": 3500,
+      "lifetimeXp": 10600
+    },
+    {
+      "level": 9,
+      "xpToNext": 4000,
+      "lifetimeXp": 14100
+    },
+    {
+      "level": 10,
+      "xpToNext": 6000,
+      "lifetimeXp": 18100
+    },
+    {
+      "level": 11,
+      "xpToNext": 8000,
+      "lifetimeXp": 24100
+    },
+    {
+      "level": 12,
+      "xpToNext": 10000,
+      "lifetimeXp": 32100
+    },
+    {
+      "level": 13,
+      "xpToNext": 12000,
+      "lifetimeXp": 42100
+    },
+    {
+      "level": 14,
+      "xpToNext": 15000,
+      "lifetimeXp": 54100
+    },
+    {
+      "level": 15,
+      "xpToNext": 20000,
+      "lifetimeXp": 69100
+    },
+    {
+      "level": 16,
+      "xpToNext": 40000,
+      "lifetimeXp": 89100
+    },
+    {
+      "level": 17,
+      "xpToNext": 60000,
+      "lifetimeXp": 129100
+    },
+    {
+      "level": 18,
+      "xpToNext": 80000,
+      "lifetimeXp": 189100
+    },
+    {
+      "level": 19,
+      "xpToNext": 100000,
+      "lifetimeXp": 269100
+    },
+    {
+      "level": 20,
+      "xpToNext": 0,
+      "lifetimeXp": 369100
+    }
+  ],
+  "classes": [
+    {
+      "category": "Assault",
+      "name": "Blade Master",
+      "defaultLevel": 18,
+      "defaultXp": 62413
+    },
+    {
+      "category": "Assault",
+      "name": "Demolitions",
+      "defaultLevel": 19,
+      "defaultXp": 86773
+    },
+    {
+      "category": "Assault",
+      "name": "Infiltrator",
+      "defaultLevel": 20,
+      "defaultXp": 0
+    },
+    {
+      "category": "Assault",
+      "name": "Marksman",
+      "defaultLevel": 19,
+      "defaultXp": 97687
+    },
+    {
+      "category": "Assault",
+      "name": "Nomad",
+      "defaultLevel": 19,
+      "defaultXp": 44260
+    },
+    {
+      "category": "Tank",
+      "name": "Anchor",
+      "defaultLevel": 18,
+      "defaultXp": 11635
+    },
+    {
+      "category": "Tank",
+      "name": "Brawler",
+      "defaultLevel": 19,
+      "defaultXp": 82500
+    },
+    {
+      "category": "Tank",
+      "name": "Gunner",
+      "defaultLevel": 18,
+      "defaultXp": 3062
+    },
+    {
+      "category": "Tank",
+      "name": "Pilot",
+      "defaultLevel": 16,
+      "defaultXp": 25911
+    },
+    {
+      "category": "Tank",
+      "name": "Veteran",
+      "defaultLevel": 20,
+      "defaultXp": 0
+    },
+    {
+      "category": "Support",
+      "name": "Combat Medic",
+      "defaultLevel": 19,
+      "defaultXp": 99235
+    },
+    {
+      "category": "Support",
+      "name": "Mechanic",
+      "defaultLevel": 17,
+      "defaultXp": 32592
+    },
+    {
+      "category": "Support",
+      "name": "Robotics Expert",
+      "defaultLevel": 15,
+      "defaultXp": 13260
+    },
+    {
+      "category": "Support",
+      "name": "Tactician",
+      "defaultLevel": 5,
+      "defaultXp": 1640
+    },
+    {
+      "category": "Support",
+      "name": "Jack",
+      "defaultLevel": 1,
+      "defaultXp": 1
+    },
+    {
+      "category": "Promotional",
+      "name": "Architect",
+      "defaultLevel": 1,
+      "defaultXp": 0
+    },
+    {
+      "category": "Promotional",
+      "name": "Protector",
+      "defaultLevel": 1,
+      "defaultXp": 0
+    },
+    {
+      "category": "Promotional",
+      "name": "Slugger",
+      "defaultLevel": 1,
+      "defaultXp": 0
+    },
+    {
+      "category": "Promotional",
+      "name": "Striker",
+      "defaultLevel": 4,
+      "defaultXp": 440
+    }
+  ]
+}
