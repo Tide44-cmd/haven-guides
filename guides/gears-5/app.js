@@ -1,4 +1,4 @@
-const storageKey = 'haven-gears-5-progress-v1';
+const storageKey = 'haven-gears-5-progress-v2';
 const sectionOrder = ['Campaign', 'Horde', 'Escape', 'Versus', 'Cross-Mode/Misc', 'Progression/Tour/Re-Ups', 'Collections/Skins', 'Hivebusters Campaign'];
 
 let achievements = [];
@@ -27,7 +27,7 @@ function getStoredState() {
 
 function applyInitialState() {
   const stored = getStoredState();
-  completed = new Set(stored ? stored.completed || [] : achievements.filter(item => item.defaultCompleted).map(item => item.id));
+  completed = new Set(stored ? stored.completed || [] : []);
   classProgress = {};
   classData.classes.forEach(item => {
     const saved = stored?.classProgress?.[item.name];
@@ -66,7 +66,7 @@ function renderAchievements() {
     if (activeSection && item.section !== activeSection) return false;
     if (pack && item.sourcePack !== pack) return false;
     if (incompleteOnly && completed.has(item.id)) return false;
-    return !query || `${item.name} ${item.description} ${item.note}`.toLocaleLowerCase().includes(query);
+    return !query || `${item.name} ${item.description}`.toLocaleLowerCase().includes(query);
   });
 
   byId('achievement-list').innerHTML = visible.map(item => {
@@ -77,7 +77,6 @@ function renderAchievements() {
         <span class="achievement-meta"><span class="achievement-badge type">${escapeHtml(item.section)}</span><span class="achievement-badge">${escapeHtml(item.sourcePack)}</span></span>
         <strong>${escapeHtml(item.name)}</strong>
         <span class="achievement-description">${escapeHtml(item.description)}</span>
-        ${item.note ? `<span class="achievement-note">Note: ${escapeHtml(item.note)}</span>` : ''}
       </span>
     </label>`;
   }).join('');

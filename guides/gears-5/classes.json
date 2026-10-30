@@ -107,92 +107,92 @@
     {
       "category": "Assault",
       "name": "Blade Master",
-      "defaultLevel": 18,
-      "defaultXp": 62413
+      "defaultLevel": 1,
+      "defaultXp": 0
     },
     {
       "category": "Assault",
       "name": "Demolitions",
-      "defaultLevel": 19,
-      "defaultXp": 86773
+      "defaultLevel": 1,
+      "defaultXp": 0
     },
     {
       "category": "Assault",
       "name": "Infiltrator",
-      "defaultLevel": 20,
+      "defaultLevel": 1,
       "defaultXp": 0
     },
     {
       "category": "Assault",
       "name": "Marksman",
-      "defaultLevel": 19,
-      "defaultXp": 97687
+      "defaultLevel": 1,
+      "defaultXp": 0
     },
     {
       "category": "Assault",
       "name": "Nomad",
-      "defaultLevel": 19,
-      "defaultXp": 44260
+      "defaultLevel": 1,
+      "defaultXp": 0
     },
     {
       "category": "Tank",
       "name": "Anchor",
-      "defaultLevel": 18,
-      "defaultXp": 11635
+      "defaultLevel": 1,
+      "defaultXp": 0
     },
     {
       "category": "Tank",
       "name": "Brawler",
-      "defaultLevel": 19,
-      "defaultXp": 82500
+      "defaultLevel": 1,
+      "defaultXp": 0
     },
     {
       "category": "Tank",
       "name": "Gunner",
-      "defaultLevel": 18,
-      "defaultXp": 3062
+      "defaultLevel": 1,
+      "defaultXp": 0
     },
     {
       "category": "Tank",
       "name": "Pilot",
-      "defaultLevel": 16,
-      "defaultXp": 25911
+      "defaultLevel": 1,
+      "defaultXp": 0
     },
     {
       "category": "Tank",
       "name": "Veteran",
-      "defaultLevel": 20,
+      "defaultLevel": 1,
       "defaultXp": 0
     },
     {
       "category": "Support",
       "name": "Combat Medic",
-      "defaultLevel": 19,
-      "defaultXp": 99235
+      "defaultLevel": 1,
+      "defaultXp": 0
     },
     {
       "category": "Support",
       "name": "Mechanic",
-      "defaultLevel": 17,
-      "defaultXp": 32592
+      "defaultLevel": 1,
+      "defaultXp": 0
     },
     {
       "category": "Support",
       "name": "Robotics Expert",
-      "defaultLevel": 15,
-      "defaultXp": 13260
+      "defaultLevel": 1,
+      "defaultXp": 0
     },
     {
       "category": "Support",
       "name": "Tactician",
-      "defaultLevel": 5,
-      "defaultXp": 1640
+      "defaultLevel": 1,
+      "defaultXp": 0
     },
     {
       "category": "Support",
       "name": "Jack",
       "defaultLevel": 1,
-      "defaultXp": 1
+      "defaultXp": 0
     },
     {
       "category": "Promotional",
@@ -215,8 +215,8 @@
     {
       "category": "Promotional",
       "name": "Striker",
-      "defaultLevel": 4,
-      "defaultXp": 440
+      "defaultLevel": 1,
+      "defaultXp": 0
     }
   ]
 }
