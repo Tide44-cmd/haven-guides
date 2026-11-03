@@ -22,6 +22,7 @@ Expected URLs:
 ## Current features
 
 - Larger, original-style cards, typography, task spacing and checklist format
+- Homepage game artwork with remembered sharp, soft-focus and original gradient display modes
 - Warning triangles on especially missable tasks
 - Phone numbers at top in two independent, collapsible sections (73 collectibles and 18 Keeper of Secrets)
 - Progress stored automatically with `localStorage`

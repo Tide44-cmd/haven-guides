@@ -4,6 +4,7 @@
     "platform": "Xbox 360",
     "year": "2007",
     "description": "Complete single-player achievement checklist, with missables, outfits, letters and phone numbers.",
+    "artwork": "assets/game-tiles/the-darkness.jpg",
     "url": "guides/the-darkness/",
     "tag": "Single-player \u2022 52 objectives",
     "theme": "darkness"
@@ -13,6 +14,7 @@
     "platform": "Xbox / PC",
     "year": "2018",
     "description": "A practical completion roadmap covering survivors, legacy runs, maps, Plague Hearts, Daybreak and Heartland.",
+    "artwork": "assets/game-tiles/state-of-decay-2.jpg",
     "url": "guides/state-of-decay-2/",
     "tag": "Completion roadmap \u2022 4 legacy runs",
     "theme": "state-of-decay"
@@ -22,6 +24,7 @@
     "platform": "Multiplatform",
     "year": "2016",
     "description": "Track every chapter and expansion pack you own, with quick search and licensed-content filters.",
+    "artwork": "assets/game-tiles/dead-by-daylight.jpg",
     "url": "guides/dead-by-daylight-dlc/",
     "tag": "DLC collection tracker",
     "theme": "dead-by-daylight"
@@ -31,6 +34,7 @@
     "platform": "Xbox / PC",
     "year": "2019",
     "description": "Track all 181 achievements by mode, hide completed goals and estimate the class XP grind still ahead.",
+    "artwork": "assets/game-tiles/gears-5.jpg",
     "url": "guides/gears-5/",
     "tag": "Achievement tracker • 181 achievements",
     "theme": "gears-5"
@@ -40,6 +44,7 @@
     "platform": "Xbox / PC",
     "year": "2015",
     "description": "A clean 181-achievement roadmap with practical paths, focused filters and optional part-progress tracking.",
+    "artwork": "assets/game-tiles/elder-scrolls-online.jpg",
     "url": "guides/elder-scrolls-online/",
     "tag": "Achievement tracker • 181 achievements",
     "theme": "elder-scrolls-online"
