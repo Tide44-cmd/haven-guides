@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="A clean Elder Scrolls Online achievement tracker with practical categories and optional part progress.">
+  <title>The Elder Scrolls Online Tracker — Haven Guide</title>
+  <link rel="stylesheet" href="../../assets/style.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="eso-page">
+  <main class="shell eso-shell">
+    <header class="topbar">
+      <a class="brand" href="../../">HAVEN <i>GUIDE</i></a>
+      <a class="navlink" href="../../">← All games</a>
+    </header>
+
+    <section class="eso-hero">
+      <div class="hero-rune" aria-hidden="true"><i></i><i></i><i></i></div>
+      <div class="hero-copy">
+        <div class="eyebrow">The Elder Scrolls Online · Completion tracker</div>
+        <h1>One journey.<br><span>All of Tamriel.</span></h1>
+        <p>A 181-achievement roadmap arranged by how you actually play. Start with one manageable path, open part tracking only when you need it, and let finished objectives disappear.</p>
+      </div>
+      <div class="hero-stats" aria-live="polite">
+        <div><b id="hero-progress">0/181</b><span>Achievements</span></div>
+        <div><b>7,180G</b><span>Total score</span></div>
+        <div><b>1000h+</b><span>Base estimate</span></div>
+      </div>
+    </section>
+
+    <details class="roadmap-panel" open>
+      <summary><span><small class="eyebrow">A sensible order</small><strong>Completion roadmap</strong></span><span class="summary-hint">Five phases</span></summary>
+      <div class="roadmap-body">
+        <p class="roadmap-intro">ESO is too large for a single linear checklist. Treat these phases as lanes that overlap: begin the slow account-wide grinds early, then finish demanding group and PvP goals when your character is ready.</p>
+        <div class="phase-grid">
+          <article><b>01</b><h2>Build the foundation</h2><p>Reach level 50, work through the main quest and guild stories, and begin trait research, fishing, motifs and skyshards immediately.</p></article>
+          <article><b>02</b><h2>Clear the world</h2><p>Finish alliance and chapter stories zone by zone. Pair quests with delves, world bosses, collectibles and public dungeons.</p></article>
+          <article><b>03</b><h2>Learn group content</h2><p>Complete normal dungeon “Scout” achievements first, then return for veteran clears and mechanic-specific challenges.</p></article>
+          <article><b>04</b><h2>Take on endgame</h2><p>Prepare builds and groups for trials, veteran arenas and the harder dungeon achievements. Use the part trackers for boss lists.</p></article>
+          <article><b>05</b><h2>Schedule PvP and mop-up</h2><p>Plan Emperor with an organised campaign group. Finish Cyrodiil, Imperial City, Battlegrounds and any remaining long-term collections.</p></article>
+        </div>
+        <div class="planning-notes">
+          <p><strong>Start early:</strong> Jewelry research, Master Fisher, motifs and skyshards are poor last-minute grinds.</p>
+          <p><strong>Account-wide caveat:</strong> Most in-game achievements are account-wide, but motif knowledge, skyshards, lorebooks and some museum or public-dungeon progress can remain character-specific.</p>
+        </div>
+      </div>
+    </details>
+
+    <section class="tracker-panel" aria-labelledby="tracker-title">
+      <div class="tracker-heading">
+        <div><div class="eyebrow">Choose one path</div><h2 id="tracker-title">Achievement tracker</h2></div>
+        <div class="tracker-total"><b id="completed-count">0</b><span>/ <span id="total-count">181</span> complete</span></div>
+      </div>
+
+      <div class="bucket-grid" id="bucket-grid" aria-label="Achievement categories"></div>
+
+      <div class="action-strip">
+        <button class="action-button active" id="incomplete-toggle" type="button" aria-pressed="true">Show incomplete only: Yes</button>
+        <button class="action-button" id="export-progress" type="button">Export progress</button>
+        <button class="action-button" id="import-progress" type="button">Import progress</button>
+        <button class="action-button danger-button" id="reset-progress" type="button">Reset progress</button>
+        <input id="progress-file" type="file" accept="application/json,.json" hidden>
+      </div>
+
+      <div class="filter-grid">
+        <label class="search-box"><span class="sr-only">Search achievements</span><svg aria-hidden="true" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-4-4"></path></svg><input id="achievement-search" type="search" placeholder="Search this path…" autocomplete="off"></label>
+        <label class="select-filter"><span>Activity</span><select id="tag-filter"><option value="">All activities</option></select></label>
+        <label class="select-filter"><span>Chapter / DLC</span><select id="pack-filter"><option value="">All content</option></select></label>
+      </div>
+      <div class="active-filter-line" id="active-filter-line" hidden></div>
+      <p class="result-line" id="result-line">Loading achievements…</p>
+      <div class="achievement-list" id="achievement-list"></div>
+      <div class="empty-state" id="empty-state" hidden><strong>Nothing left in this view.</strong><span>Choose another path, clear a filter, or show completed achievements.</span></div>
+    </section>
+
+    <details class="info-card">
+      <summary>How progress and part tracking work</summary>
+      <div><p>Achievement checks and optional counters are stored only in this browser. Part tracking is a planning aid; the in-game achievement panel remains authoritative.</p><p>The full catalogue is maintained in <code>achievements.json</code>, so future chapters can be added without rebuilding the interface.</p></div>
+    </details>
+
+    <footer class="eso-footer">
+      <p>Achievement names and requirements are based on the supplied list and checked against <a href="https://www.trueachievements.com/game/The-Elder-Scrolls-Online-Tamriel-Unlimited/achievements">TrueAchievements</a>. Account-wide behavior and in-game tracking guidance come from <a href="https://help.elderscrollsonline.com/app/answers/detail/a_id/55358/">ESO Support</a>. The Elder Scrolls Online is owned by ZeniMax Online Studios and Bethesda Softworks.</p>
+    </footer>
+  </main>
+  <script src="app.js" defer></script>
+</body>
+</html>

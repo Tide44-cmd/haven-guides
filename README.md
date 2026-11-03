@@ -1,6 +1,6 @@
 # Haven Guide
 
-Static GitHub Pages website containing interactive guides for **The Darkness**, **State of Decay 2**, **Dead by Daylight**, and **Gears 5**.
+Static GitHub Pages website containing interactive guides for **The Darkness**, **State of Decay 2**, **Dead by Daylight**, **Gears 5**, and **The Elder Scrolls Online**.
 
 ## Deploy to GitHub Pages
 
@@ -12,6 +12,7 @@ Expected URLs:
 - State of Decay 2: `https://tide44-cmd.github.io/haven-guides/guides/state-of-decay-2/`
 - Dead by Daylight DLC tracker: `https://tide44-cmd.github.io/haven-guides/guides/dead-by-daylight-dlc/`
 - Gears 5 tracker: `https://tide44-cmd.github.io/haven-guides/guides/gears-5/`
+- The Elder Scrolls Online tracker: `https://tide44-cmd.github.io/haven-guides/guides/elder-scrolls-online/`
 
 ## New guides
 
@@ -29,6 +30,7 @@ Expected URLs:
 - State of Decay 2 completion route with locally saved playthrough objectives
 - Dead by Daylight DLC ownership tracker with search, filters and a catalogue maintained in `dlc.json`
 - Gears 5 achievement filters, completion tracking and class XP/time estimates
+- Elder Scrolls Online completion roadmap with eight practical paths, chapter/activity filters and optional part-progress tracking
 
 **Note:** Opening `index.html` directly from your file system can prevent JSON loads in some browsers. Use GitHub Pages or a local web server for testing.
 

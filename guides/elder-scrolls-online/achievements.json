@@ -1,0 +1,2655 @@
+[
+  {
+    "id": "eso-001",
+    "name": "Level 50 Hero",
+    "description": "Reach Level 50.",
+    "pack": "Base Game (Excludes DLC)",
+    "bucket": "Character & Progression",
+    "tags": [
+      "Solo-friendly"
+    ]
+  },
+  {
+    "id": "eso-002",
+    "name": "Chasing Shadows",
+    "description": "Complete Main Quest Chapter 2.5",
+    "pack": "Base Game (Excludes DLC)",
+    "bucket": "Story & Factions",
+    "tags": [
+      "Solo-friendly"
+    ]
+  },
+  {
+    "id": "eso-003",
+    "name": "Cut and Run",
+    "description": "Successfully escape a guard after choosing the \"Flee\" option in the Accost Dialogue Window.",
+    "pack": "Base Game (Excludes DLC)",
+    "bucket": "Story & Factions",
+    "tags": [
+      "Solo-friendly"
+    ]
+  },
+  {
+    "id": "eso-004",
+    "name": "Daughter of Giants",
+    "description": "Complete Main Quest Chapter 2.",
+    "pack": "Base Game (Excludes DLC)",
+    "bucket": "Story & Factions",
+    "tags": [
+      "Solo-friendly"
+    ]
+  },
+  {
+    "id": "eso-005",
+    "name": "Alliance Style Master",
+    "description": "Learn all Alliance Racial Styles.",
+    "pack": "Base Game (Excludes DLC)",
+    "bucket": "Guilds, Crafting & Systems",
+    "tags": [
+      "Solo-friendly",
+      "Long-term"
+    ]
+  },
+  {
+    "id": "eso-006",
+    "name": "Cyrodiil Cave Delver",
+    "description": "Explore and clear all 18 caves in Cyrodiil.",
+    "pack": "Base Game (Excludes DLC)",
+    "bucket": "PvP & Alliance War",
+    "tags": [
+      "PvP",
+      "Veteran",
+      "Part tracking"
+    ],
+    "progress": {
+      "type": "counter",
+      "target": 18,
+      "label": "Caves cleared"
+    }
+  },
+  {
+    "id": "eso-007",
+    "name": "The Harborage",
+    "description": "Complete Main Quest Chapter 1.5.",
+    "pack": "Base Game (Excludes DLC)",
+    "bucket": "Story & Factions",
+    "tags": [
+      "Solo-friendly"
+    ]
+  },
+  {
+    "id": "eso-008",
+    "name": "Close Call Kill",
+    "description": "Earn a kill when below 5 percent health in the Alliance War or Battlegrounds.",
+    "pack": "Base Game (Excludes DLC)",
+    "bucket": "PvP & Alliance War",
+    "tags": [
+      "PvP"
+    ]
+  },
+  {
+    "id": "eso-009",
+    "name": "Emperor!",
+    "description": "Dominate the Alliance War battlefield and become Emperor of Tamriel. Long may you reign!",
+    "pack": "Base Game (Excludes DLC)",
+    "bucket": "PvP & Alliance War",
+    "tags": [
+      "PvP",
+      "Long-term",
+      "Part tracking"
+    ],
+    "progress": {
+      "type": "checklist",
+      "label": "Emperor push",
+      "items": [
+        "Choose and enter a home Cyrodiil campaign",
+        "Reach #1 on your alliance's campaign leaderboard",
+        "Have your alliance control all six inner keeps while you are #1"
+      ]
+    },
+    "guideNote": "The major completion blocker: coordinate with a PvP guild around a campaign push. You must be #1 for your alliance when it controls the six inner keeps."
+  },
+  {
+    "id": "eso-010",
+    "name": "Support the Fight",
+    "description": "Help capture a Resource (Farm, Lumber Mill, or Mine), and Keep in Cyrodiil.",
+    "pack": "Base Game (Excludes DLC)",
+    "bucket": "PvP & Alliance War",
+    "tags": [
+      "PvP",
+      "Part tracking"
+    ],
+    "progress": {
+      "type": "checklist",
+      "label": "Cyrodiil captures",
+      "items": [
+        "Help capture a resource",
+        "Help capture a keep"
+      ]
+    }
+  },
+  {
+    "id": "eso-011",
+    "name": "Alliance War Recruit",
+    "description": "Earn the rank of Recruit in the Alliance War.",
+    "pack": "Base Game (Excludes DLC)",
+    "bucket": "PvP & Alliance War",
+    "tags": [
+      "PvP"
+    ]
+  },
+  {
+    "id": "eso-012",
+    "name": "Soul Shriven in Coldharbour",
+    "description": "Complete Main Quest Chapter 1.",
+    "pack": "Base Game (Excludes DLC)",
+    "bucket": "Story & Factions",
+    "tags": [
+      "Solo-friendly"
+    ]
+  },
+  {
+    "id": "eso-013",
+    "name": "Hero of the Daggerfall Covenant",
+    "description": "Complete all Daggerfall Covenant achievements.",
+    "pack": "Base Game (Excludes DLC)",
+    "bucket": "Zone Completion",
+    "tags": [
+      "Solo-friendly",
+      "Long-term",
+      "Part tracking"
+    ],
+    "progress": {
+      "type": "checklist",
+      "label": "Alliance zones",
+      "items": [
+        "Complete Glenumbra",
+        "Complete Stormhaven",
+        "Complete Rivenspire",
+        "Complete Alik'r Desert",
+        "Complete Bangkorai"
+      ]
+    }
+  },
+  {
+    "id": "eso-014",
+    "name": "General Executioner",
+    "description": "Destroy all of Molag Bal's generals that appear at the Dark Anchors.",
+    "pack": "Base Game (Excludes DLC)",
+    "bucket": "Exploration & Collectibles",
+    "tags": [
+      "Solo-friendly",
+      "Long-term",
+      "Part tracking"
+    ],
+    "progress": {
+      "type": "checklist",
+      "label": "Molag Bal's generals",
+      "items": [
+        "The Torturers",
+        "The Ogrim Brothers",
+        "The Dremora Pirate",
+        "The Traveling Dremora",
+        "The Daedroth of Kora-Dur",
+        "The Ever-Open Eye",
+        "The Daedroth General",
+        "The Devourer of Souls",
+        "The Frost Lord",
+        "The Storm Lord",
+        "The Xivilai Slavemasters",
+        "The Seductive Sisters",
+        "The Verkarth Vampire",
+        "The Crescent Dremora",
+        "The Lich of Mournhold",
+        "The Son of Molag Bal"
+      ]
+    },
+    "guideNote": "Any eligible Dark Anchor can now spawn the generals. The in-game achievement entry is the authoritative kill list."
+  },
+  {
+    "id": "eso-015",
+    "name": "Master Fisher",
+    "description": "Complete all fishing achievements.",
+    "pack": "Base Game (Excludes DLC)",
+    "bucket": "Exploration & Collectibles",
+    "tags": [
+      "Solo-friendly",
+      "Long-term",
+      "Part tracking"
+    ],
+    "progress": {
+      "type": "checklist",
+      "label": "Fishing regions",
+      "items": [
+        "Aldmeri Dominion fishing achievements",
+        "Daggerfall Covenant fishing achievements",
+        "Ebonheart Pact fishing achievements",
+        "Coldharbour fishing achievement",
+        "Cyrodiil fishing achievement"
+      ]
+    },
+    "guideNote": "Track this through the in-game fishing achievements for all three alliances, Coldharbour and Cyrodiil."
+  },
+  {
+    "id": "eso-016",
+    "name": "Anchors Away",
+    "description": "Destroy every Dark Anchor in Tamriel.",
+    "pack": "Base Game (Excludes DLC)",
+    "bucket": "Exploration & Collectibles",
+    "tags": [
+      "Solo-friendly",
+      "Long-term"
+    ]
+  },
+  {
+    "id": "eso-017",
+    "name": "Hero of the Ebonheart Pact",
+    "description": "Complete all Ebonheart Pact achievements.",
+    "pack": "Base Game (Excludes DLC)",
+    "bucket": "Zone Completion",
+    "tags": [
+      "Solo-friendly",
+      "Long-term",
+      "Part tracking"
+    ],
+    "progress": {
+      "type": "checklist",
+      "label": "Alliance zones",
+      "items": [
+        "Complete Stonefalls",
+        "Complete Deshaan",
+        "Complete Shadowfen",
+        "Complete Eastmarch",
+        "Complete The Rift"
+      ]
+    }
+  },
+  {
+    "id": "eso-018",
+    "name": "Arch-Mage",
+    "description": "Complete the Mages Guild series of quests.",
+    "pack": "Base Game (Excludes DLC)",
+    "bucket": "Guilds, Crafting & Systems",
+    "tags": [
+      "Solo-friendly"
+    ]
+  },
+  {
+    "id": "eso-019",
+    "name": "Fighters Guild Veteran",
+    "description": "Complete the Fighters Guild series of quests.",
+    "pack": "Base Game (Excludes DLC)",
+    "bucket": "Guilds, Crafting & Systems",
+    "tags": [
+      "Solo-friendly"
+    ]
+  },
+  {
+    "id": "eso-020",
+    "name": "Cyrodiil Champion",
+    "description": "Complete all quest achievements in Cyrodiil.",
+    "pack": "Base Game (Excludes DLC)",
+    "bucket": "PvP & Alliance War",
+    "tags": [
+      "PvP",
+      "Part tracking"
+    ],
+    "progress": {
+      "type": "checklist",
+      "label": "Town quest achievements",
+      "items": [
+        "Bruma Adventurer",
+        "Cheydinhal Adventurer",
+        "Chorrol Adventurer",
+        "Cropsford Adventurer",
+        "Vlastarus Adventurer"
+      ]
+    }
+  },
+  {
+    "id": "eso-021",
+    "name": "Dawn of a Champion",
+    "description": "Spend your first Champion Point.",
+    "pack": "Base Game (Excludes DLC)",
+    "bucket": "Character & Progression",
+    "tags": [
+      "Solo-friendly"
+    ]
+  },
+  {
+    "id": "eso-022",
+    "name": "Aldmeri Master Explorer",
+    "description": "Discover and clear all caves and locales throughout the Aldmeri Dominion Territory.",
+    "pack": "Base Game (Excludes DLC)",
+    "bucket": "Exploration & Collectibles",
+    "tags": [
+      "Solo-friendly",
+      "Part tracking"
+    ],
+    "progress": {
+      "type": "checklist",
+      "label": "Alliance zones",
+      "items": [
+        "Explore and clear Auridon",
+        "Explore and clear Grahtwood",
+        "Explore and clear Greenshade",
+        "Explore and clear Malabal Tor",
+        "Explore and clear Reaper's March"
+      ]
+    }
+  },
+  {
+    "id": "eso-023",
+    "name": "Daggerfall Master Explorer",
+    "description": "Discover and clear all caves and locales throughout the Daggerfall Covenant Territory.",
+    "pack": "Base Game (Excludes DLC)",
+    "bucket": "Exploration & Collectibles",
+    "tags": [
+      "Solo-friendly",
+      "Part tracking"
+    ],
+    "progress": {
+      "type": "checklist",
+      "label": "Alliance zones",
+      "items": [
+        "Explore and clear Glenumbra",
+        "Explore and clear Stormhaven",
+        "Explore and clear Rivenspire",
+        "Explore and clear Alik'r Desert",
+        "Explore and clear Bangkorai"
+      ]
+    }
+  },
+  {
+    "id": "eso-024",
+    "name": "Ebonheart Master Explorer",
+    "description": "Discover and clear all caves and locales throughout the Ebonheart Pact Territory.",
+    "pack": "Base Game (Excludes DLC)",
+    "bucket": "Exploration & Collectibles",
+    "tags": [
+      "Solo-friendly",
+      "Part tracking"
+    ],
+    "progress": {
+      "type": "checklist",
+      "label": "Alliance zones",
+      "items": [
+        "Explore and clear Stonefalls",
+        "Explore and clear Deshaan",
+        "Explore and clear Shadowfen",
+        "Explore and clear Eastmarch",
+        "Explore and clear The Rift"
+      ]
+    }
+  },
+  {
+    "id": "eso-025",
+    "name": "Coldharbour Master Explorer",
+    "description": "Discover and clear all six caves and striking locales in Coldharbour.",
+    "pack": "Base Game (Excludes DLC)",
+    "bucket": "Exploration & Collectibles",
+    "tags": [
+      "Solo-friendly",
+      "Part tracking"
+    ],
+    "progress": {
+      "type": "counter",
+      "target": 6,
+      "label": "Caves and striking locales cleared"
+    }
+  },
+  {
+    "id": "eso-026",
+    "name": "Indecent Exposure",
+    "description": "Have stolen clothing from all your armor slots repossessed at the same time by a guard.",
+    "pack": "Base Game (Excludes DLC)",
+    "bucket": "Story & Factions",
+    "tags": [
+      "Solo-friendly"
+    ]
+  },
+  {
+    "id": "eso-027",
+    "name": "Tamriel Skyshard Hunter",
+    "description": "Find all the Skyshards located throughout Tamriel.",
+    "pack": "Base Game (Excludes DLC)",
+    "bucket": "Exploration & Collectibles",
+    "tags": [
+      "Solo-friendly",
+      "Long-term",
+      "Part tracking"
+    ],
+    "progress": {
+      "type": "checklist",
+      "label": "Base-game skyshard regions",
+      "items": [
+        "Aldmeri Dominion zones",
+        "Daggerfall Covenant zones",
+        "Ebonheart Pact zones",
+        "Coldharbour",
+        "Cyrodiil"
+      ]
+    },
+    "guideNote": "Use Journal > Achievements > Character > Skyshards to see the authoritative per-character checklist."
+  },
+  {
+    "id": "eso-028",
+    "name": "Castle of the Worm",
+    "description": "Complete Main Quest Chapter 3",
+    "pack": "Base Game (Excludes DLC)",
+    "bucket": "Story & Factions",
+    "tags": [
+      "Solo-friendly"
+    ]
+  },
+  {
+    "id": "eso-029",
+    "name": "The Tharn Speaks",
+    "description": "Complete Main Quest Chapter 3.5.",
+    "pack": "Base Game (Excludes DLC)",
+    "bucket": "Story & Factions",
+    "tags": [
+      "Solo-friendly"
+    ]
+  },
+  {
+    "id": "eso-030",
+    "name": "The Halls of Torment",
+    "description": "Complete Main Quest Chapter 4.",
+    "pack": "Base Game (Excludes DLC)",
+    "bucket": "Story & Factions",
+    "tags": [
+      "Solo-friendly"
+    ]
+  },
+  {
+    "id": "eso-031",
+    "name": "The Valley of Blades",
+    "description": "Complete Main Quest Chapter 4.5.",
+    "pack": "Base Game (Excludes DLC)",
+    "bucket": "Story & Factions",
+    "tags": [
+      "Solo-friendly"
+    ]
+  },
+  {
+    "id": "eso-032",
+    "name": "The Shadow of Sancre Tor",
+    "description": "Complete Main Quest Chapter 5.",
+    "pack": "Base Game (Excludes DLC)",
+    "bucket": "Story & Factions",
+    "tags": [
+      "Solo-friendly"
+    ]
+  },
+  {
+    "id": "eso-033",
+    "name": "Council of the Five Companions",
+    "description": "Complete Main Quest Chapter 5.5.",
+    "pack": "Base Game (Excludes DLC)",
+    "bucket": "Story & Factions",
+    "tags": [
+      "Solo-friendly"
+    ]
+  },
+  {
+    "id": "eso-034",
+    "name": "The God of Schemes",
+    "description": "Complete Main Quest Chapter 6.",
+    "pack": "Base Game (Excludes DLC)",
+    "bucket": "Story & Factions",
+    "tags": [
+      "Solo-friendly"
+    ]
+  },
+  {
+    "id": "eso-035",
+    "name": "Lycanthropy",
+    "description": "Become a Werewolf.",
+    "pack": "Base Game (Excludes DLC)",
+    "bucket": "Character & Progression",
+    "tags": [
+      "Solo-friendly"
+    ]
+  },
+  {
+    "id": "eso-036",
+    "name": "Vampirism",
+    "description": "Become a Vampire.",
+    "pack": "Base Game (Excludes DLC)",
+    "bucket": "Character & Progression",
+    "tags": [
+      "Solo-friendly"
+    ]
+  },
+  {
+    "id": "eso-037",
+    "name": "Rare Style Master",
+    "description": "Learn all Rare Racial Styles.",
+    "pack": "Base Game (Excludes DLC)",
+    "bucket": "Guilds, Crafting & Systems",
+    "tags": [
+      "Solo-friendly",
+      "Long-term"
+    ]
+  },
+  {
+    "id": "eso-038",
+    "name": "Ebonheart Pact Conqueror",
+    "description": "Defeat all of the Public Dungeon champions in the Ebonheart Pact.",
+    "pack": "Base Game (Excludes DLC)",
+    "bucket": "Exploration & Collectibles",
+    "tags": [
+      "Solo-friendly",
+      "Veteran"
+    ]
+  },
+  {
+    "id": "eso-039",
+    "name": "Aldmeri Dominion Conqueror",
+    "description": "Defeat all of the Public Dungeon champions in the Aldmeri Dominion.",
+    "pack": "Base Game (Excludes DLC)",
+    "bucket": "Exploration & Collectibles",
+    "tags": [
+      "Solo-friendly",
+      "Veteran"
+    ]
+  },
+  {
+    "id": "eso-040",
+    "name": "Daggerfall Covenant Conqueror",
+    "description": "Defeat all of the Public Dungeon champions in the Daggerfall Covenant.",
+    "pack": "Base Game (Excludes DLC)",
+    "bucket": "Exploration & Collectibles",
+    "tags": [
+      "Solo-friendly",
+      "Veteran"
+    ]
+  },
+  {
+    "id": "eso-041",
+    "name": "Vanquisher of the Pact",
+    "description": "Defeat all the bosses throughout the Group Dungeons in the Ebonheart Pact.",
+    "pack": "Base Game (Excludes DLC)",
+    "bucket": "Dungeons",
+    "tags": [
+      "Group"
+    ]
+  },
+  {
+    "id": "eso-042",
+    "name": "Vanquisher of the Covenant",
+    "description": "Defeat all the bosses throughout the Group Dungeons in the Daggerfall Covenant.",
+    "pack": "Base Game (Excludes DLC)",
+    "bucket": "Dungeons",
+    "tags": [
+      "Group"
+    ]
+  },
+  {
+    "id": "eso-043",
+    "name": "Vanquisher of the Dominion",
+    "description": "Defeat all the bosses throughout the Group Dungeons in the Aldmeri Dominion.",
+    "pack": "Base Game (Excludes DLC)",
+    "bucket": "Dungeons",
+    "tags": [
+      "Group"
+    ]
+  },
+  {
+    "id": "eso-044",
+    "name": "Hero of the Aldmeri Dominion",
+    "description": "Complete all Aldmeri Dominion achievements.",
+    "pack": "Base Game (Excludes DLC)",
+    "bucket": "Zone Completion",
+    "tags": [
+      "Solo-friendly",
+      "Long-term",
+      "Part tracking"
+    ],
+    "progress": {
+      "type": "checklist",
+      "label": "Alliance zones",
+      "items": [
+        "Complete Auridon",
+        "Complete Grahtwood",
+        "Complete Greenshade",
+        "Complete Malabal Tor",
+        "Complete Reaper's March"
+      ]
+    }
+  },
+  {
+    "id": "eso-045",
+    "name": "Craglorn Completist",
+    "description": "Eliminate the threat of the Serpent and his Scaled Court throughout all of Craglorn.",
+    "pack": "Base Game (Excludes DLC)",
+    "bucket": "Zone Completion",
+    "tags": [
+      "Solo-friendly",
+      "Long-term"
+    ]
+  },
+  {
+    "id": "eso-046",
+    "name": "Big Score",
+    "description": "Gain 900 Tel Var Stones from a single kill.",
+    "pack": "Imperial City",
+    "bucket": "PvP & Alliance War",
+    "tags": [
+      "PvP"
+    ]
+  },
+  {
+    "id": "eso-047",
+    "name": "Imperial Arena Champion",
+    "description": "Complete the Imperial City Arena by slaying the Ringmaster and her monstrous servants.",
+    "pack": "Imperial City",
+    "bucket": "PvP & Alliance War",
+    "tags": [
+      "PvP"
+    ]
+  },
+  {
+    "id": "eso-048",
+    "name": "Protector of the Faith",
+    "description": "Complete the Imperial City Temple event by defeating the Daedric Titan, Uzuruz.",
+    "pack": "Imperial City",
+    "bucket": "PvP & Alliance War",
+    "tags": [
+      "PvP"
+    ]
+  },
+  {
+    "id": "eso-049",
+    "name": "The Sublime Protector",
+    "description": "Bring an end to Molag Bal's secret plot in the Imperial City.",
+    "pack": "Imperial City",
+    "bucket": "PvP & Alliance War",
+    "tags": [
+      "PvP"
+    ]
+  },
+  {
+    "id": "eso-050",
+    "name": "Imperial Lightbringer",
+    "description": "Complete the Barathrum Centrata event deep beneath the Imperial City.",
+    "pack": "Imperial City",
+    "bucket": "PvP & Alliance War",
+    "tags": [
+      "PvP"
+    ]
+  },
+  {
+    "id": "eso-051",
+    "name": "Horror of Horrors",
+    "description": "Kill all the Patrolling Horrors in the Imperial City.",
+    "pack": "Imperial City",
+    "bucket": "PvP & Alliance War",
+    "tags": [
+      "PvP"
+    ]
+  },
+  {
+    "id": "eso-052",
+    "name": "Hero of Wrothgar",
+    "description": "Complete quests, defeat bosses, and explore delves to become the Hero of Wrothgar.",
+    "pack": "Orsinium",
+    "bucket": "Zone Completion",
+    "tags": [
+      "Solo-friendly",
+      "Long-term",
+      "Part tracking"
+    ],
+    "progress": {
+      "type": "checklist",
+      "label": "Wrothgar meta-achievement",
+      "items": [
+        "Complete the Wrothgar main quest",
+        "Complete 40 Wrothgar quests",
+        "Defeat the required world bosses",
+        "Clear all six delves",
+        "Complete both public dungeon achievements",
+        "Collect all 20 museum relics"
+      ]
+    },
+    "guideNote": "This Xbox achievement mirrors a broad in-game meta-achievement; use the six-part tracker as a planning summary."
+  },
+  {
+    "id": "eso-053",
+    "name": "Wrothgar Adventurer",
+    "description": "Complete 27 quests in Wrothgar.",
+    "pack": "Orsinium",
+    "bucket": "Exploration & Collectibles",
+    "tags": [
+      "Solo-friendly",
+      "Part tracking"
+    ],
+    "progress": {
+      "type": "counter",
+      "target": 27,
+      "label": "Quests completed"
+    }
+  },
+  {
+    "id": "eso-054",
+    "name": "Kingmaker",
+    "description": "Complete Wrothgar's main quests.",
+    "pack": "Orsinium",
+    "bucket": "Story & Factions",
+    "tags": [
+      "Solo-friendly"
+    ]
+  },
+  {
+    "id": "eso-055",
+    "name": "Maelstrom Arena Champion",
+    "description": "Conquer all challengers and earn the title of Maelstrom Arena Champion.",
+    "pack": "Orsinium",
+    "bucket": "Trials, Arenas & Archive",
+    "tags": [
+      "Solo/Group"
+    ]
+  },
+  {
+    "id": "eso-056",
+    "name": "Wrothgar Master Relic Hunter",
+    "description": "Collect all 20 relics for the House of Orsimer Glories.",
+    "pack": "Orsinium",
+    "bucket": "Exploration & Collectibles",
+    "tags": [
+      "Solo-friendly",
+      "Part tracking"
+    ],
+    "progress": {
+      "type": "counter",
+      "target": 20,
+      "label": "Relics collected"
+    }
+  },
+  {
+    "id": "eso-057",
+    "name": "Maelstrom Arena Conqueror",
+    "description": "Conquer all challengers in Veteran Maelstrom Arena.",
+    "pack": "Orsinium",
+    "bucket": "Trials, Arenas & Archive",
+    "tags": [
+      "Solo/Group",
+      "Veteran"
+    ]
+  },
+  {
+    "id": "eso-058",
+    "name": "Welcome to the Thieves Guild",
+    "description": "Join the Thieves Guild by completing quest \"Partners in Crime\" in Hew's Bane.",
+    "pack": "Thieves Guild",
+    "bucket": "Guilds, Crafting & Systems",
+    "tags": [
+      "Solo-friendly"
+    ]
+  },
+  {
+    "id": "eso-059",
+    "name": "Hero of Hew's Bane",
+    "description": "Complete quests, defeat bosses, and explore delves to become the Hero of Hew's Bane.",
+    "pack": "Thieves Guild",
+    "bucket": "Zone Completion",
+    "tags": [
+      "Solo-friendly",
+      "Long-term",
+      "Part tracking"
+    ],
+    "progress": {
+      "type": "checklist",
+      "label": "Hew's Bane meta-achievement",
+      "items": [
+        "Complete 12 Hew's Bane quests",
+        "Defeat both group bosses",
+        "Discover all four striking locales",
+        "Complete the Thieves Guild main quest",
+        "Clear both delves"
+      ]
+    },
+    "guideNote": "The five parts mirror the in-game meta-achievement requirements."
+  },
+  {
+    "id": "eso-060",
+    "name": "Broken Wheel",
+    "description": "Complete quest \"Prison Break\" in Hew's Bane.",
+    "pack": "Thieves Guild",
+    "bucket": "Guilds, Crafting & Systems",
+    "tags": [
+      "Solo-friendly"
+    ]
+  },
+  {
+    "id": "eso-061",
+    "name": "A Cutpurse Above",
+    "description": "Steal every treasure from Kari's Hit List and place them all within the Thieves Den.",
+    "pack": "Thieves Guild",
+    "bucket": "Exploration & Collectibles",
+    "tags": [
+      "Solo-friendly"
+    ]
+  },
+  {
+    "id": "eso-062",
+    "name": "Master of Shadows",
+    "description": "Complete 1 heist for the Thieves Guild without being detected.",
+    "pack": "Thieves Guild",
+    "bucket": "Guilds, Crafting & Systems",
+    "tags": [
+      "Solo-friendly"
+    ]
+  },
+  {
+    "id": "eso-063",
+    "name": "Honor Among Thieves",
+    "description": "Assist each member of the Thieves Guild in resolving personal matters.",
+    "pack": "Thieves Guild",
+    "bucket": "Guilds, Crafting & Systems",
+    "tags": [
+      "Solo-friendly"
+    ]
+  },
+  {
+    "id": "eso-064",
+    "name": "Bane of the Gold Coast",
+    "description": "Complete quests, defeat bosses, and explore delves to become the Bane of the Gold Coast.",
+    "pack": "The Dark Brotherhood",
+    "bucket": "Zone Completion",
+    "tags": [
+      "Solo-friendly",
+      "Long-term",
+      "Part tracking"
+    ],
+    "progress": {
+      "type": "checklist",
+      "label": "Zone meta progress",
+      "items": [
+        "Complete the required quests",
+        "Defeat the required bosses",
+        "Clear the required delves and exploration objectives"
+      ]
+    }
+  },
+  {
+    "id": "eso-065",
+    "name": "First Blood",
+    "description": "Join the Dark Brotherhood and complete the \"Voices in the Dark\" quest.",
+    "pack": "The Dark Brotherhood",
+    "bucket": "Guilds, Crafting & Systems",
+    "tags": [
+      "Solo-friendly"
+    ]
+  },
+  {
+    "id": "eso-066",
+    "name": "Silencer",
+    "description": "Complete the \"Filling the Void\" Dark Brotherhood quest in the Gold Coast.",
+    "pack": "The Dark Brotherhood",
+    "bucket": "Guilds, Crafting & Systems",
+    "tags": [
+      "Solo-friendly"
+    ]
+  },
+  {
+    "id": "eso-067",
+    "name": "Litany of Blood",
+    "description": "Execute all targets listed in the Litany of Blood and collect your reward.",
+    "pack": "The Dark Brotherhood",
+    "bucket": "Exploration & Collectibles",
+    "tags": [
+      "Solo-friendly"
+    ]
+  },
+  {
+    "id": "eso-068",
+    "name": "Flawless Sacrament",
+    "description": "Complete each achievement associated with the Speaker's Black Sacrament contracts.",
+    "pack": "The Dark Brotherhood",
+    "bucket": "Guilds, Crafting & Systems",
+    "tags": [
+      "Solo-friendly"
+    ]
+  },
+  {
+    "id": "eso-069",
+    "name": "Gold Coast Connections",
+    "description": "Aid each of the notable figures recently arrived on the Gold Coast.",
+    "pack": "The Dark Brotherhood",
+    "bucket": "Guilds, Crafting & Systems",
+    "tags": [
+      "Solo-friendly"
+    ]
+  },
+  {
+    "id": "eso-070",
+    "name": "Ruins of Mazzatun Vanquisher",
+    "description": "Defeat all mini-boss and boss enemies in Ruins of Mazzatun.",
+    "pack": "The Shadows of the Hist",
+    "bucket": "Dungeons",
+    "tags": [
+      "Group"
+    ]
+  },
+  {
+    "id": "eso-071",
+    "name": "Cradle of Shadows Vanquisher",
+    "description": "Defeat all mini-boss and boss enemies in Cradle of Shadows.",
+    "pack": "The Shadows of the Hist",
+    "bucket": "Dungeons",
+    "tags": [
+      "Group"
+    ]
+  },
+  {
+    "id": "eso-072",
+    "name": "Mazzatun Massacre",
+    "description": "Defeat Tree-Minder Na-Kesh after first eliminating all other enemies in Ruins of Mazzatun.",
+    "pack": "The Shadows of the Hist",
+    "bucket": "Dungeons",
+    "tags": [
+      "Group"
+    ]
+  },
+  {
+    "id": "eso-073",
+    "name": "Savior of the Su-Zahleel",
+    "description": "Rescue all six of the Su-Zahleel Elders from the Ritual Chamber in Veteran Ruins of Mazzatun.",
+    "pack": "The Shadows of the Hist",
+    "bucket": "Dungeons",
+    "tags": [
+      "Group",
+      "Veteran",
+      "Part tracking"
+    ],
+    "progress": {
+      "type": "counter",
+      "target": 6,
+      "label": "Elders rescued"
+    }
+  },
+  {
+    "id": "eso-074",
+    "name": "Web Walker",
+    "description": "Defeat Velidreth in Veteran Cradle of Shadows without any party members dying in the catacombs.",
+    "pack": "The Shadows of the Hist",
+    "bucket": "Dungeons",
+    "tags": [
+      "Group",
+      "Veteran"
+    ]
+  },
+  {
+    "id": "eso-075",
+    "name": "Shadows of the Hist Delver",
+    "description": "Complete Veteran Cradle of Shadows and Veteran Ruins of Mazzatun.",
+    "pack": "The Shadows of the Hist",
+    "bucket": "Dungeons",
+    "tags": [
+      "Group",
+      "Veteran",
+      "Part tracking"
+    ],
+    "progress": {
+      "type": "checklist",
+      "label": "Dungeon completions",
+      "items": [
+        "Cradle of Shadows — Veteran",
+        "Ruins of Mazzatun — Veteran"
+      ]
+    }
+  },
+  {
+    "id": "eso-076",
+    "name": "Most Valuable Combatant",
+    "description": "Earn a medal score of at least 3,000 points in a single Battleground match.",
+    "pack": "Morrowind",
+    "bucket": "PvP & Alliance War",
+    "tags": [
+      "PvP"
+    ]
+  },
+  {
+    "id": "eso-077",
+    "name": "Triple Threat",
+    "description": "Capture three enemy Relics in a single Battleground match.",
+    "pack": "Morrowind",
+    "bucket": "PvP & Alliance War",
+    "tags": [
+      "PvP"
+    ]
+  },
+  {
+    "id": "eso-078",
+    "name": "Savior of Morrowind",
+    "description": "Complete quests, defeat bosses, and explore delves to become the Savior of Morrowind.",
+    "pack": "Morrowind",
+    "bucket": "Zone Completion",
+    "tags": [
+      "Solo-friendly",
+      "Long-term",
+      "Part tracking"
+    ],
+    "progress": {
+      "type": "checklist",
+      "label": "Zone meta progress",
+      "items": [
+        "Complete the required quests",
+        "Defeat the required bosses",
+        "Clear the required delves and exploration objectives"
+      ]
+    }
+  },
+  {
+    "id": "eso-079",
+    "name": "Ancestral Tombs Hunter",
+    "description": "Discover and explore the lost Library of Andule.",
+    "pack": "Morrowind",
+    "bucket": "Exploration & Collectibles",
+    "tags": [
+      "Solo-friendly"
+    ]
+  },
+  {
+    "id": "eso-080",
+    "name": "Champion of Vivec",
+    "description": "Restore Lord Vivec's lost power, save Vivec City, and be named Champion of Vivec.",
+    "pack": "Morrowind",
+    "bucket": "Story & Factions",
+    "tags": [
+      "Solo-friendly"
+    ]
+  },
+  {
+    "id": "eso-081",
+    "name": "Halls of Fabrication Completed",
+    "description": "Assist Divayth Fyr in stopping the flood of animunculi coming from the Halls of Fabrication.",
+    "pack": "Morrowind",
+    "bucket": "Trials, Arenas & Archive",
+    "tags": [
+      "Group"
+    ]
+  },
+  {
+    "id": "eso-082",
+    "name": "Bloodroot Forge Vanquisher",
+    "description": "Defeat all mini-boss and boss enemies in Bloodroot Forge.",
+    "pack": "Horns of the Reach",
+    "bucket": "Dungeons",
+    "tags": [
+      "Group"
+    ]
+  },
+  {
+    "id": "eso-083",
+    "name": "Falkreath Hold Vanquisher",
+    "description": "Defeat all mini-boss and boss enemies in Falkreath Hold.",
+    "pack": "Horns of the Reach",
+    "bucket": "Dungeons",
+    "tags": [
+      "Group"
+    ]
+  },
+  {
+    "id": "eso-084",
+    "name": "Cooling Your Heels",
+    "description": "Complete Veteran Bloodroot Forge without ever touching the lava flowing through the Sanguine Veins.",
+    "pack": "Horns of the Reach",
+    "bucket": "Dungeons",
+    "tags": [
+      "Group",
+      "Veteran"
+    ]
+  },
+  {
+    "id": "eso-085",
+    "name": "Deck Diver",
+    "description": "Never be personally struck by siege weapon fire in Veteran Falkreath Hold.",
+    "pack": "Horns of the Reach",
+    "bucket": "Dungeons",
+    "tags": [
+      "Group",
+      "Veteran"
+    ]
+  },
+  {
+    "id": "eso-086",
+    "name": "Magma Masher",
+    "description": "Use Galchobhar's Mantle Breaker to dissipate a Fire Shalk's Lava Ball in Veteran Bloodroot Forge.",
+    "pack": "Horns of the Reach",
+    "bucket": "Dungeons",
+    "tags": [
+      "Group",
+      "Veteran"
+    ]
+  },
+  {
+    "id": "eso-087",
+    "name": "Horns of the Reach Delver",
+    "description": "Complete Veteran Falkreath Hold and Veteran Bloodroot Forge.",
+    "pack": "Horns of the Reach",
+    "bucket": "Dungeons",
+    "tags": [
+      "Group",
+      "Veteran",
+      "Part tracking"
+    ],
+    "progress": {
+      "type": "checklist",
+      "label": "Dungeon completions",
+      "items": [
+        "Falkreath Hold — Veteran",
+        "Bloodroot Forge — Veteran"
+      ]
+    }
+  },
+  {
+    "id": "eso-088",
+    "name": "Precursor Maker",
+    "description": "Collect and install all of the parts necessary to reconstruct the Precursor factotum.",
+    "pack": "Clockwork City",
+    "bucket": "Exploration & Collectibles",
+    "tags": [
+      "Solo-friendly"
+    ]
+  },
+  {
+    "id": "eso-089",
+    "name": "Hero of Clockwork City",
+    "description": "Complete quests, defeat bosses, and explore delves to become the Hero of Clockwork City.",
+    "pack": "Clockwork City",
+    "bucket": "Zone Completion",
+    "tags": [
+      "Solo-friendly",
+      "Long-term",
+      "Part tracking"
+    ],
+    "progress": {
+      "type": "checklist",
+      "label": "Zone meta progress",
+      "items": [
+        "Complete the required quests",
+        "Defeat the required bosses",
+        "Clear the required delves and exploration objectives"
+      ]
+    }
+  },
+  {
+    "id": "eso-090",
+    "name": "Land of Gears and Cogs",
+    "description": "Complete the \"To the Clockwork City\" quest.",
+    "pack": "Clockwork City",
+    "bucket": "Story & Factions",
+    "tags": [
+      "Solo-friendly"
+    ]
+  },
+  {
+    "id": "eso-091",
+    "name": "The Burden of Knowledge",
+    "description": "Complete the \"The Light of Knowledge\" quest.",
+    "pack": "Clockwork City",
+    "bucket": "Story & Factions",
+    "tags": [
+      "Solo-friendly"
+    ]
+  },
+  {
+    "id": "eso-092",
+    "name": "Fortune and Fate",
+    "description": "Learn of things to come.",
+    "pack": "Clockwork City",
+    "bucket": "Story & Factions",
+    "tags": [
+      "Solo-friendly"
+    ]
+  },
+  {
+    "id": "eso-093",
+    "name": "Asylum Sanctorium Completed",
+    "description": "Defeat Saint Olms the Just, Saint Llothis the Pious, and Saint Felms the Bold in Asylum Sanctorium.",
+    "pack": "Clockwork City",
+    "bucket": "Trials, Arenas & Archive",
+    "tags": [
+      "Group",
+      "Part tracking"
+    ],
+    "progress": {
+      "type": "checklist",
+      "label": "Required targets",
+      "items": [
+        "Saint Olms the Just",
+        "Saint Llothis the Pious",
+        "Saint Felms the Bold"
+      ]
+    }
+  },
+  {
+    "id": "eso-094",
+    "name": "Fang Lair Vanquisher",
+    "description": "Defeat all mini-boss and boss enemies in Fang Lair.",
+    "pack": "Dragon Bones",
+    "bucket": "Dungeons",
+    "tags": [
+      "Group"
+    ]
+  },
+  {
+    "id": "eso-095",
+    "name": "Scalecaller Peak Vanquisher",
+    "description": "Defeat all mini-boss and boss enemies in Scalecaller Peak.",
+    "pack": "Dragon Bones",
+    "bucket": "Dungeons",
+    "tags": [
+      "Group"
+    ]
+  },
+  {
+    "id": "eso-096",
+    "name": "Scalecaller Savior",
+    "description": "Help Jorvuld Davaux find a cure to the cult's plague within Scalecaller Peak.",
+    "pack": "Dragon Bones",
+    "bucket": "Dungeons",
+    "tags": [
+      "Group"
+    ]
+  },
+  {
+    "id": "eso-097",
+    "name": "Fungi Free",
+    "description": "Defeat the Cadaverous Menagerie without anyone being hurt by Volatile Fungi in Veteran Fang Lair.",
+    "pack": "Dragon Bones",
+    "bucket": "Dungeons",
+    "tags": [
+      "Group",
+      "Veteran"
+    ]
+  },
+  {
+    "id": "eso-098",
+    "name": "Stand Your Ground",
+    "description": "Defeat Zaan the Scalecaller without being knocked back by her shield.",
+    "pack": "Dragon Bones",
+    "bucket": "Dungeons",
+    "tags": [
+      "Group"
+    ]
+  },
+  {
+    "id": "eso-099",
+    "name": "Dragon Bones Delver",
+    "description": "Complete Veteran Fang Lair and Veteran Scalecaller Peak.",
+    "pack": "Dragon Bones",
+    "bucket": "Dungeons",
+    "tags": [
+      "Group",
+      "Veteran",
+      "Part tracking"
+    ],
+    "progress": {
+      "type": "checklist",
+      "label": "Dungeon completions",
+      "items": [
+        "Fang Lair — Veteran",
+        "Scalecaller Peak — Veteran"
+      ]
+    }
+  },
+  {
+    "id": "eso-100",
+    "name": "Jewelry Trait Master",
+    "description": "Research nine Traits for each type of jewelry.",
+    "pack": "Summerset",
+    "bucket": "Guilds, Crafting & Systems",
+    "tags": [
+      "Solo-friendly",
+      "Long-term",
+      "Part tracking"
+    ],
+    "progress": {
+      "type": "checklist",
+      "label": "Jewelry research",
+      "items": [
+        "Research all nine ring traits",
+        "Research all nine necklace traits"
+      ]
+    }
+  },
+  {
+    "id": "eso-101",
+    "name": "Savior of Summerset",
+    "description": "Complete quests, defeat bosses, and explore delves to become the Savior of Summerset.",
+    "pack": "Summerset",
+    "bucket": "Zone Completion",
+    "tags": [
+      "Solo-friendly",
+      "Long-term",
+      "Part tracking"
+    ],
+    "progress": {
+      "type": "checklist",
+      "label": "Summerset meta-achievement",
+      "items": [
+        "Complete The Good of the Many",
+        "Complete 33 Summerset quests",
+        "Collect all 20 Vault of Moawita relics",
+        "Defeat all six world bosses",
+        "Clear all six delves and discover the striking locales",
+        "Complete the Karnwasten group event",
+        "Complete the Sunhold group event"
+      ]
+    },
+    "guideNote": "The seven parts mirror the in-game meta-achievement requirements."
+  },
+  {
+    "id": "eso-102",
+    "name": "Relics of Summerset",
+    "description": "Retrieve the 20 dangerous relics stolen from the Vault of Moawita.",
+    "pack": "Summerset",
+    "bucket": "Exploration & Collectibles",
+    "tags": [
+      "Solo-friendly",
+      "Part tracking"
+    ],
+    "progress": {
+      "type": "counter",
+      "target": 20,
+      "label": "Relics recovered"
+    }
+  },
+  {
+    "id": "eso-103",
+    "name": "Cloudrest Completed",
+    "description": "Defeat Z'Maja and assist Olorime in reclaiming Cloudrest.",
+    "pack": "Summerset",
+    "bucket": "Trials, Arenas & Archive",
+    "tags": [
+      "Group"
+    ]
+  },
+  {
+    "id": "eso-104",
+    "name": "The Good of the Many",
+    "description": "Stop the conspiracy, protect the Crystal Tower, and forge a new alliance in Summerset.",
+    "pack": "Summerset",
+    "bucket": "Story & Factions",
+    "tags": [
+      "Solo-friendly"
+    ]
+  },
+  {
+    "id": "eso-105",
+    "name": "Abyssal Devastator",
+    "description": "Complete 50 Abyssal Geysers.",
+    "pack": "Summerset",
+    "bucket": "Exploration & Collectibles",
+    "tags": [
+      "Solo-friendly",
+      "Long-term",
+      "Part tracking"
+    ],
+    "progress": {
+      "type": "counter",
+      "target": 50,
+      "label": "Abyssal Geysers completed"
+    }
+  },
+  {
+    "id": "eso-106",
+    "name": "Bloody Mess",
+    "description": "Defeat Jailer Melitus without being damaged by Bloody Geysers in Moon Hunter Keep.",
+    "pack": "Wolfhunter",
+    "bucket": "Dungeons",
+    "tags": [
+      "Group"
+    ]
+  },
+  {
+    "id": "eso-107",
+    "name": "March of Sacrifices Vanquisher",
+    "description": "Defeat the Wyrd Sisters, Aghoedh, Dagrund, Tarcyr, and Balorgh in March of Sacrifices.",
+    "pack": "Wolfhunter",
+    "bucket": "Dungeons",
+    "tags": [
+      "Group",
+      "Part tracking"
+    ],
+    "progress": {
+      "type": "checklist",
+      "label": "Required targets",
+      "items": [
+        "the Wyrd Sisters",
+        "Aghoedh",
+        "Dagrund",
+        "Tarcyr",
+        "Balorgh"
+      ]
+    }
+  },
+  {
+    "id": "eso-108",
+    "name": "A Hulking Ally",
+    "description": "Defeat Archivist Ernarde without killing the first Hulking Werewolf ally in Moon Hunter Keep.",
+    "pack": "Wolfhunter",
+    "bucket": "Dungeons",
+    "tags": [
+      "Group"
+    ]
+  },
+  {
+    "id": "eso-109",
+    "name": "Moon Hunter Keep Vanquisher",
+    "description": "Defeat Jailer Melitus, Hedge Maze Guardian, Mylenne, the Archivist, and Vykosa in Moon Hunter Keep.",
+    "pack": "Wolfhunter",
+    "bucket": "Dungeons",
+    "tags": [
+      "Group",
+      "Part tracking"
+    ],
+    "progress": {
+      "type": "checklist",
+      "label": "Required targets",
+      "items": [
+        "Jailer Melitus",
+        "Hedge Maze Guardian",
+        "Mylenne",
+        "the Archivist",
+        "Vykosa"
+      ]
+    }
+  },
+  {
+    "id": "eso-110",
+    "name": "Book Smarts",
+    "description": "Defeat Archivist without taking group member damage from Symbols of Xarxes in Moon Hunter Keep.",
+    "pack": "Wolfhunter",
+    "bucket": "Dungeons",
+    "tags": [
+      "Group"
+    ]
+  },
+  {
+    "id": "eso-111",
+    "name": "Wolfhunter Delver",
+    "description": "Complete Veteran Moon Hunter Keep and Veteran March of Sacrifices.",
+    "pack": "Wolfhunter",
+    "bucket": "Dungeons",
+    "tags": [
+      "Group",
+      "Veteran",
+      "Part tracking"
+    ],
+    "progress": {
+      "type": "checklist",
+      "label": "Dungeon completions",
+      "items": [
+        "Moon Hunter Keep — Veteran",
+        "March of Sacrifices — Veteran"
+      ]
+    }
+  },
+  {
+    "id": "eso-112",
+    "name": "Hero of Murkmire",
+    "description": "Complete quests, defeat bosses, and explore delves to become the Hero of Murkmire.",
+    "pack": "Murkmire",
+    "bucket": "Zone Completion",
+    "tags": [
+      "Solo-friendly",
+      "Long-term",
+      "Part tracking"
+    ],
+    "progress": {
+      "type": "checklist",
+      "label": "Zone meta progress",
+      "items": [
+        "Complete the required quests",
+        "Defeat the required bosses",
+        "Clear the required delves and exploration objectives"
+      ]
+    }
+  },
+  {
+    "id": "eso-113",
+    "name": "The River of Rebirth",
+    "description": "Complete the \"By River and Root\" quest.",
+    "pack": "Murkmire",
+    "bucket": "Story & Factions",
+    "tags": [
+      "Solo-friendly"
+    ]
+  },
+  {
+    "id": "eso-114",
+    "name": "Wrathstone Delver",
+    "description": "Complete both Frostvault and Depths of Malatar in Veteran.",
+    "pack": "Wrathstone",
+    "bucket": "Dungeons",
+    "tags": [
+      "Group",
+      "Veteran",
+      "Part tracking"
+    ],
+    "progress": {
+      "type": "checklist",
+      "label": "Dungeon completions",
+      "items": [
+        "Frostvault — Veteran",
+        "Depths of Malatar — Veteran"
+      ]
+    }
+  },
+  {
+    "id": "eso-115",
+    "name": "Wrathstone Scout",
+    "description": "Complete both Frostvault and Depths of Malatar in Normal or Higher.",
+    "pack": "Wrathstone",
+    "bucket": "Dungeons",
+    "tags": [
+      "Group",
+      "Part tracking"
+    ],
+    "progress": {
+      "type": "checklist",
+      "label": "Dungeon completions",
+      "items": [
+        "Frostvault — Normal or Higher",
+        "Depths of Malatar — Normal or Higher"
+      ]
+    }
+  },
+  {
+    "id": "eso-116",
+    "name": "Anequina Dragon Killer",
+    "description": "Kill 1 Dragon in the wilds of Northern Elsweyr.",
+    "pack": "Elsweyr",
+    "bucket": "Story & Factions",
+    "tags": [
+      "Solo-friendly"
+    ]
+  },
+  {
+    "id": "eso-117",
+    "name": "Sunspire Completed",
+    "description": "Defeat Yolnahkriin, Lokkestiiz, and Nahviintaas in Sunspire.",
+    "pack": "Elsweyr",
+    "bucket": "Trials, Arenas & Archive",
+    "tags": [
+      "Group",
+      "Part tracking"
+    ],
+    "progress": {
+      "type": "checklist",
+      "label": "Required targets",
+      "items": [
+        "Yolnahkriin",
+        "Lokkestiiz",
+        "Nahviintaas"
+      ]
+    }
+  },
+  {
+    "id": "eso-118",
+    "name": "Savior of Elsweyr",
+    "description": "Complete quests, defeat bosses, and explore delves to become the Savior of Elsweyr.",
+    "pack": "Elsweyr",
+    "bucket": "Zone Completion",
+    "tags": [
+      "Solo-friendly",
+      "Long-term",
+      "Part tracking"
+    ],
+    "progress": {
+      "type": "checklist",
+      "label": "Zone meta progress",
+      "items": [
+        "Complete the required quests",
+        "Defeat the required bosses",
+        "Clear the required delves and exploration objectives"
+      ]
+    }
+  },
+  {
+    "id": "eso-119",
+    "name": "Mural Mender",
+    "description": "Collect and restore all fragments of the Rithana-di-Renada, an ancient Khajiiti mural.",
+    "pack": "Elsweyr",
+    "bucket": "Exploration & Collectibles",
+    "tags": [
+      "Solo-friendly"
+    ]
+  },
+  {
+    "id": "eso-120",
+    "name": "Scalebreaker Delver",
+    "description": "Complete both Moongrave Fane and Lair of Maarselok in Veteran.",
+    "pack": "Scalebreaker",
+    "bucket": "Dungeons",
+    "tags": [
+      "Group",
+      "Veteran",
+      "Part tracking"
+    ],
+    "progress": {
+      "type": "checklist",
+      "label": "Dungeon completions",
+      "items": [
+        "Moongrave Fane — Veteran",
+        "Lair of Maarselok — Veteran"
+      ]
+    }
+  },
+  {
+    "id": "eso-121",
+    "name": "Scalebreaker Scout",
+    "description": "Complete both Lair of Maarselok and Moongrave Fane in Normal.",
+    "pack": "Scalebreaker",
+    "bucket": "Dungeons",
+    "tags": [
+      "Group",
+      "Part tracking"
+    ],
+    "progress": {
+      "type": "checklist",
+      "label": "Dungeon completions",
+      "items": [
+        "Lair of Maarselok — Normal",
+        "Moongrave Fane — Normal"
+      ]
+    }
+  },
+  {
+    "id": "eso-122",
+    "name": "Return of the Dragonguard",
+    "description": "Complete \"The Dragonguard\" quest in Southern Elsweyr.",
+    "pack": "Dragonhold",
+    "bucket": "Story & Factions",
+    "tags": [
+      "Solo-friendly"
+    ]
+  },
+  {
+    "id": "eso-123",
+    "name": "The Dragon's Wrath",
+    "description": "Complete the \"The Pride of Elsweyr\" quest in Southern Elsweyr.",
+    "pack": "Dragonhold",
+    "bucket": "Story & Factions",
+    "tags": [
+      "Solo-friendly"
+    ]
+  },
+  {
+    "id": "eso-124",
+    "name": "Harrowstorm Delver",
+    "description": "Complete both Icereach and Unhallowed Grave in Veteran.",
+    "pack": "Harrowstorm",
+    "bucket": "Dungeons",
+    "tags": [
+      "Group",
+      "Veteran",
+      "Part tracking"
+    ],
+    "progress": {
+      "type": "checklist",
+      "label": "Dungeon completions",
+      "items": [
+        "Icereach — Veteran",
+        "Unhallowed Grave — Veteran"
+      ]
+    }
+  },
+  {
+    "id": "eso-125",
+    "name": "Harrowstorm Scout",
+    "description": "Complete both Icereach and Unhallowed Grave in Normal.",
+    "pack": "Harrowstorm",
+    "bucket": "Dungeons",
+    "tags": [
+      "Group",
+      "Part tracking"
+    ],
+    "progress": {
+      "type": "checklist",
+      "label": "Dungeon completions",
+      "items": [
+        "Icereach — Normal",
+        "Unhallowed Grave — Normal"
+      ]
+    }
+  },
+  {
+    "id": "eso-126",
+    "name": "Savior of Western Skyrim",
+    "description": "Complete quests, defeat bosses, and explore delves to become the Savior of Western Skyrim.",
+    "pack": "Greymoor",
+    "bucket": "Zone Completion",
+    "tags": [
+      "Solo-friendly",
+      "Long-term",
+      "Part tracking"
+    ],
+    "progress": {
+      "type": "checklist",
+      "label": "Zone meta progress",
+      "items": [
+        "Complete the required quests",
+        "Defeat the required bosses",
+        "Clear the required delves and exploration objectives"
+      ]
+    }
+  },
+  {
+    "id": "eso-127",
+    "name": "An Instrumental Triumph",
+    "description": "Locate and retrieve all 19 musical instruments and deliver them to the Bards College in Solitude.",
+    "pack": "Greymoor",
+    "bucket": "Exploration & Collectibles",
+    "tags": [
+      "Solo-friendly",
+      "Part tracking"
+    ],
+    "progress": {
+      "type": "counter",
+      "target": 19,
+      "label": "Instruments delivered"
+    }
+  },
+  {
+    "id": "eso-128",
+    "name": "Kyne's Aegis Completed",
+    "description": "Defeat Yandir the Butcher, Captain Vrol, and Lord Falgravn in Kyne's Aegis.",
+    "pack": "Greymoor",
+    "bucket": "Trials, Arenas & Archive",
+    "tags": [
+      "Group",
+      "Part tracking"
+    ],
+    "progress": {
+      "type": "checklist",
+      "label": "Required targets",
+      "items": [
+        "Yandir the Butcher",
+        "Captain Vrol",
+        "Lord Falgravn"
+      ]
+    }
+  },
+  {
+    "id": "eso-129",
+    "name": "Master Antiquarian",
+    "description": "Complete Antiquities achievements.",
+    "pack": "Greymoor",
+    "bucket": "Guilds, Crafting & Systems",
+    "tags": [
+      "Solo-friendly",
+      "Long-term",
+      "Part tracking"
+    ],
+    "progress": {
+      "type": "checklist",
+      "label": "Antiquities achievements",
+      "items": [
+        "Scholar of the Circle",
+        "Meticulous Digger",
+        "Skilled Antiquarian"
+      ]
+    }
+  },
+  {
+    "id": "eso-130",
+    "name": "Savior of Blackwood",
+    "description": "Complete quests, defeat bosses, and explore delves to become the Savior of Blackwood.",
+    "pack": "Blackwood",
+    "bucket": "Zone Completion",
+    "tags": [
+      "Solo-friendly",
+      "Long-term",
+      "Part tracking"
+    ],
+    "progress": {
+      "type": "checklist",
+      "label": "Zone meta progress",
+      "items": [
+        "Complete the required quests",
+        "Defeat the required bosses",
+        "Clear the required delves and exploration objectives"
+      ]
+    }
+  },
+  {
+    "id": "eso-131",
+    "name": "Rockgrove Completed",
+    "description": "Defeat Oaxiltso, Flame-Herald Bahsei, and Xalvakka in Rockgrove.",
+    "pack": "Blackwood",
+    "bucket": "Trials, Arenas & Archive",
+    "tags": [
+      "Group",
+      "Part tracking"
+    ],
+    "progress": {
+      "type": "checklist",
+      "label": "Required targets",
+      "items": [
+        "Oaxiltso",
+        "Flame-Herald Bahsei",
+        "Xalvakka"
+      ]
+    }
+  },
+  {
+    "id": "eso-132",
+    "name": "Champion of Blackwood",
+    "description": "Investigate the threat against Blackwood and restore peace to the region.",
+    "pack": "Blackwood",
+    "bucket": "Story & Factions",
+    "tags": [
+      "Solo-friendly"
+    ]
+  },
+  {
+    "id": "eso-133",
+    "name": "Seasoned Friendship",
+    "description": "Adventure with any companion.",
+    "pack": "Blackwood - Seasoned Friendship",
+    "bucket": "Guilds, Crafting & Systems",
+    "tags": [
+      "Solo-friendly"
+    ]
+  },
+  {
+    "id": "eso-134",
+    "name": "Waking Flame Scout",
+    "description": "Complete both Red Petal Bastion and the Dread Cellar in Normal.",
+    "pack": "Waking Flame",
+    "bucket": "Dungeons",
+    "tags": [
+      "Group",
+      "Part tracking"
+    ],
+    "progress": {
+      "type": "checklist",
+      "label": "Dungeon completions",
+      "items": [
+        "Red Petal Bastion — Normal",
+        "the Dread Cellar — Normal"
+      ]
+    }
+  },
+  {
+    "id": "eso-135",
+    "name": "Waking Flame Delver",
+    "description": "Complete both Red Petal Bastion and the Dread Cellar in Veteran.",
+    "pack": "Waking Flame",
+    "bucket": "Dungeons",
+    "tags": [
+      "Group",
+      "Veteran",
+      "Part tracking"
+    ],
+    "progress": {
+      "type": "checklist",
+      "label": "Dungeon completions",
+      "items": [
+        "Red Petal Bastion — Veteran",
+        "the Dread Cellar — Veteran"
+      ]
+    }
+  },
+  {
+    "id": "eso-136",
+    "name": "Stonethorn Scout",
+    "description": "Complete both Castle Thorn and Stone Garden in Normal.",
+    "pack": "Stonethorn",
+    "bucket": "Dungeons",
+    "tags": [
+      "Group",
+      "Part tracking"
+    ],
+    "progress": {
+      "type": "checklist",
+      "label": "Dungeon completions",
+      "items": [
+        "Castle Thorn — Normal",
+        "Stone Garden — Normal"
+      ]
+    }
+  },
+  {
+    "id": "eso-137",
+    "name": "Stonethorn Delver",
+    "description": "Complete both Stone Garden and Castle Thorn in Veteran.",
+    "pack": "Stonethorn",
+    "bucket": "Dungeons",
+    "tags": [
+      "Group",
+      "Veteran",
+      "Part tracking"
+    ],
+    "progress": {
+      "type": "checklist",
+      "label": "Dungeon completions",
+      "items": [
+        "Stone Garden — Veteran",
+        "Castle Thorn — Veteran"
+      ]
+    }
+  },
+  {
+    "id": "eso-138",
+    "name": "Hero of Fargrave",
+    "description": "Complete quests, defeat bosses, and explore delves to become the Hero of Fargrave.",
+    "pack": "Deadlands",
+    "bucket": "Zone Completion",
+    "tags": [
+      "Solo-friendly",
+      "Long-term",
+      "Part tracking"
+    ],
+    "progress": {
+      "type": "checklist",
+      "label": "Zone meta progress",
+      "items": [
+        "Complete the required quests",
+        "Defeat the required bosses",
+        "Clear the required delves and exploration objectives"
+      ]
+    }
+  },
+  {
+    "id": "eso-139",
+    "name": "Hopeful Rescuer",
+    "description": "Complete the \"Against All Hope\" quest in the Deadlands.",
+    "pack": "Deadlands",
+    "bucket": "Story & Factions",
+    "tags": [
+      "Solo-friendly"
+    ]
+  },
+  {
+    "id": "eso-140",
+    "name": "Savior of the Reach",
+    "description": "Complete quests, defeat bosses, and explore delves to become the Savior of The Reach.",
+    "pack": "Markarth",
+    "bucket": "Zone Completion",
+    "tags": [
+      "Solo-friendly",
+      "Long-term",
+      "Part tracking"
+    ],
+    "progress": {
+      "type": "checklist",
+      "label": "Zone meta progress",
+      "items": [
+        "Complete the required quests",
+        "Defeat the required bosses",
+        "Clear the required delves and exploration objectives"
+      ]
+    }
+  },
+  {
+    "id": "eso-141",
+    "name": "A Bridge Between Kingdoms",
+    "description": "Complete the \"Second Chances\" quest in The Reach.",
+    "pack": "Markarth",
+    "bucket": "Story & Factions",
+    "tags": [
+      "Solo-friendly"
+    ]
+  },
+  {
+    "id": "eso-142",
+    "name": "Vateshran Hollows Vanquisher",
+    "description": "Defeat all challengers in Vateshran Hollows.",
+    "pack": "Markarth",
+    "bucket": "Trials, Arenas & Archive",
+    "tags": [
+      "Solo/Group"
+    ]
+  },
+  {
+    "id": "eso-143",
+    "name": "Vateshran Hollows Conqueror",
+    "description": "Defeat all challengers in Veteran Vateshran Hollows.",
+    "pack": "Markarth",
+    "bucket": "Trials, Arenas & Archive",
+    "tags": [
+      "Solo/Group",
+      "Veteran"
+    ]
+  },
+  {
+    "id": "eso-144",
+    "name": "Flames of Ambition Scout",
+    "description": "Complete both Black Drake Villa and the Cauldron in Normal.",
+    "pack": "Flames of Ambition",
+    "bucket": "Dungeons",
+    "tags": [
+      "Group",
+      "Part tracking"
+    ],
+    "progress": {
+      "type": "checklist",
+      "label": "Dungeon completions",
+      "items": [
+        "Black Drake Villa — Normal",
+        "the Cauldron — Normal"
+      ]
+    }
+  },
+  {
+    "id": "eso-145",
+    "name": "Flames of Ambition Delver",
+    "description": "Complete both Black Drake Villa and the Cauldron in Veteran.",
+    "pack": "Flames of Ambition",
+    "bucket": "Dungeons",
+    "tags": [
+      "Group",
+      "Veteran",
+      "Part tracking"
+    ],
+    "progress": {
+      "type": "checklist",
+      "label": "Dungeon completions",
+      "items": [
+        "Black Drake Villa — Veteran",
+        "the Cauldron — Veteran"
+      ]
+    }
+  },
+  {
+    "id": "eso-146",
+    "name": "Ascending Tide Scout",
+    "description": "Complete both Coral Aerie and Shipwright's Regret in Normal.",
+    "pack": "Ascending Tide",
+    "bucket": "Dungeons",
+    "tags": [
+      "Group",
+      "Part tracking"
+    ],
+    "progress": {
+      "type": "checklist",
+      "label": "Dungeon completions",
+      "items": [
+        "Coral Aerie — Normal",
+        "Shipwright's Regret — Normal"
+      ]
+    }
+  },
+  {
+    "id": "eso-147",
+    "name": "Ascending Tide Delver",
+    "description": "Complete both Coral Aerie and Shipwright's Regret in Veteran.",
+    "pack": "Ascending Tide",
+    "bucket": "Dungeons",
+    "tags": [
+      "Group",
+      "Veteran",
+      "Part tracking"
+    ],
+    "progress": {
+      "type": "checklist",
+      "label": "Dungeon completions",
+      "items": [
+        "Coral Aerie — Veteran",
+        "Shipwright's Regret — Veteran"
+      ]
+    }
+  },
+  {
+    "id": "eso-148",
+    "name": "Savior of High Isle",
+    "description": "Complete quests, defeat bosses, and explore delves to become the Savior of High Isle.",
+    "pack": "High Isle",
+    "bucket": "Zone Completion",
+    "tags": [
+      "Solo-friendly",
+      "Long-term",
+      "Part tracking"
+    ],
+    "progress": {
+      "type": "checklist",
+      "label": "Zone meta progress",
+      "items": [
+        "Complete the required quests",
+        "Defeat the required bosses",
+        "Clear the required delves and exploration objectives"
+      ]
+    }
+  },
+  {
+    "id": "eso-149",
+    "name": "Champion of High Isle",
+    "description": "Investigate the threat against High Isle and restore peace to the region.",
+    "pack": "High Isle",
+    "bucket": "Story & Factions",
+    "tags": [
+      "Solo-friendly"
+    ]
+  },
+  {
+    "id": "eso-150",
+    "name": "Dreadsail Reef Completed",
+    "description": "Defeat Lylanar and Turlassil, the Reef Guardian, and Tideborn Taleria in Dreadsail Reef.",
+    "pack": "High Isle",
+    "bucket": "Trials, Arenas & Archive",
+    "tags": [
+      "Group",
+      "Part tracking"
+    ],
+    "progress": {
+      "type": "checklist",
+      "label": "Required targets",
+      "items": [
+        "Lylanar",
+        "Turlassil",
+        "the Reef Guardian",
+        "Tideborn Taleria"
+      ]
+    }
+  },
+  {
+    "id": "eso-151",
+    "name": "Tales of Tribute Master",
+    "description": "Complete quests, collect decks, and upgrade cards to complete.",
+    "pack": "High Isle",
+    "bucket": "Guilds, Crafting & Systems",
+    "tags": [
+      "Solo-friendly",
+      "Part tracking"
+    ],
+    "progress": {
+      "type": "checklist",
+      "label": "Tales of Tribute goals",
+      "items": [
+        "Complete the required quests",
+        "Collect the required decks",
+        "Upgrade the required cards"
+      ]
+    }
+  },
+  {
+    "id": "eso-152",
+    "name": "Lost Depths Scout",
+    "description": "Complete both Earthen Root Enclave and Graven Deep in Normal.",
+    "pack": "Lost Depths",
+    "bucket": "Dungeons",
+    "tags": [
+      "Group",
+      "Part tracking"
+    ],
+    "progress": {
+      "type": "checklist",
+      "label": "Dungeon completions",
+      "items": [
+        "Earthen Root Enclave — Normal",
+        "Graven Deep — Normal"
+      ]
+    }
+  },
+  {
+    "id": "eso-153",
+    "name": "Lost Depths Delver",
+    "description": "Complete both Earthen Root Enclave and Graven Deep in Veteran.",
+    "pack": "Lost Depths",
+    "bucket": "Dungeons",
+    "tags": [
+      "Group",
+      "Veteran",
+      "Part tracking"
+    ],
+    "progress": {
+      "type": "checklist",
+      "label": "Dungeon completions",
+      "items": [
+        "Earthen Root Enclave — Veteran",
+        "Graven Deep — Veteran"
+      ]
+    }
+  },
+  {
+    "id": "eso-154",
+    "name": "Savior of Galen",
+    "description": "Complete quests, defeat bosses, and explore delves to become the Savior of Galen.",
+    "pack": "Firesong",
+    "bucket": "Zone Completion",
+    "tags": [
+      "Solo-friendly",
+      "Long-term",
+      "Part tracking"
+    ],
+    "progress": {
+      "type": "checklist",
+      "label": "Zone meta progress",
+      "items": [
+        "Complete the required quests",
+        "Defeat the required bosses",
+        "Clear the required delves and exploration objectives"
+      ]
+    }
+  },
+  {
+    "id": "eso-155",
+    "name": "Firesong Extinguisher",
+    "description": "Complete the \"Guardian of Y'ffelon\" quest on Galen.",
+    "pack": "Firesong",
+    "bucket": "Story & Factions",
+    "tags": [
+      "Solo-friendly"
+    ]
+  },
+  {
+    "id": "eso-156",
+    "name": "Scribes of Fate Scout",
+    "description": "Complete both Bal Sunnar and Scrivener's Hall in Normal.",
+    "pack": "Scribes of Fate",
+    "bucket": "Dungeons",
+    "tags": [
+      "Group",
+      "Part tracking"
+    ],
+    "progress": {
+      "type": "checklist",
+      "label": "Dungeon completions",
+      "items": [
+        "Bal Sunnar — Normal",
+        "Scrivener's Hall — Normal"
+      ]
+    }
+  },
+  {
+    "id": "eso-157",
+    "name": "Scribes of Fate Delver",
+    "description": "Complete both Bal Sunnar and Scrivener's Hall in Veteran.",
+    "pack": "Scribes of Fate",
+    "bucket": "Dungeons",
+    "tags": [
+      "Group",
+      "Veteran",
+      "Part tracking"
+    ],
+    "progress": {
+      "type": "checklist",
+      "label": "Dungeon completions",
+      "items": [
+        "Bal Sunnar — Veteran",
+        "Scrivener's Hall — Veteran"
+      ]
+    }
+  },
+  {
+    "id": "eso-158",
+    "name": "Hero of Necrom",
+    "description": "Complete quests, defeat bosses, and explore delves to become the Hero of Necrom.",
+    "pack": "Necrom",
+    "bucket": "Zone Completion",
+    "tags": [
+      "Solo-friendly",
+      "Long-term",
+      "Part tracking"
+    ],
+    "progress": {
+      "type": "checklist",
+      "label": "Zone meta progress",
+      "items": [
+        "Complete the required quests",
+        "Defeat the required bosses",
+        "Clear the required delves and exploration objectives"
+      ]
+    }
+  },
+  {
+    "id": "eso-159",
+    "name": "Champion of Apocrypha",
+    "description": "Complete the main quest in Necrom.",
+    "pack": "Necrom",
+    "bucket": "Story & Factions",
+    "tags": [
+      "Solo-friendly"
+    ]
+  },
+  {
+    "id": "eso-160",
+    "name": "Sanity's Edge Vanquisher",
+    "description": "Defeat Exarchanic Yaseyla, Archwizard Twelvane, and Ansuul the Tormentor in Sanity's Edge.",
+    "pack": "Necrom",
+    "bucket": "Trials, Arenas & Archive",
+    "tags": [
+      "Group",
+      "Part tracking"
+    ],
+    "progress": {
+      "type": "checklist",
+      "label": "Required targets",
+      "items": [
+        "Exarchanic Yaseyla",
+        "Archwizard Twelvane",
+        "Ansuul the Tormentor"
+      ]
+    }
+  },
+  {
+    "id": "eso-161",
+    "name": "Archmage of Apocrypha",
+    "description": "Reach level 50 as an Arcanist.",
+    "pack": "Necrom - Archmage of Apocrypha",
+    "bucket": "Character & Progression",
+    "tags": [
+      "Solo-friendly"
+    ]
+  },
+  {
+    "id": "eso-162",
+    "name": "Arcing Onward",
+    "description": "Reach Arc 4 in the Infinite Archive.",
+    "pack": "Infinite Archive",
+    "bucket": "Trials, Arenas & Archive",
+    "tags": [
+      "Group"
+    ]
+  },
+  {
+    "id": "eso-163",
+    "name": "A Stage For Two",
+    "description": "Complete 4 Stages with another player in the Infinite Archive.",
+    "pack": "Infinite Archive",
+    "bucket": "Trials, Arenas & Archive",
+    "tags": [
+      "Group",
+      "Part tracking"
+    ],
+    "progress": {
+      "type": "counter",
+      "target": 4,
+      "label": "Co-op stages completed"
+    }
+  },
+  {
+    "id": "eso-164",
+    "name": "No Book Left Unread",
+    "description": "Complete all Infinite Archive Optional Achievements.",
+    "pack": "Infinite Archive",
+    "bucket": "Trials, Arenas & Archive",
+    "tags": [
+      "Group",
+      "Long-term"
+    ]
+  },
+  {
+    "id": "eso-165",
+    "name": "First Splurge!",
+    "description": "Spend 1,000 Archival Fortunes in the Infinite Archive.",
+    "pack": "Infinite Archive",
+    "bucket": "Trials, Arenas & Archive",
+    "tags": [
+      "Group",
+      "Part tracking"
+    ],
+    "progress": {
+      "type": "counter",
+      "target": 1000,
+      "label": "Archival Fortunes spent"
+    }
+  },
+  {
+    "id": "eso-166",
+    "name": "Scions of Ithelia Scout",
+    "description": "Complete both Oathsworn Pit and Bedlam Veil in Normal.",
+    "pack": "Scions of Ithelia",
+    "bucket": "Dungeons",
+    "tags": [
+      "Group",
+      "Part tracking"
+    ],
+    "progress": {
+      "type": "checklist",
+      "label": "Dungeon completions",
+      "items": [
+        "Oathsworn Pit — Normal",
+        "Bedlam Veil — Normal"
+      ]
+    }
+  },
+  {
+    "id": "eso-167",
+    "name": "Scions of Ithelia Delver",
+    "description": "Complete both Oathsworn Pit and Bedlam Veil in Veteran.",
+    "pack": "Scions of Ithelia",
+    "bucket": "Dungeons",
+    "tags": [
+      "Group",
+      "Veteran",
+      "Part tracking"
+    ],
+    "progress": {
+      "type": "checklist",
+      "label": "Dungeon completions",
+      "items": [
+        "Oathsworn Pit — Veteran",
+        "Bedlam Veil — Veteran"
+      ]
+    }
+  },
+  {
+    "id": "eso-168",
+    "name": "Hero of the Gold Road",
+    "description": "Complete quests, defeat bosses, and explore delves to become the Hero of the Gold Road.",
+    "pack": "Gold Road",
+    "bucket": "Zone Completion",
+    "tags": [
+      "Solo-friendly",
+      "Long-term",
+      "Part tracking"
+    ],
+    "progress": {
+      "type": "checklist",
+      "label": "Zone meta progress",
+      "items": [
+        "Complete the required quests",
+        "Defeat the required bosses",
+        "Clear the required delves and exploration objectives"
+      ]
+    }
+  },
+  {
+    "id": "eso-169",
+    "name": "Champion of the Gold Road",
+    "description": "Complete the main quest in West Weald.",
+    "pack": "Gold Road",
+    "bucket": "Story & Factions",
+    "tags": [
+      "Solo-friendly"
+    ]
+  },
+  {
+    "id": "eso-170",
+    "name": "Lucent Citadel Vanquisher",
+    "description": "Defeat Count Ryelaz, Zilyesset, Orphic Shattered Shard, and secure the knot in Lucent Citadel.",
+    "pack": "Gold Road",
+    "bucket": "Trials, Arenas & Archive",
+    "tags": [
+      "Group",
+      "Part tracking"
+    ],
+    "progress": {
+      "type": "checklist",
+      "label": "Required targets",
+      "items": [
+        "Count Ryelaz",
+        "Zilyesset",
+        "Orphic Shattered Shard",
+        "Secure the knot"
+      ]
+    }
+  },
+  {
+    "id": "eso-171",
+    "name": "Inheritor of the Scholarium",
+    "description": "Complete every quest in the Scribing quest line and complete the restoration of the Scholarium.",
+    "pack": "Gold Road Title Update",
+    "bucket": "Guilds, Crafting & Systems",
+    "tags": [
+      "Solo-friendly"
+    ]
+  },
+  {
+    "id": "eso-172",
+    "name": "Fallen Banners Scout",
+    "description": "Complete both Exiled Redoubt and Lep Seclusa in Normal.",
+    "pack": "Fallen Banners",
+    "bucket": "Dungeons",
+    "tags": [
+      "Group",
+      "Part tracking"
+    ],
+    "progress": {
+      "type": "checklist",
+      "label": "Dungeon completions",
+      "items": [
+        "Exiled Redoubt — Normal",
+        "Lep Seclusa — Normal"
+      ]
+    }
+  },
+  {
+    "id": "eso-173",
+    "name": "Fallen Banners Delver",
+    "description": "Complete both Exiled Redoubt and Lep Seclusa in Veteran.",
+    "pack": "Fallen Banners",
+    "bucket": "Dungeons",
+    "tags": [
+      "Group",
+      "Veteran",
+      "Part tracking"
+    ],
+    "progress": {
+      "type": "checklist",
+      "label": "Dungeon completions",
+      "items": [
+        "Exiled Redoubt — Veteran",
+        "Lep Seclusa — Veteran"
+      ]
+    }
+  },
+  {
+    "id": "eso-174",
+    "name": "Hero of Western Solstice",
+    "description": "Complete quests, defeat bosses, and explore delves to become the Hero of Western Solstice.",
+    "pack": "Seasons of the Worm Cult Part 1",
+    "bucket": "Zone Completion",
+    "tags": [
+      "Solo-friendly",
+      "Long-term",
+      "Part tracking"
+    ],
+    "progress": {
+      "type": "checklist",
+      "label": "Zone meta progress",
+      "items": [
+        "Complete the required quests",
+        "Defeat the required bosses",
+        "Clear the required delves and exploration objectives"
+      ]
+    }
+  },
+  {
+    "id": "eso-175",
+    "name": "West Solstice Grand Adventurer",
+    "description": "Complete 16 non-repeatable quests in Western Solstice.",
+    "pack": "Seasons of the Worm Cult Part 1",
+    "bucket": "Exploration & Collectibles",
+    "tags": [
+      "Solo-friendly",
+      "Part tracking"
+    ],
+    "progress": {
+      "type": "counter",
+      "target": 16,
+      "label": "Non-repeatable quests completed"
+    }
+  },
+  {
+    "id": "eso-176",
+    "name": "Ossein Cage Vanquisher",
+    "description": "Defeat the Shapers of Flesh, Jynorah and Skorkhif, as well as Overfiend Kazpian in Ossein Cage.",
+    "pack": "Seasons of the Worm Cult Part 1",
+    "bucket": "Trials, Arenas & Archive",
+    "tags": [
+      "Group",
+      "Part tracking"
+    ],
+    "progress": {
+      "type": "checklist",
+      "label": "Required targets",
+      "items": [
+        "The Shapers of Flesh",
+        "Jynorah",
+        "Skorkhif",
+        "Overfiend Kazpian"
+      ]
+    }
+  },
+  {
+    "id": "eso-177",
+    "name": "The Path to Learning",
+    "description": "Complete the Subclassing quest, \"Study in Discipline.\"",
+    "pack": "Seasons of the Worm Cult Part 1 Title Update",
+    "bucket": "Guilds, Crafting & Systems",
+    "tags": [
+      "Solo-friendly"
+    ]
+  },
+  {
+    "id": "eso-178",
+    "name": "Feast of Shadows Scout",
+    "description": "Complete both Naj-Caldeesh and Black Gem Foundry on Normal.",
+    "pack": "Feast of Shadows",
+    "bucket": "Dungeons",
+    "tags": [
+      "Group"
+    ]
+  },
+  {
+    "id": "eso-179",
+    "name": "Feast of Shadows Delver",
+    "description": "Complete both Naj-Caldeesh and Black Gem Foundry on Veteran.",
+    "pack": "Feast of Shadows",
+    "bucket": "Dungeons",
+    "tags": [
+      "Group",
+      "Veteran"
+    ]
+  },
+  {
+    "id": "eso-180",
+    "name": "Hero of Eastern Solstice",
+    "description": "Complete quests, defeat bosses, and explore delves to become the Hero of Eastern Solstice.",
+    "pack": "Seasons of the Worm Cult Part 2",
+    "bucket": "Zone Completion",
+    "tags": [
+      "Solo-friendly",
+      "Long-term",
+      "Part tracking"
+    ],
+    "progress": {
+      "type": "checklist",
+      "label": "Zone meta progress",
+      "items": [
+        "Complete the required quests",
+        "Defeat the required bosses",
+        "Clear the required delves and exploration objectives"
+      ]
+    }
+  },
+  {
+    "id": "eso-181",
+    "name": "Champion of Solstice",
+    "description": "Rally the Fellowship and end the threat of the Worm Cult across Western and Eastern Solstice.",
+    "pack": "Seasons of the Worm Cult Part 2",
+    "bucket": "Story & Factions",
+    "tags": [
+      "Solo-friendly"
+    ]
+  }
+]

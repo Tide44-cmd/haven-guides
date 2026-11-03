@@ -34,5 +34,14 @@
     "url": "guides/gears-5/",
     "tag": "Achievement tracker • 181 achievements",
     "theme": "gears-5"
+  },
+  {
+    "title": "The Elder Scrolls Online",
+    "platform": "Xbox / PC",
+    "year": "2015",
+    "description": "A clean 181-achievement roadmap with practical paths, focused filters and optional part-progress tracking.",
+    "url": "guides/elder-scrolls-online/",
+    "tag": "Achievement tracker • 181 achievements",
+    "theme": "elder-scrolls-online"
   }
 ]
