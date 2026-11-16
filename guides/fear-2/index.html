@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="An ordered F.E.A.R. 2 collectible tracker for all 76 Intel files and 13 Reflex Injectors.">
+  <title>F.E.A.R. 2 Collectible Tracker — Haven Guide</title>
+  <link rel="stylesheet" href="../../assets/style.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="fear2-page">
+  <main class="shell fear2-shell">
+    <header class="topbar">
+      <a class="brand" href="../../">HAVEN <i>GUIDE</i></a>
+      <a class="navlink" href="../../">← All games</a>
+    </header>
+
+    <section class="fear2-hero">
+      <div class="hero-content">
+        <div class="eyebrow">F.E.A.R. 2: Project Origin · Collectible route</div>
+        <h1>Every secret.<br><span>In encounter order.</span></h1>
+        <p>Track all Intel files and Reflex Injectors mission by mission, in the same order you encounter them in-game.</p>
+        <div class="route-note"><span>14 missions</span><span>76 Intel</span><span>13 Reflex Injectors</span></div>
+      </div>
+      <div class="hero-progress" aria-live="polite">
+        <div class="progress-ring"><strong id="hero-complete">0</strong><span>/ 89</span></div>
+        <p>collectibles secured</p>
+        <div class="hero-bar"><i id="hero-bar-fill"></i></div>
+      </div>
+    </section>
+
+    <section class="tracker-panel" aria-labelledby="tracker-title">
+      <div class="tracker-heading">
+        <div><div class="eyebrow">Follow the campaign</div><h2 id="tracker-title">Collectible tracker</h2></div>
+        <div class="tracker-stats">
+          <span><b id="intel-complete">0</b>/76 Intel</span>
+          <span><b id="reflex-complete">0</b>/13 Reflex</span>
+        </div>
+      </div>
+
+      <div class="mission-strip" id="mission-strip" aria-label="Mission progress"></div>
+
+      <div class="control-row">
+        <div class="type-filters" role="group" aria-label="Collectible type">
+          <button class="filter-button active" type="button" data-type="all" aria-pressed="true">All collectibles</button>
+          <button class="filter-button" type="button" data-type="intel" aria-pressed="false">Intel</button>
+          <button class="filter-button" type="button" data-type="reflex" aria-pressed="false">Reflex Injectors</button>
+        </div>
+        <button class="filter-button incomplete-button active" id="incomplete-toggle" type="button" aria-pressed="true">Incomplete only: Yes</button>
+      </div>
+
+      <label class="search-box"><span class="sr-only">Search collectibles</span><svg aria-hidden="true" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-4-4"></path></svg><input id="collectible-search" type="search" placeholder="Search names, Journal sections or locations…" autocomplete="off"></label>
+
+      <div class="action-row">
+        <button type="button" id="export-progress">Export progress</button>
+        <button type="button" id="import-progress">Import progress</button>
+        <button type="button" class="danger-button" id="reset-progress">Reset progress</button>
+        <input type="file" id="progress-file" accept="application/json,.json" hidden>
+      </div>
+
+      <p class="result-line" id="result-line">Loading collectible route…</p>
+      <div class="mission-list" id="mission-list"></div>
+      <div class="empty-state" id="empty-state" hidden><strong>No collectibles match this view.</strong><span>Clear the search, change type, or show completed collectibles.</span></div>
+    </section>
+
+    <details class="guide-help">
+      <summary>How to read the Intel entries</summary>
+      <div><p>The bold title is the Intel name. The smaller label underneath is the section where it appears in the in-game Journal—for example, <strong>Security Concern</strong> appears under <strong>Genevieve Aristide</strong>.</p><p>Shared-location collectibles have separate checkboxes but remain next to each other in their original route position.</p></div>
+    </details>
+
+    <footer class="fear2-footer">Location descriptions are adapted from the supplied collectible guide by Butters (2009). F.E.A.R. 2: Project Origin is owned by Warner Bros. Interactive Entertainment and Monolith Productions.</footer>
+  </main>
+  <script src="app.js" defer></script>
+</body>
+</html>

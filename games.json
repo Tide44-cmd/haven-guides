@@ -48,5 +48,15 @@
     "url": "guides/elder-scrolls-online/",
     "tag": "Achievement tracker • 181 achievements",
     "theme": "elder-scrolls-online"
+  },
+  {
+    "title": "F.E.A.R. 2: Project Origin",
+    "platform": "Xbox 360 / PS3 / PC",
+    "year": "2009",
+    "description": "An ordered mission route for every Intel file and Reflex Injector, with locally saved progress.",
+    "artwork": "assets/game-tiles/fear-2.jpg",
+    "url": "guides/fear-2/",
+    "tag": "Collectible tracker • 89 collectibles",
+    "theme": "fear-2"
   }
 ]

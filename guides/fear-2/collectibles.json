@@ -1,0 +1,835 @@
+{
+  "game": "F.E.A.R. 2: Project Origin",
+  "totals": {
+    "missions": 14,
+    "intel": 76,
+    "reflex": 13,
+    "collectibles": 89
+  },
+  "missions": [
+    {
+      "number": 1,
+      "title": "Sanctuary",
+      "intelCount": 8,
+      "reflexCount": 0,
+      "items": [
+        {
+          "id": "fear2-intel-001",
+          "type": "intel",
+          "number": 1,
+          "name": "Security Concern",
+          "section": "Genevieve Aristide",
+          "location": "After Stokes mentions the elevator lock down, behind her on a cabinet."
+        },
+        {
+          "id": "fear2-intel-002",
+          "type": "intel",
+          "number": 2,
+          "name": "I.M. transcript #1",
+          "section": "Genevieve Aristide",
+          "location": "The second area after exiting the elevator, there will be soldiers jumping down the balcony, it’s below the balconies by the door where Stokes busts the lock opening the gate for you to pass through, hard to miss."
+        },
+        {
+          "id": "fear2-intel-003",
+          "type": "intel",
+          "number": 3,
+          "name": "Bad News",
+          "section": "Project Origin",
+          "location": "Right after the second, through the door, on the left, sitting on a table. Across from a blue and red painting."
+        },
+        {
+          "id": "fear2-intel-004",
+          "type": "intel",
+          "number": 4,
+          "name": "Good Luck",
+          "section": "Project Harbinger",
+          "location": "After sprinting from the helicopter, Genevieve Aristide will be bitching about being a pansy and not wanting to die, it’s on a table between chairs across from a balcony. Red ropes surround the setup and is across from a violin painting."
+        },
+        {
+          "id": "fear2-intel-005",
+          "type": "intel",
+          "number": 5,
+          "name": "Termination notice",
+          "section": "Genevieve Aristide",
+          "location": "A soldier talks about fucked up programs, this is after the pool scene, there is one in the middle of the room where you fight the speaker and his fellow unsuspecting soldiers, it’s by the bar/kitchen across the living room with the big ass T.V. and surround sound."
+        },
+        {
+          "id": "fear2-intel-006",
+          "type": "intel",
+          "number": 6,
+          "name": "To-Do list",
+          "section": "Genevieve Aristide",
+          "location": "Right after 5, up the stairs and right on the floor after killing the guy who kicks the door open, by a knocked down shelf and a headless/armless statue."
+        },
+        {
+          "id": "fear2-intel-007",
+          "type": "intel",
+          "number": 7,
+          "name": "Info: SFC Keegan",
+          "section": "Project Harbinger",
+          "location": "Same exact spot for both, after closing the music player, watching the illusion, and watching the bookcases open, there will be an Intel on the floor and on a cabinet directly in front of you."
+        },
+        {
+          "id": "fear2-intel-008",
+          "type": "intel",
+          "number": 8,
+          "name": "Info: SGT Becket",
+          "section": "Project Harbinger",
+          "location": "Same exact spot for both, after closing the music player, watching the illusion, and watching the bookcases open, there will be an Intel on the floor and on a cabinet directly in front of you."
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Awakening",
+      "intelCount": 11,
+      "reflexCount": 1,
+      "items": [
+        {
+          "id": "fear2-intel-009",
+          "type": "intel",
+          "number": 9,
+          "name": "Memo: M. Becket",
+          "section": "Hospital",
+          "location": "After waking from the surgery, there is a folder holder on the wall across from you by the door you need to exit."
+        },
+        {
+          "id": "fear2-intel-010",
+          "type": "intel",
+          "number": 10,
+          "name": "Info: 1SG Griffin",
+          "section": "Project Harbinger",
+          "location": "Right before seeing adult Alma at the corner, take a left turn into a hallway and a right turn into another patient room. It’s sitting right in front of the closet."
+        },
+        {
+          "id": "fear2-intel-011",
+          "type": "intel",
+          "number": 11,
+          "name": "Info: SGT Jankowski",
+          "section": "Project Harbinger",
+          "location": "You’ll arrive at blocked double doors, so you’ll proceed to go around to the left, once in a room with a lot of machines and boxes turn left again to enter a blood covered floor in a bathroom, go through and left again to find it on a counter."
+        },
+        {
+          "id": "fear2-intel-012",
+          "type": "intel",
+          "number": 12,
+          "name": "Surgical Notes",
+          "section": "Hospital",
+          "location": "In a room with a florescent light hanging down, on a knocked over cabinet, this is a dead end room, next to the bigger room with two sets of double doors."
+        },
+        {
+          "id": "fear2-intel-013",
+          "type": "intel",
+          "number": 13,
+          "name": "Check the news",
+          "section": "Hospital",
+          "location": "Soon after 12, and seeing a body fall in slow mo from above, there is a small room next to the two bathrooms upstairs, enter, it’s on the computer desk."
+        },
+        {
+          "id": "fear2-intel-014",
+          "type": "intel",
+          "number": 14,
+          "name": "Urgent Warning",
+          "section": "Armacham",
+          "location": "After seeing Genevieve again, you’ll enter another lab, it’ll be in plain sight, you’re forced to go right by it."
+        },
+        {
+          "id": "fear2-intel-015",
+          "type": "intel",
+          "number": 15,
+          "name": "Info: 1LT Stokes",
+          "section": "Project Harbinger",
+          "location": "In the women’s bathroom stall where the bloody footprints lead, this is in the room where the three ATC officers are trying to get to the woman in the locked office, this is behind that and where you jump down."
+        },
+        {
+          "id": "fear2-reflex-01",
+          "type": "reflex",
+          "number": 1,
+          "name": "Reflex Injector 1",
+          "section": "",
+          "location": "After the elevator scene, you’ll come to a first double door that requires a key card, go past this and go into a small room to pick up the card off a dead man, then return to the first set of doors to get into the room where the reflex is, it’s sitting on a shelf."
+        },
+        {
+          "id": "fear2-intel-016",
+          "type": "intel",
+          "number": 16,
+          "name": "Diode implants",
+          "section": "Hospital",
+          "location": "After a larger battle where you acquire the shotgun, there will be a computer desk with the Intel on it, across from a painting of a skull and brain, right before the morgue."
+        },
+        {
+          "id": "fear2-intel-017",
+          "type": "intel",
+          "number": 17,
+          "name": "Admitting patients",
+          "section": "Hospital",
+          "location": "After going in the elevator, take a right and your first right, there is an Intel in the left cubicle opposite of the bloody body cubicle."
+        },
+        {
+          "id": "fear2-intel-018",
+          "type": "intel",
+          "number": 18,
+          "name": "Evaluation Report",
+          "section": "Project Origin",
+          "location": "You come to a point where Fox speaks of a woman and there are two elevators, one pried open, across from those is a desk and a wall, behind this wall is a vent, go through the vent to a room with the Intel."
+        },
+        {
+          "id": "fear2-intel-019",
+          "type": "intel",
+          "number": 19,
+          "name": "T.A.C. overview",
+          "section": "Hospital",
+          "location": "After the chamber scene, in the stairwell you are forced to go through, it’s on the railing."
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Discovery",
+      "intelCount": 4,
+      "reflexCount": 1,
+      "items": [
+        {
+          "id": "fear2-intel-020",
+          "type": "intel",
+          "number": 20,
+          "name": "Demolition Plan",
+          "section": "Armacham",
+          "location": "In the monitor room upstairs after the big battle."
+        },
+        {
+          "id": "fear2-reflex-02",
+          "type": "reflex",
+          "number": 2,
+          "name": "Reflex Injector 2",
+          "section": "",
+          "location": "After going through a vent there will be a worker executed by a flamethrower soldier, there is a bathroom in this room with the reflex on the floor."
+        },
+        {
+          "id": "fear2-intel-021",
+          "type": "intel",
+          "number": 21,
+          "name": "I.M. transcript #3",
+          "section": "Genevieve Aristide",
+          "location": "After reflex 2 and obtaining the flamethrower there will be a hallway blocked by stuff and an Intel sits in front of it, hard to miss, just follow the blood trail."
+        },
+        {
+          "id": "fear2-intel-022",
+          "type": "intel",
+          "number": 22,
+          "name": "I.M. transcript #2",
+          "section": "Genevieve Aristide",
+          "location": "In the room right next to the two soldiers investigating the headless body, it’s in the back by a monitor, the room itself has an X on the outside wall."
+        },
+        {
+          "id": "fear2-intel-023",
+          "type": "intel",
+          "number": 23,
+          "name": "Dp guidelines",
+          "section": "Armacham",
+          "location": "Right across from the window when you see the abomination crawling towards the soldiers."
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Withdrawal",
+      "intelCount": 5,
+      "reflexCount": 1,
+      "items": [
+        {
+          "id": "fear2-intel-024",
+          "type": "intel",
+          "number": 24,
+          "name": "Info: SGT Fox",
+          "section": "Project Harbinger",
+          "location": "Directly in front of you, through the double sliding doors, behind the dead man, on the counter."
+        },
+        {
+          "id": "fear2-intel-025",
+          "type": "intel",
+          "number": 25,
+          "name": "Info: SGT Morales",
+          "section": "Project Harbinger",
+          "location": "After a series of similar rooms you’ll come to one with a dead person in red in it, this is after Fox get’s his surprise. It’s by the dead person."
+        },
+        {
+          "id": "fear2-intel-026",
+          "type": "intel",
+          "number": 26,
+          "name": "Harbinger Failures",
+          "section": "Project Harbinger",
+          "location": "After an abomination scares the shit out of you, keep going down the corridors to a dead person in red with Intel lying next to him."
+        },
+        {
+          "id": "fear2-reflex-03",
+          "type": "reflex",
+          "number": 3,
+          "name": "Reflex Injector 3",
+          "section": "",
+          "location": "Right after the last Intel, it’s down the stairs to the left on a counter once you reach the elevator that goes up as you see it."
+        },
+        {
+          "id": "fear2-intel-027",
+          "type": "intel",
+          "number": 27,
+          "name": "Schedule change",
+          "section": "Armacham",
+          "location": "Once you reach the tunnels, there will be a battle, a considerable amount of guys, and on the right of this room is the Intel, this is after all the explosions and running down the catwalks."
+        },
+        {
+          "id": "fear2-intel-028",
+          "type": "intel",
+          "number": 28,
+          "name": "Info: P. Fettel",
+          "section": "Project Origin",
+          "location": "After the “fuckery” comment by Vanek, you’ll come across a big room with a lot of boxes, in the middle there is a shelf with the Intel and supplies."
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Replica",
+      "intelCount": 5,
+      "reflexCount": 1,
+      "items": [
+        {
+          "id": "fear2-intel-029",
+          "type": "intel",
+          "number": 29,
+          "name": "Replica Upgrades",
+          "section": "Replica Forces",
+          "location": "Right at the beginning, there’s a room with a dead person in red again, the room’s walls are all windows so it’s easy to spot, you have to go right past it, there’s blood on the window by it."
+        },
+        {
+          "id": "fear2-reflex-04",
+          "type": "reflex",
+          "number": 4,
+          "name": "Reflex Injector 4",
+          "section": "",
+          "location": "After looking at the abomination with the monitors go through the double doors directly across from it to turn off a valve to a flaming pipe that blocks the room with the reflex sitting on a shelf before coming into the abomination monitor room."
+        },
+        {
+          "id": "fear2-intel-030",
+          "type": "intel",
+          "number": 30,
+          "name": "Testing Reminder",
+          "section": "Outer Shell",
+          "location": "After getting the reflex, go upstairs to find a medpack and Intel at the observation windows, hard to miss, you go right by it."
+        },
+        {
+          "id": "fear2-intel-031",
+          "type": "intel",
+          "number": 31,
+          "name": "Combat testing",
+          "section": "Outer Shell",
+          "location": "After fighting abominations for a while you’ll go up a ladder into a lab, in the lab on the right side on a computer is the Intel."
+        },
+        {
+          "id": "fear2-intel-032",
+          "type": "intel",
+          "number": 32,
+          "name": "Threat report",
+          "section": "Armacham",
+          "location": "You’ll come to a lab after lifting a box out of the way, in this lab, there’s a ladder that will take you to an upper level in this battle and there will be armor and Intel directly in front of you on a table."
+        },
+        {
+          "id": "fear2-intel-033",
+          "type": "intel",
+          "number": 33,
+          "name": "Lift problems",
+          "section": "Outer Shell",
+          "location": "In an office under where you jump down by the broken ladder. This is in the room where you battle a Power Armor that blasts out of a door. The same room where you have to turn the valves for the lift."
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Ruin",
+      "intelCount": 3,
+      "reflexCount": 1,
+      "items": [
+        {
+          "id": "fear2-intel-034",
+          "type": "intel",
+          "number": 34,
+          "name": "Replica activity",
+          "section": "Replica Forces",
+          "location": "Right after seeing the plane go forward in an office on a desk to the left."
+        },
+        {
+          "id": "fear2-intel-035",
+          "type": "intel",
+          "number": 35,
+          "name": "Civilian threat",
+          "section": "Armacham",
+          "location": "Right after encountering the remnant civilian for the first time, it’s in a room left to one of the first ghosts you see and the wood cabinet that needs to be moved."
+        },
+        {
+          "id": "fear2-intel-036",
+          "type": "intel",
+          "number": 36,
+          "name": "Powered Armor",
+          "section": "Replica Forces",
+          "location": "During the battle around the downed plane, once upstairs, go all the way to the back of this same building to find a box with both the Intel and reflex sitting on it."
+        },
+        {
+          "id": "fear2-reflex-05",
+          "type": "reflex",
+          "number": 5,
+          "name": "Reflex Injector 5",
+          "section": "",
+          "location": "During the battle around the downed plane, once upstairs, go all the way to the back of this same building to find a box with both the Intel and reflex sitting on it."
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Top",
+      "intelCount": 2,
+      "reflexCount": 1,
+      "items": [
+        {
+          "id": "fear2-intel-037",
+          "type": "intel",
+          "number": 37,
+          "name": "EPA manual #1",
+          "section": "Replica Forces",
+          "location": "Right at the beginning after killing three replicas, it’s in the cubicle on a cabinet."
+        },
+        {
+          "id": "fear2-intel-038",
+          "type": "intel",
+          "number": 38,
+          "name": "EPA manual #2",
+          "section": "Replica Forces",
+          "location": "They both sit on the same table when you arrive at the closed doors that you have to open, when you exit the power armor, it’s to the left, up some stairs, and in the room on the table."
+        },
+        {
+          "id": "fear2-reflex-06",
+          "type": "reflex",
+          "number": 6,
+          "name": "Reflex Injector 6",
+          "section": "",
+          "location": "They both sit on the same table when you arrive at the closed doors that you have to open, when you exit the power armor, it’s to the left, up some stairs, and in the room on the table."
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Elementary",
+      "intelCount": 4,
+      "reflexCount": 1,
+      "items": [
+        {
+          "id": "fear2-intel-039",
+          "type": "intel",
+          "number": 39,
+          "name": "Conference request",
+          "section": "Wade Elementary",
+          "location": "As soon as you shoot the lock to the grate and enter the school the first room has Intel right on the floor by the teacher’s desk."
+        },
+        {
+          "id": "fear2-intel-040",
+          "type": "intel",
+          "number": 40,
+          "name": "Status Report",
+          "section": "Armacham",
+          "location": "Once upstairs go straight down the hallway all the way to the end where the stairs will be barricaded, it sits in front of this."
+        },
+        {
+          "id": "fear2-intel-041",
+          "type": "intel",
+          "number": 41,
+          "name": "School attendance",
+          "section": "Wade Elementary",
+          "location": "This is a room you have to go through to progress, you pass this room to get to Intel 40 and the Intel itself is on a shelf by a globe and projector. The room is on the left of the Canned Food Drive sign."
+        },
+        {
+          "id": "fear2-reflex-07",
+          "type": "reflex",
+          "number": 7,
+          "name": "Reflex Injector 7",
+          "section": "",
+          "location": "This one caught me by surprise because it was actually somewhat hidden under a projector in a room in the hallway with yellow lockers and where ghost start to appear. It’s the room on the right after the trophy case."
+        },
+        {
+          "id": "fear2-intel-042",
+          "type": "intel",
+          "number": 42,
+          "name": "Event flyer",
+          "section": "Wade Elementary",
+          "location": "Right after defeating the power armor, it’s in the second room upstairs, right in the middle of the classroom."
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Nurse’s Office",
+      "intelCount": 10,
+      "reflexCount": 1,
+      "items": [
+        {
+          "id": "fear2-intel-043",
+          "type": "intel",
+          "number": 43,
+          "name": "Updated Schedule",
+          "section": "Wade Elementary",
+          "location": "This is on a shelf behind a projector in the room that is after the burning bathroom hole."
+        },
+        {
+          "id": "fear2-intel-044",
+          "type": "intel",
+          "number": 44,
+          "name": "Student essay",
+          "section": "Wade Elementary",
+          "location": "After Intel 43 take a right outside the doors and go into the other classroom, it’s by the projector."
+        },
+        {
+          "id": "fear2-reflex-08",
+          "type": "reflex",
+          "number": 8,
+          "name": "Reflex Injector 8",
+          "section": "",
+          "location": "Just a little bit after seeing two soldiers get incinerated. It’s in the bathroom on the right in the hallway where there are some guys dead over a barricade."
+        },
+        {
+          "id": "fear2-intel-045",
+          "type": "intel",
+          "number": 45,
+          "name": "Supplements",
+          "section": "Wade Elementary",
+          "location": "This is right after the big fight in the kitchen and the soldiers count to three to come through the door, through that door go straight to a shelf that has the Intel on it."
+        },
+        {
+          "id": "fear2-intel-046",
+          "type": "intel",
+          "number": 46,
+          "name": "Updated orders",
+          "section": "Armacham",
+          "location": "After getting through the ghost part you’ll fight some more guys, after this there is a bid teal propane tank and right next to it is the Intel. This is before you use the elevator."
+        },
+        {
+          "id": "fear2-intel-047",
+          "type": "intel",
+          "number": 47,
+          "name": "Info: ladybugs",
+          "section": "Paragon Program",
+          "location": "This is right as you get out of the elevator it is in the right cubicle of the office by the guys."
+        },
+        {
+          "id": "fear2-intel-048",
+          "type": "intel",
+          "number": 48,
+          "name": "Info: Bluebirds",
+          "section": "Paragon Program",
+          "location": "This is directly after getting Intel 47, it’s in the next possible room on the right, in the cubicle."
+        },
+        {
+          "id": "fear2-intel-049",
+          "type": "intel",
+          "number": 49,
+          "name": "Dress code",
+          "section": "Wade Elementary",
+          "location": "After you get the keycard and the principle scares you, jump through the window pick one up off the floor and then go to his desk to pick up the other."
+        },
+        {
+          "id": "fear2-intel-050",
+          "type": "intel",
+          "number": 50,
+          "name": "Strange nightmares",
+          "section": "Wade Elementary",
+          "location": "After you get the keycard and the principle scares you, jump through the window pick one up off the floor and then go to his desk to pick up the other."
+        },
+        {
+          "id": "fear2-intel-051",
+          "type": "intel",
+          "number": 51,
+          "name": "Info: Treefrogs",
+          "section": "Paragon Program",
+          "location": "After getting the keycard and fighting the Armacham in the classroom, go into the red room and get this Intel by the windows."
+        },
+        {
+          "id": "fear2-intel-052",
+          "type": "intel",
+          "number": 52,
+          "name": "Paragon manual",
+          "section": "Paragon Program",
+          "location": "Right in the next room from Intel 51 go straight, through a door, and into a cubicle, right by the swearing and milk posters."
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "title": "Snake Fist",
+      "intelCount": 7,
+      "reflexCount": 1,
+      "items": [
+        {
+          "id": "fear2-intel-053",
+          "type": "intel",
+          "number": 53,
+          "name": "Elevator checklist",
+          "section": "Paragon Program",
+          "location": "Right at the beginning of the level, go straight to the computers in front of all the screens, it’s in plain sight."
+        },
+        {
+          "id": "fear2-intel-054",
+          "type": "intel",
+          "number": 54,
+          "name": "Cancellation",
+          "section": "Project Origin",
+          "location": "After hearing that sector 4 is on a lockdown you’ll find a room with busted windows, jump through, the Intel is in plain sight. It’s a dark blue room. The door tag is Chem Lab C-400."
+        },
+        {
+          "id": "fear2-intel-055",
+          "type": "intel",
+          "number": 55,
+          "name": "Supplement notes",
+          "section": "Paragon Program",
+          "location": "Near 54, if you drop down the ladder near it, it’s right on the floor, this ladder is also near the big security doors covered in red light."
+        },
+        {
+          "id": "fear2-reflex-09",
+          "type": "reflex",
+          "number": 9,
+          "name": "Reflex Injector 9",
+          "section": "",
+          "location": "After returning power and stopping the lockdown, go back to where Intel 54 was, and go down the ladder where the mechanical arm is moving, it will uncover the injector for you to pick up."
+        },
+        {
+          "id": "fear2-intel-056",
+          "type": "intel",
+          "number": 56,
+          "name": "Paragon findings",
+          "section": "Paragon Program",
+          "location": "After Snake Fist mentions danger and Genevieve releasing specimens, jump through or walk through the door of the holding tank and find the Intel on the floor."
+        },
+        {
+          "id": "fear2-intel-057",
+          "type": "intel",
+          "number": 57,
+          "name": "Recommendations",
+          "section": "Project Origin",
+          "location": "This is in a box covered by glass in a lab/morgue after going downstairs from the upper level of where Vanek asks for his men to just shoot you already."
+        },
+        {
+          "id": "fear2-intel-058",
+          "type": "intel",
+          "number": 58,
+          "name": "Test Results",
+          "section": "Project Origin",
+          "location": "This is in the main security center room, in the abomination jail cell room, this is after the run in with col. Vanek. It’s right on the floor, easy to spot."
+        },
+        {
+          "id": "fear2-intel-059",
+          "type": "intel",
+          "number": 59,
+          "name": "I.M. transcript #4",
+          "section": "Genevieve Aristide",
+          "location": "Right in Snake Fist’s office, on a desk opposite of his."
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "title": "Keegan",
+      "intelCount": 5,
+      "reflexCount": 1,
+      "items": [
+        {
+          "id": "fear2-intel-060",
+          "type": "intel",
+          "number": 60,
+          "name": "Auburn woes",
+          "section": "Project Origin",
+          "location": "When you run into assassins again, in a small booth, by the rolling bar entrance thingeys."
+        },
+        {
+          "id": "fear2-reflex-10",
+          "type": "reflex",
+          "number": 10,
+          "name": "Reflex Injector 10",
+          "section": "",
+          "location": "When you walk upstairs go to your right and back down the stairs to find the reflex and armor you most likely already saw."
+        },
+        {
+          "id": "fear2-intel-061",
+          "type": "intel",
+          "number": 61,
+          "name": "Electrical hazard",
+          "section": "Metro Subway",
+          "location": "When you come to the tracks, there is a bloody skeleton on a bench on the right, the Intel is next to this and a pillar."
+        },
+        {
+          "id": "fear2-intel-062",
+          "type": "intel",
+          "number": 62,
+          "name": "Line extension",
+          "section": "Metro Subway",
+          "location": "You find this in one of the subway cars after Stokes mentions the APC and getting out."
+        },
+        {
+          "id": "fear2-intel-063",
+          "type": "intel",
+          "number": 63,
+          "name": "Supply report",
+          "section": "Armacham",
+          "location": "This is easy to spot, right as you go through a hole in a brick wall and down some steps, it’s on some wood on saw horses by a big red gas canister."
+        },
+        {
+          "id": "fear2-intel-064",
+          "type": "intel",
+          "number": 64,
+          "name": "Laser manual",
+          "section": "Laser",
+          "location": "Where the Replicas usually get hit by the train that comes smashing into another train, up the stairs on the left and in a dark room behind a gate. This is connected to the room with the table saw and couch."
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "title": "Epicenter",
+      "intelCount": 0,
+      "reflexCount": 1,
+      "items": [
+        {
+          "id": "fear2-reflex-11",
+          "type": "reflex",
+          "number": 11,
+          "name": "Reflex Injector 11",
+          "section": "",
+          "location": "Right before you enter the theatre, it’s in the room where the laser guy busts out the doors, it’s to the right on a counter."
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "title": "Approach",
+      "intelCount": 7,
+      "reflexCount": 1,
+      "items": [
+        {
+          "id": "fear2-intel-065",
+          "type": "intel",
+          "number": 65,
+          "name": "Replica brochure 1",
+          "section": "Replica Forces",
+          "location": "Soon after the beginning you’ll come to a stairway that has a Replica pod that opens in front of you with no one in it, the Intel is on the floor here."
+        },
+        {
+          "id": "fear2-intel-066",
+          "type": "intel",
+          "number": 66,
+          "name": "STS guidelines",
+          "section": "Armacham",
+          "location": "Quickly after 65, it’s on the floor by a yellow and black striped line where all the cargo is located on the tram."
+        },
+        {
+          "id": "fear2-intel-067",
+          "type": "intel",
+          "number": 67,
+          "name": "Transfer notice",
+          "section": "Alma Wade",
+          "location": "This is by a control panel after crashing the tram and going all the way up the catwalks and ladders, it’s after the second time you see Keegan wandering."
+        },
+        {
+          "id": "fear2-intel-068",
+          "type": "intel",
+          "number": 68,
+          "name": "Replica brochure 2",
+          "section": "Replica Forces",
+          "location": "Right before you see Keegan straight ahead of you past a catwalk that goes down and back up, turn to your right and drop down the ladder to find this on the floor."
+        },
+        {
+          "id": "fear2-intel-069",
+          "type": "intel",
+          "number": 69,
+          "name": "Project roster",
+          "section": "Armacham",
+          "location": "Right before coming into a big ass room where Keegan stands out in the open on a elevator type platform, go right of the doors and find the Intel on the floor by a generator."
+        },
+        {
+          "id": "fear2-intel-070",
+          "type": "intel",
+          "number": 70,
+          "name": "Replica brochure 3",
+          "section": "Replica Forces",
+          "location": "When facing the platform control panel, turn right and go down a ladder to find this Intel on the ground."
+        },
+        {
+          "id": "fear2-reflex-12",
+          "type": "reflex",
+          "number": 12,
+          "name": "Reflex Injector 12",
+          "section": "",
+          "location": "It’s in a little nook away from the major part of the same room as the last Intel, and you get to it from going up the platform, going straight off of it, turning right, and dropping down a ladder and climbing up one. It overlooks where you came in the room initially."
+        },
+        {
+          "id": "fear2-intel-071",
+          "type": "intel",
+          "number": 71,
+          "name": "Replica brochure 4",
+          "section": "Replica Forces",
+          "location": "Shortly after seeing Keegan go through the white light doors and he tells you to stay away, you’ll come to a yellow stairway go beneath it to find the last Intel for this mission. Go through the doors to get this."
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "title": "Climax",
+      "intelCount": 5,
+      "reflexCount": 1,
+      "items": [
+        {
+          "id": "fear2-reflex-13",
+          "type": "reflex",
+          "number": 13,
+          "name": "Reflex Injector 13",
+          "section": "",
+          "location": "Right as you exit the tunnel after seeing “the tree”, it’s right in front of you."
+        },
+        {
+          "id": "fear2-intel-072",
+          "type": "intel",
+          "number": 72,
+          "name": "Containing Alma",
+          "section": "Project Origin",
+          "location": "On a computer desk with big monitors in the middle of the room where you meet up with Stokes again, after the turret battle."
+        },
+        {
+          "id": "fear2-intel-073",
+          "type": "intel",
+          "number": 73,
+          "name": "Situation update",
+          "section": "Genevieve Aristide",
+          "location": "Right in the middle of the room you enter after going up the elevator with Stokes. It’s on the floor."
+        },
+        {
+          "id": "fear2-intel-074",
+          "type": "intel",
+          "number": 74,
+          "name": "Power flow",
+          "section": "Project Harbinger",
+          "location": "Right after 73, it’s on the floor by the door you must go through. By the machines on the walls."
+        },
+        {
+          "id": "fear2-intel-075",
+          "type": "intel",
+          "number": 75,
+          "name": "Music box",
+          "section": "Alma Wade",
+          "location": "Right at the end of the bullet ridden bridge, after going through decontaminating doors, right after 74."
+        },
+        {
+          "id": "fear2-intel-076",
+          "type": "intel",
+          "number": 76,
+          "name": "Emergency shutdown",
+          "section": "Project Harbinger",
+          "location": "After the next airlock, straight, forward on some red boxes."
+        }
+      ]
+    }
+  ]
+}

@@ -4,6 +4,7 @@ const titleArt = {
   'The Darkness': 'THE<br>DARKNESS',
   'State of Decay 2': 'STATE OF<br>DECAY 2',
   'Dead by Daylight': 'DEAD BY<br>DAYLIGHT',
+  'F.E.A.R. 2: Project Origin': 'F.E.A.R. 2',
   'The Elder Scrolls Online': 'ELDER SCROLLS<br>ONLINE'
 };
 
