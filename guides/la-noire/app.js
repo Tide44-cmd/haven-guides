@@ -31,6 +31,13 @@ function toggle(type, id, value) {
   save();
 }
 
+function markRelatedGearUsed(caseItem) {
+  let changed = false;
+  for (const item of caseItem.vehicleOpportunities) if (!has('vehicles', item.id)) { state.vehicles.push(item.id); changed = true; }
+  for (const item of caseItem.weaponOpportunities) if (!has('weapons', item.id)) { state.weapons.push(item.id); changed = true; }
+  if (changed) save();
+}
+
 function caseIsDone(caseItem) {
   if (has('cases', caseItem.id)) return true;
   const clues = caseItem.blocks.flatMap(block => block.clues);
@@ -52,8 +59,9 @@ function opportunityCards(caseItem) {
     ...caseItem.weaponOpportunities.map(item => ({ ...item, kind: 'Weapon', icon: '⚠' })),
     ...caseItem.vehicleOpportunities.map(item => ({ ...item, kind: 'Vehicle', icon: '◆' }))
   ];
-  if (!items.length) return '';
-  return `<div class="opportunity-grid">${items.map(item => `<article class="opportunity"><span>${item.icon} ${item.kind}</span><strong>${escapeHtml(item.name)}</strong><p>${escapeHtml(item.note)}</p></article>`).join('')}</div>`;
+  const sideObjectives = (caseItem.sideObjectives || []).map(item => ({ ...item, kind: 'Optional objective', icon: '☆' }));
+  if (!items.length && !sideObjectives.length) return '';
+  return `<div class="opportunity-grid">${[...items, ...sideObjectives].map(item => `<article class="opportunity ${item.kind === 'Optional objective' ? 'side-objective' : ''}"><span>${item.icon} ${item.kind}</span><strong>${item.source ? `<a href="${escapeHtml(item.source)}" target="_blank" rel="noopener">${escapeHtml(item.name)}</a>` : escapeHtml(item.name)}</strong><p>${escapeHtml(item.description || item.note)}</p></article>`).join('')}</div>`;
 }
 
 function renderTopic(topic) {
@@ -63,7 +71,7 @@ function renderTopic(topic) {
 
 function renderBlock(block, index, caseItem) {
   const found = block.clues.filter(clue => has('clues', clue.id)).length;
-  return `<details class="route-block" ${index === 0 ? 'open' : ''}>
+  return `<details class="route-block" data-route-block="${index}">
     <summary><span class="route-index">${String(index + 1).padStart(2, '0')}</span><span><strong>${escapeHtml(block.title)}</strong><small>${block.clues.length ? `${found}/${block.clues.length} clues here · ${block.caseRunning || found}/${caseItem.clueTotal} in case` : block.type === 'interview' ? `${block.topics.length} interview topic${block.topics.length === 1 ? '' : 's'}` : 'Route guidance'}</small></span><i>⌄</i></summary>
     <div class="route-body">
       ${block.clues.length ? `<div class="clue-list">${block.clues.map(clue => `<label class="check-row ${has('clues', clue.id) ? 'done' : ''}"><input type="checkbox" data-check="clues" data-id="${clue.id}" ${has('clues', clue.id) ? 'checked' : ''}><span><strong>${escapeHtml(clue.name)}</strong></span></label>`).join('')}</div>` : ''}
@@ -82,8 +90,8 @@ function renderCase(caseItem, deskName, forceOpen) {
     <div class="case-body">
       ${caseItem.objectives.length ? `<div class="objectives"><span>Case objectives</span><ul>${caseItem.objectives.map(item => `<li>${escapeHtml(item)}</li>`).join('')}</ul></div>` : ''}
       ${opportunityCards(caseItem)}
-      <div class="case-actions"><button type="button" data-case-complete="${caseItem.id}" class="case-complete ${done ? 'done' : ''}">${done ? '✓ Case closed' : 'Mark case complete'}</button><span>Clues save automatically as you tick them.</span></div>
       <div class="route-list">${caseItem.blocks.map((block, index) => renderBlock(block, index, caseItem)).join('')}</div>
+      <div class="case-actions"><span>Clues save as you tick them. Close the case when you’re ready to move on.</span><button type="button" data-case-solved="${caseItem.id}" class="case-complete ${done ? 'done' : ''}">${done ? '✓ Case solved' : 'Mark case solved'}</button></div>
     </div>
   </details>`;
 }
@@ -95,7 +103,7 @@ function renderCases() {
     return `<button type="button" class="desk-button ${desk.id === activeDesk ? 'active' : ''}" data-desk="${desk.id}"><strong>${desk.name}</strong><span>${done}/${desk.cases.length} cases</span></button>`;
   }).join('');
   const desk = guide.desks.find(item => item.id === activeDesk);
-  const openIds = firstCaseRender ? new Set([desk.cases[0].id]) : new Set([...document.querySelectorAll('.case-card[open]')].map(item => item.dataset.caseId));
+  const openIds = firstCaseRender ? new Set() : new Set([...document.querySelectorAll('.case-card[open]')].map(item => item.dataset.caseId));
   firstCaseRender = false;
   const visible = desk.cases.filter(caseItem => {
     if (incompleteOnly && caseIsDone(caseItem)) return false;
@@ -161,15 +169,42 @@ document.addEventListener('click', event => {
   if (crimeDesk) { activeCrimeDesk = crimeDesk.dataset.crimeDesk; render(); return; }
   const arsenal = event.target.closest('[data-arsenal]');
   if (arsenal) { activeArsenal = arsenal.dataset.arsenal; render(); return; }
-  const caseButton = event.target.closest('[data-case-complete]');
-  if (caseButton) { const id = caseButton.dataset.caseComplete; toggle('cases', id, !has('cases', id)); render(); }
+  const caseButton = event.target.closest('[data-case-solved]');
+  if (caseButton) {
+    const desk = guide.desks.find(item => item.id === activeDesk);
+    const caseIndex = desk.cases.findIndex(item => item.id === caseButton.dataset.caseSolved);
+    const currentCase = desk.cases[caseIndex];
+    const nextCase = desk.cases.slice(caseIndex + 1).find(item => !caseIsDone(item));
+    markRelatedGearUsed(currentCase);
+    toggle('cases', caseButton.dataset.caseSolved, true);
+    render();
+    if (nextCase) {
+      const nextCard = document.querySelector(`.case-card[data-case-id="${nextCase.id}"]`);
+      if (nextCard) { nextCard.open = true; nextCard.scrollIntoView({ behavior: 'smooth', block: 'center' }); }
+    }
+  }
 });
 
 document.addEventListener('change', event => {
   const input = event.target.closest('[data-check]');
   if (!input) return;
+  const caseCard = input.closest('.case-card');
+  const openBlocks = caseCard ? new Set([...caseCard.querySelectorAll('.route-block[open]')].map(block => block.dataset.routeBlock)) : new Set();
   toggle(input.dataset.check, input.dataset.id, input.checked);
+  if (caseCard) {
+    const currentCase = guide.desks.flatMap(desk => desk.cases).find(item => item.id === caseCard.dataset.caseId);
+    const matchingItems = input.dataset.check === 'vehicles' ? currentCase?.vehicleOpportunities : input.dataset.check === 'weapons' ? currentCase?.weaponOpportunities : [];
+    const matchingItem = matchingItems?.find(item => item.id === input.dataset.id);
+    if (matchingItem) toggle(input.dataset.check, matchingItem.id, input.checked);
+  }
   render();
+  if (caseCard) {
+    const renderedCase = document.querySelector(`.case-card[data-case-id="${caseCard.dataset.caseId}"]`);
+    if (renderedCase) {
+      renderedCase.open = true;
+      renderedCase.querySelectorAll('.route-block').forEach(block => { block.open = openBlocks.has(block.dataset.routeBlock); });
+    }
+  }
 });
 
 byId('search').addEventListener('input', render);
