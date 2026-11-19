@@ -1020,7 +1020,8 @@
               "clues": [],
               "topics": [],
               "paragraphs": [
-                "Return to the Pattison residence to report the new findings to the wife. She immediately points the finger at Sabo, who comes out brandishing a gun. The scene ends badly, and you have to chase down Sabo."
+                "Return to the Pattison residence to report the new findings to the wife. She immediately points the finger at Sabo, who comes out brandishing a gun. The scene ends badly, and you have to chase down Sabo.",
+                "When Leroy Sabo flees, use a warning shot to stop him if you are going for Not So Hasty. Taking him down also advances the case."
               ]
             }
           ],
@@ -1119,10 +1120,6 @@
                 {
                   "id": "traffic-a-slip-of-the-tongue-clue-06",
                   "name": "Cheque"
-                },
-                {
-                  "id": "traffic-a-slip-of-the-tongue-clue-07",
-                  "name": "Fake address (discovered upon arrival)."
                 }
               ],
               "topics": [
@@ -1148,8 +1145,24 @@
                 }
               ],
               "paragraphs": [
-                "When you get to the auto lot, Richard Coombs, the owner, tries to sell you a Buick for your car. Ignoring his humour, and his offer, you proceed straight to questioning him in his office. Interview: Richard Coombs",
-                "Having been duped, you head back to the police station."
+                "Speak with Richard Coombs in his office. Inspect the bill of sale and cheque. Turn over Archer’s ownership papers to unlock the Association with Marquee question.",
+                "After the interview, put out an APB for Jean Archer. Dispatch wants you at Central Police Station for James Belasco, and Marquee Printing on Aliso Street is another lead. Check Archer’s listed home address before following either of those leads."
+              ],
+              "caseRunning": 6,
+              "globalRunning": 53
+            },
+            {
+              "type": "section",
+              "title": "Jean Archer’s listed address",
+              "clues": [
+                {
+                  "id": "traffic-a-slip-of-the-tongue-clue-07",
+                  "name": "Fake address (discovered upon arrival)."
+                }
+              ],
+              "topics": [],
+              "paragraphs": [
+                "Go to the address on Archer’s ownership papers first. It’s a vacant lot, which adds the Fake Address clue. Then go to Central Police Station to question James Belasco about the green Frazer."
               ],
               "caseRunning": 7,
               "globalRunning": 54
@@ -1157,12 +1170,6 @@
             {
               "type": "section",
               "title": "Central Police Station",
-              "optionalAchievements": [
-                {
-                  "name": "Femme Imbécile",
-                  "hint": "When dispatch locates Jean Archer, run straight to the Western Union office. Answer her interview in order: Bad Cop; Accuse with Belasco’s ownership papers; Bad Cop."
-                }
-              ],
               "clues": [
                 {
                   "id": "traffic-a-slip-of-the-tongue-clue-08",
@@ -1183,10 +1190,6 @@
                 {
                   "id": "traffic-a-slip-of-the-tongue-clue-12",
                   "name": "Auto Theft Racket"
-                },
-                {
-                  "id": "traffic-a-slip-of-the-tongue-clue-13",
-                  "name": "Known associates of Archer (given during questioning of Archer)"
                 }
               ],
               "topics": [
@@ -1205,7 +1208,26 @@
                 {
                   "instruction": "Stolen vehicles warehoused: Bad Cop",
                   "response": ""
-                },
+                }
+              ],
+              "paragraphs": [
+                "Question James Belasco in Interview Room Two. Inspect his ownership papers and compare them with Archer’s.",
+                "Ray Pinker confirms the pink slips are genuine and that Marquee Printing produced them. Once Fleischer reports Archer’s location, go after her before visiting Marquee."
+              ],
+              "caseRunning": 12,
+              "globalRunning": 59
+            },
+            {
+              "type": "section",
+              "title": "Western Union Office · Jean Archer",
+              "arrival": "When Cmdr. Fleischer tells you Archer has been spotted, run straight to the Western Union office at 253 South Hill. She can leave if you take too long. Reload the last checkpoint if you miss her.",
+              "clues": [
+                {
+                  "id": "traffic-a-slip-of-the-tongue-clue-13",
+                  "name": "Known associates of Archer (given during questioning of Archer)"
+                }
+              ],
+              "topics": [
                 {
                   "instruction": "Stolen Kaiser Frazer: Bad Cop",
                   "response": ""
@@ -1213,14 +1235,23 @@
                 {
                   "instruction": "Association with Belasco: Accuse - Belasco's ownership papers",
                   "response": ""
+                },
+                {
+                  "instruction": "Stolen auto courier: Bad Cop",
+                  "response": ""
                 }
               ],
               "paragraphs": [
-                "When you return to Central Station, Watch Cmdr. Mel Fleischer tells you he's in Interview Room Two, and says that this is \"another stolen car with legit papers.\" Go in the room to begin the interrogation. He already is pissed at you, insulting you and saying his papers are legit. He also demands a lawyer. You look at the pink slip and claim it's a forgery, but it appears legitimate. Interview: James Belasco",
-                "After apprehending Archer, go to the Marquee Printing Company to speak with Gordon Leitvol."
+                "Interview Archer to learn who supplied the drivers and where they collected the stolen cars. Then head to Marquee Printing Company to question Gordon Leitvol."
               ],
               "caseRunning": 13,
-              "globalRunning": 60
+              "globalRunning": 60,
+              "optionalAchievements": [
+                {
+                  "name": "Femme Imbécile",
+                  "hint": "When dispatch locates Jean Archer, run straight to the Western Union office. Answer her interview in order: Bad Cop; Accuse with Belasco’s ownership papers; Bad Cop."
+                }
+              ]
             },
             {
               "type": "section",
@@ -1242,11 +1273,11 @@
                 },
                 {
                   "instruction": "Coombs auto deliveries: Bad Cop",
-                  "response": "According to Leitvol, this problem happened two years ago, where several used car lots were selling blank documents to a criminal organisation. While he doesn't recall Harrison or Belasco, he does remember Coombs, and he says they may have been involved in stolen documents in the past. When Phelps convinces Leitvol to show the Marquee Delivery Ledger, he notices that the one most frequently involved in placing orders comes from a \"S. Bigelow\" of 58 Industrial St., where the warehouse might be. Head there now."
+                  "response": "Leitvol lets you inspect the delivery ledger. Look for S. Bigelow’s orders, which point to the warehouse at 58 Industrial Street."
                 }
               ],
               "paragraphs": [
-                "Gordon's company is the only one that prints state vehicle titles. He suggests forgery when asked if any of his goods or equipment were stolen recently, and Phelps says the police will keep it in mind. He then begins to question him. Interview: Gordon Leitvol"
+                "Question Gordon Leitvol, then inspect the delivery ledger and head to 58 Industrial Street."
               ],
               "caseRunning": 14,
               "globalRunning": 61
@@ -1285,19 +1316,30 @@
                 {
                   "instruction": "Association with Leitvol: Accuse — Note from Ray Pinker",
                   "response": "Bigelow confirms that Leitvol supplied the pink slips and used the operation to cover his gambling debts."
-                },
+                }
+              ],
+              "paragraphs": [
+                "Bekowsky thinks it is time to \"bust open the warehouse\" on 58 Industrial St. and as you enter, guns are drawn. There are eight people clustered in the back, two behind the gutted cars, and five others on the opposite side, one of them in the first window you see when you initially ask them to give up. Instead of going through the main door, go through the door Det. Bekowsky enters, and shoot the chain holding the hanging engine quickly, where it will drop on a flammable barrel and explode, killing a couple of people.",
+                "Up the stairs there are two more gunmen, watch your aim, use cover and take them out. After the gunmen are killed, one guy is in the office you storm in, Steven Bigelow, the warehouse operator. While Bekowsky watches him, you search his office for clues. The box of pink slips shows they have enough to keep stealing vehicles for a while.",
+                "The delivery note is directly coming from Levitol and his printing company, with horse betting slips made out by Levitol, where he doesn't appear to be winning. Phelps adds pressure on Bigelow, knowing he's involved in the operation of stolen cars and pink slips, but Bigelow just says he works on cars for \"customers.\" The questioning begins. Interview: Steven Bigelow",
+                "After arresting Steven Bigelow, return to Marquee Printing to confront Gordon Leitvol."
+              ],
+              "caseRunning": 18,
+              "globalRunning": 65
+            },
+            {
+              "type": "section",
+              "title": "Marquee Printing Company · Final interview",
+              "clues": [],
+              "topics": [
                 {
                   "instruction": "Deliveries to Industrial Street: Accuse — Betting slips",
                   "response": "Leitvol admits his betting problem and offers to cooperate, but Phelps arrests him for conspiracy and fraud."
                 }
               ],
               "paragraphs": [
-                "Bekowsky thinks it is time to \"bust open the warehouse\" on 58 Industrial St. and as you enter, guns are drawn. There are eight people clustered in the back, two behind the gutted cars, and five others on the opposite side, one of them in the first window you see when you initially ask them to give up. Instead of going through the main door, go through the door Det. Bekowsky enters, and shoot the chain holding the hanging engine quickly, where it will drop on a flammable barrel and explode, killing a couple of people.",
-                "Up the stairs there are two more gunmen, watch your aim, use cover and take them out. After the gunmen are killed, one guy is in the office you storm in, Steven Bigelow, the warehouse operator. While Bekowsky watches him, you search his office for clues. The box of pink slips shows they have enough to keep stealing vehicles for a while.",
-                "The delivery note is directly coming from Levitol and his printing company, with horse betting slips made out by Levitol, where he doesn't appear to be winning. Phelps adds pressure on Bigelow, knowing he's involved in the operation of stolen cars and pink slips, but Bigelow just says he works on cars for \"customers.\" The questioning begins. Interview: Steven Bigelow"
-              ],
-              "caseRunning": 18,
-              "globalRunning": 65
+                "Question Leitvol about deliveries to Industrial Street and use the betting slips to challenge his answer."
+              ]
             }
           ],
           "vehicleOpportunities": [],
@@ -1565,6 +1607,7 @@
                 "Enter the prop store to trigger a quick cutscene during which you meet Marlon Hopgood. You ask if he holds castings here, and he admits that he has a little soundstage out back. Follow Hopgood back to his stage.",
                 "Phelps decides to search the joint while Bekowsky keeps an eye on Hopgood. Walk up the small steps and head towards the chaise lounge, where you'll find the Chloral Hydrate on a nearby shelf. Then cross the room to the mirror to trigger a quick scene where Phelps discovers that it is a one way mirror, and behind it there is a camera that you can see. You gotta find that room.",
                 "Exit the soundstage and turn left to go through the door. You'll come out in a storage alley. Turn left and head for the workbench at the back, which has paint, buckets and a few shrunken heads. Look at the prop shrunken head molds to add them to your list. There is also another newspaper (#4) clipping on the bench, make sure you pick that up and check it out.",
+                "Examine the blank wall just left of the workbench. Phelps breaks through the wall and the door behind it to reach the hidden camera room.",
                 "In the room you'll see the camera pointing through the mirror, and some dirty pictures on the walls. You'll find a film canister with Jessica Hamilton and Mark Bishop's names on it. Investigate it further to see that it's empty and add the clue.",
                 "Finally, you'll see the Jungle Drums Film Canister which can reveal Bishop's Whereabouts clue. He's using the Wall of Babylon set mentioned earlier. Music stops, so head back to Marlon Hopgood to start the interview."
               ],
@@ -2454,23 +2497,21 @@
             {
               "type": "section",
               "title": "Just Picked Fruit Market",
+              "clues": [],
+              "topics": [],
+              "paragraphs": [
+                "Enter the market to talk to the proprietor, who is the same guy you just saw. His name is Clem Feeney, and he says that Antonia did come by the store last night."
+              ]
+            },
+            {
+              "type": "interview",
+              "title": "Clem Feeney",
               "clues": [
                 {
                   "id": "homicide-the-silk-stocking-murder-clue-17",
                   "name": "Scalpel"
                 }
               ],
-              "topics": [],
-              "paragraphs": [
-                "Enter the market to talk to the proprietor, who is the same guy you just saw. His name is Clem Feeney, and he says that Antonia did come by the store last night."
-              ],
-              "caseRunning": 17,
-              "globalRunning": 130
-            },
-            {
-              "type": "interview",
-              "title": "Clem Feeney",
-              "clues": [],
               "topics": [
                 {
                   "instruction": "Distinctive Necklace: Bad Cop",
@@ -2487,9 +2528,12 @@
               ],
               "paragraphs": [
                 "Phelps then asks if they can look around. Clem doesn’t like the idea, but Galloway says he has no choice.",
+                "After questioning Feeney, go through the green double doors left of the counter. Inspect the bloody scalpel by the office desk. Open the drawer near the other desk and enter 2-5-3 on the box to find pieces of Antonia’s charm bracelet.",
                 "This triggers a scene and Feeney takes off running, and climbs into his delivery truck.",
                 "Clem veers through back alleys and over pavements. Be careful as you follow not to run over any civilians, because that will count against you in your rating. Drive quickly but carefully until Clem reaches the streets, then pull up alongside him to have Galloway shoot out his tires to catch him and close the case."
-              ]
+              ],
+              "caseRunning": 17,
+              "globalRunning": 130
             }
           ],
           "vehicleOpportunities": [
@@ -3820,11 +3864,11 @@
                 "Quick cutscene, then analysis of the building. Examine the body in front of you. This is Cruz, according to the wallet in his pocket. In his other pocket, you’ll find the Gunmen’s Silver Dollar clue.",
                 "Leave the body and turn around to find the notepad on the boxes behind you. Examine it to find the clue Masangkay, which makes no sense, but you need it.",
                 "To the right is the kitchen, with loads of cardboard boxes from Parnell’s Soup Company. Use the telephone to get an address for this.",
+                "In the bedroom, inspect the open newspaper for the Parnell’s ad and the address of 20th Century Market.",
                 "Head out of the back door and go to the shed outside. Find the four cans together that you can investigate two of them. The one on the right will give you a surprise, and the one on the left will open a secret area.",
+                "Inside the hidden room, use the can opener on both cans to inspect their contents.",
                 "Go to the desk next and find the ledger. With Juan dead, you need to find some sort of pattern in deliveries. Click on any line with E.J’s name on it, and you’ll get the clue Tijuana Dope Shipments",
-                "This is all the clues.",
-                "Now, quit and reload the game. You will be back at Cruz's Residence. If you don't do this, you will need to replay the case for the 5 star rating.",
-                "Now, head to Parnell's."
+                "For the full investigation, visit Parnell’s Soup Factory next. If you are doing a separate High Flyer run, go straight to 20th Century Market instead."
               ],
               "caseRunning": 5,
               "globalRunning": 194
@@ -3982,7 +4026,7 @@
               ],
               "topics": [],
               "paragraphs": [
-                "There isn’t a briefing for this particular case. This is a little more personal, especially if you are Roy Earle. Phelps and Earle are on a night out, attending a boxing match at the American Legion Stadium. Earle’s got 50 big ones on this fight, which he’s confident about, seeing as he knows that the fight it meant to be rigged. English boxer, Hammond is supposed to take a dive with some big money on the line, yet he knocks his opposition out before they even get close to where the fall should take place, and he takes off. Earle is understandably upset.",
+                "Hammond wins the fight and disappears. At the locker room, find his manager Carlo Arquero at the locked door. Phelps forces it open and finds the room empty.",
                 "Open Hammond’s locker, which is the second one from the pin board, and check out the bookmaker’s odds that you find there. There is also a telephone number jotted on there.",
                 "Before you leave, there is a newspaper (#8) cinematic on one of the training tables which you should take a look at.",
                 "Exit the locker room and find Mickey Cohen, the local hotshot, putting heat on the manager. Cohen and Earle seem to know each other quite well, and Phelps demands that Cohen keeps his men away from Hammond.",
@@ -4286,7 +4330,9 @@
                   "response": ""
                 }
               ],
-              "paragraphs": [],
+              "paragraphs": [
+                "After the interview, go to Dr. Stoneman’s practice."
+              ],
               "caseRunning": 9,
               "globalRunning": 219
             },
@@ -4313,7 +4359,9 @@
                   "response": ""
                 }
               ],
-              "paragraphs": []
+              "paragraphs": [
+                "After speaking to the doctor, visit D’Assine Dress Store."
+              ]
             },
             {
               "type": "section",
@@ -4480,7 +4528,8 @@
               ],
               "paragraphs": [
                 "When you get to Arnett’s Apartment, you’ll find Arnett on the floor and somebody escaping. Chase him as far as you can and you’ll activate a cutscene. You’ll then find yourself back at Arnett’s apartment.",
-                "On the floor in front of you is a suitcase, which contains a train ticket and the watch clue. Now question Arnett."
+                "On the floor in front of you is a suitcase, which contains a train ticket and the watch clue. Now question Arnett.",
+                "After questioning Arnett, return to Dr. Stoneman’s practice."
               ],
               "caseRunning": 15,
               "globalRunning": 225
@@ -4491,7 +4540,8 @@
               "clues": [],
               "topics": [],
               "paragraphs": [
-                "Stoneman has a lot to say, so listen to the cutscene. Afterwards, use the phone on his desk."
+                "Stoneman has a lot to say, so listen to the cutscene. Afterwards, use the phone on his desk.",
+                "Use the new lead to go to Willy’s apartment."
               ]
             },
             {
@@ -5059,7 +5109,9 @@
                   "response": "Phelps asks about the prizes, the man gets rather nervous. He says the lucky winners had their names pulled out of a hat, but doesn’t look convinced. Doubt him, and Phelps brings up the “unlucky” Steffens family. Cunningham admits that he gets a call every week from Suburban Redevelopment telling him exactly who has won."
                 }
               ],
-              "paragraphs": []
+              "paragraphs": [
+                "After questioning Cunningham, go to the Suburban Redevelopment address at Elysian Fields."
+              ]
             },
             {
               "type": "section",
@@ -5239,7 +5291,8 @@
               "clues": [],
               "topics": [],
               "paragraphs": [
-                "What is it with these people and running away? This time, Varley tries to escape on foot. You have to hold him up by holding your gun on him for the full count. Do not shoot him, or you fail the case, even if you shoot him in the leg. When you hold him up, he comes quietly."
+                "What is it with these people and running away? This time, Varley tries to escape on foot. You have to hold him up by holding your gun on him for the full count. Do not shoot him, or you fail the case, even if you shoot him in the leg. When you hold him up, he comes quietly.",
+                "Once both Ryan and Varley are in custody, return to Wilshire Station to interview them."
               ]
             },
             {
@@ -5959,6 +6012,7 @@
                 "Continue further on, and turn left at the vehicles. You’ll see two men talking, walk past them. The path will fork, head left first and under a bent L beam. You’ll find the clue Laundry Tag if you examine a tattered garment there.",
                 "Continue along the path and an officer will call you over. Investigate the case inside the locker, and open it to find a few items. First, pick up the camera for the Spy Camera and Espionage clues, then examine the golden earring thing that doesn’t give you a clue, but is important to the case, and Phelps pockets it. Then the business card gives you a new POI, and finally, the paper with a ring gives you a puzzle to solve.",
                 "H=K. Move the outer ring so that K is at the top under the red arrow, then the inner ring so that H is at the top. Then, moving the outer ring moves both rings. You want to get the letters written on the piece of paper as your inner ring, then the outer ring will tell you the equivalent letter for the cipher. You’ll end up with the address N VERMONT AVE, and the clue.",
+                "Return to the fork and take the right-hand path. Speak to the officer and rotate the prop spinner until the lettering lines up. Inspect it for the Airplane Part clue.",
                 "Take the path back out where you entered and chat to the owner of the Electroplating company, Mr Nicholson."
               ],
               "caseRunning": 5,
@@ -6099,7 +6153,8 @@
                 "Find your way to tech services and speak to Pinker. He will show you some photos. Make sure to examine them closely for extra information.",
                 "Photo 1 - Phelps (no information) Photo 2 - Zoom in on watch and ring Photo 3 - Zoom in on tie pin Photo 4 - Zoom in on notes Photo 5 - Zoom in on the two men Photo 6 - Zoom in on house number.",
                 "Pinker wants you to do some chemistry now. Simply put a drop from each bottle into the dish, and watch the fireworks.",
-                "Before you leave, walk around the desk and use the magnifying glass to zoom in on the document to get the Aluminium Polishing Patent clue."
+                "Before you leave, walk around the desk and use the magnifying glass to zoom in on the document to get the Aluminium Polishing Patent clue.",
+                "Once you have finished examining Pinker’s photos and the patent, go to the house shown in the photograph."
               ],
               "caseRunning": 14,
               "globalRunning": 302
@@ -6133,11 +6188,11 @@
               "clues": [],
               "topics": [],
               "paragraphs": [
-                "You have to shoot the drivers of two of the four MP vehicles before they come to a stop. You’ll need to practise where the vehicles come, they do appear as red markers on your map. Use auto aim (you can increase sensitivity in options) to home in on the drivers and pile bullets through the windshield. Equipping the Sharpshooter outfit (even though it claims to not work on machine guns) seemed to help quite a bit. (It certainly can't hurt.)",
+                "Follow Mapes to Hughes Aircraft. If you are going for Bulletproof Windshield, take out two MP drivers before their vehicles stop. The approaches below are for that optional objective.",
                 "The first vehicle appears in front of you, coming from your left. Due to how fast this car arrives and driver is on the far side of the car, this one is almost impossible to shoot.",
                 "Instead, ignore him and head to the trunk of your car and pull out a machine gun. Stay in the street and kill a couple of guys to spawn the next vehicle, but don’t use all your ammo. Stand in the middle of the street and the car drives straight at you. If you're lucky, you'll be lined up nicely to take out the driver as he drives straight towards you.",
                 "The 3rd and 4th drivers spawn inside the gate: the 3rd comes from your left while the 4th comes from your right. The 3rd is definitely the easier of the two to shoot -- ideally you want to run from the street into the center of the area (hopefully keeping enough cover so you don't get killed) to get a good shot on the driver. If you don't nail him, you might have luck turning around and hitting car #4.",
-                "This is not the final level so I recommended playing the next level before replaying previous levels. This is usually the reason you would have failed to, as following the guide, you cannot branch any questions wrongly or miss any clues."
+                "Enter the hangar and finish the fight to close the case."
               ]
             }
           ],

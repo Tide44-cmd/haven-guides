@@ -67,6 +67,7 @@ function renderBlock(block, index, caseItem, open) {
   return `<details class="route-block" data-step="${index}" ${open ? 'open' : ''}>
     <summary><span class="route-index">${String(index + 1).padStart(2, '0')}</span><span><strong>${escapeHtml(block.title)}</strong><small>${block.clues.length ? `${found}/${block.clues.length} clues here · ${block.caseRunning || found}/${caseItem.clueTotal} in case` : block.type === 'interview' ? `${block.topics.length} interview topic${block.topics.length === 1 ? '' : 's'}` : 'Route guidance'}</small></span><i>⌄</i></summary>
     <div class="route-body">
+      ${block.arrival ? `<p class="route-copy">${escapeHtml(block.arrival)}</p>` : ''}
       ${achievements.map(({ name, hint, url }) => {
         const title = url ? `<a href="${escapeHtml(url)}">${escapeHtml(name)}</a>` : escapeHtml(name);
         return `<aside class="opportunity optional-achievement"><span>Optional achievement</span><strong>${title}</strong><p>${escapeHtml(hint)}</p></aside>`;
@@ -238,4 +239,4 @@ byId('reset-progress').addEventListener('click', () => {
   state = { clues: [], cases: [], crimes: [], vehicles: [], weapons: [] }; save(); render();
 });
 
-fetch('data.json?v=3').then(response => response.ok ? response.json() : Promise.reject(new Error('Guide failed to load'))).then(data => { guide = data; load(); render(); }).catch(error => { byId('case-result').textContent = 'Unable to load the case notebook.'; console.error(error); });
+fetch('data.json?v=4').then(response => response.ok ? response.json() : Promise.reject(new Error('Guide failed to load'))).then(data => { guide = data; load(); render(); }).catch(error => { byId('case-result').textContent = 'Unable to load the case notebook.'; console.error(error); });
