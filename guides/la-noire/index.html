@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="A desk-by-desk L.A. Noire case guide with clue, street crime, vehicle and weapon tracking.">
+  <title>L.A. Noire Case Guide — Haven Guide</title>
+  <link rel="stylesheet" href="../../assets/style.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="noire-page">
+  <main class="shell noire-shell">
+    <header class="topbar">
+      <a class="brand" href="../../">HAVEN <i>GUIDE</i></a>
+      <a class="navlink" href="../../">← All games</a>
+    </header>
+
+    <section class="noire-hero">
+      <div class="hero-copy">
+        <div class="eyebrow">L.A. Noire · Case notebook</div>
+        <h1>Work every desk.<br><span>Miss nothing.</span></h1>
+        <p>A case-by-case route through every clue and interview, with street crimes, vehicles and weapons kept close to the missions where you can find them.</p>
+        <div class="hero-facts"><span>5 desks</span><span>26 cases</span><span>309 clues</span><span>40 street crimes</span></div>
+      </div>
+      <div class="hero-progress" aria-live="polite">
+        <div><strong id="case-progress">0</strong><span>/ 26</span></div>
+        <p>cases closed</p>
+        <i><b id="case-progress-bar"></b></i>
+      </div>
+    </section>
+
+    <section class="notebook">
+      <div class="view-tabs" role="tablist" aria-label="Guide sections">
+        <button class="view-tab active" type="button" data-view="cases" aria-selected="true">Desks &amp; cases</button>
+        <button class="view-tab" type="button" data-view="crimes" aria-selected="false">Street crimes <small id="crime-tab-count">0/40</small></button>
+        <button class="view-tab" type="button" data-view="arsenal" aria-selected="false">Vehicles &amp; weapons</button>
+      </div>
+
+      <div class="utility-row">
+        <label class="search-box"><span class="sr-only">Search current view</span><svg aria-hidden="true" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-4-4"></path></svg><input id="search" type="search" placeholder="Search the current section…" autocomplete="off"></label>
+        <button id="incomplete-toggle" class="pill active" type="button" aria-pressed="true">Incomplete only: Yes</button>
+      </div>
+
+      <section id="cases-view" class="guide-view active" aria-label="Desks and cases">
+        <div class="desk-strip" id="desk-strip"></div>
+        <p class="result-line" id="case-result">Loading cases…</p>
+        <div class="case-list" id="case-list"></div>
+      </section>
+
+      <section id="crimes-view" class="guide-view" aria-label="Street crimes">
+        <div class="filter-strip" id="crime-filters"></div>
+        <p class="result-line" id="crime-result"></p>
+        <div class="crime-list" id="crime-list"></div>
+      </section>
+
+      <section id="arsenal-view" class="guide-view" aria-label="Vehicles and weapons">
+        <div class="arsenal-summary">
+          <div><span>Vehicles found</span><strong id="vehicle-count">0/95</strong></div>
+          <div><span>Weapons used</span><strong id="weapon-count">0/9</strong></div>
+        </div>
+        <div class="filter-strip" id="arsenal-filters"></div>
+        <p class="result-line" id="arsenal-result"></p>
+        <div class="arsenal-list" id="arsenal-list"></div>
+      </section>
+
+      <div class="empty-state" id="empty-state" hidden><strong>Nothing matches this view.</strong><span>Clear the search, change the filter, or show completed items.</span></div>
+
+      <div class="action-row">
+        <button type="button" id="export-progress">Export progress</button>
+        <button type="button" id="import-progress">Import progress</button>
+        <button type="button" id="reset-progress" class="danger-button">Reset progress</button>
+        <input id="progress-file" type="file" accept="application/json,.json" hidden>
+      </div>
+    </section>
+
+    <details class="reference-note">
+      <summary>How this guide is organised</summary>
+      <div><p>Clue counters restart for each case. Locations follow the order of the supplied walkthrough; interview rows show the recommended response and evidence.</p><p>Vehicle and weapon notices appear on the cases or street crimes that mention them. The full catalogue remains available in Vehicles &amp; weapons for mop-up.</p></div>
+    </details>
+
+    <footer class="noire-footer">Walkthrough route adapted from the supplied TrueAchievements material. L.A. Noire is owned by Rockstar Games and Take-Two Interactive.</footer>
+  </main>
+  <script src="app.js" defer></script>
+</body>
+</html>

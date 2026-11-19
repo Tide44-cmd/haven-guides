@@ -58,5 +58,15 @@
     "url": "guides/fear-2/",
     "tag": "Collectible tracker • 89 collectibles",
     "theme": "fear-2"
+  },
+  {
+    "title": "L.A. Noire",
+    "platform": "Xbox / PlayStation / PC",
+    "year": "2011",
+    "description": "Work every desk case by case, with clue totals, interviews, street crimes and mission-linked vehicle and weapon notes.",
+    "artwork": "assets/game-tiles/la-noire.jpg",
+    "url": "guides/la-noire/",
+    "tag": "Case guide • 26 cases",
+    "theme": "la-noire"
   }
 ]

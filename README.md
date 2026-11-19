@@ -1,6 +1,6 @@
 # Haven Guide
 
-Static GitHub Pages website containing interactive guides for **The Darkness**, **State of Decay 2**, **Dead by Daylight**, **Gears 5**, **The Elder Scrolls Online**, and **F.E.A.R. 2: Project Origin**.
+Static GitHub Pages website containing interactive guides for **The Darkness**, **State of Decay 2**, **Dead by Daylight**, **Gears 5**, **The Elder Scrolls Online**, **F.E.A.R. 2: Project Origin**, and **L.A. Noire**.
 
 ## Deploy to GitHub Pages
 
@@ -14,6 +14,7 @@ Expected URLs:
 - Gears 5 tracker: `https://tide44-cmd.github.io/haven-guides/guides/gears-5/`
 - The Elder Scrolls Online tracker: `https://tide44-cmd.github.io/haven-guides/guides/elder-scrolls-online/`
 - F.E.A.R. 2 collectible tracker: `https://tide44-cmd.github.io/haven-guides/guides/fear-2/`
+- L.A. Noire case guide: `https://tide44-cmd.github.io/haven-guides/guides/la-noire/`
 
 ## New guides
 
@@ -34,6 +35,7 @@ Expected URLs:
 - Gears 5 achievement filters, completion tracking and class XP/time estimates
 - Elder Scrolls Online completion roadmap with eight practical paths, chapter/activity filters and optional part-progress tracking
 - F.E.A.R. 2 mission-order tracker for 76 Intel files and 13 Reflex Injectors
+- L.A. Noire desk-and-case guide with 309 clue checks, 40 street crimes, 95 vehicles and nine weapons
 
 **Note:** Opening `index.html` directly from your file system can prevent JSON loads in some browsers. Use GitHub Pages or a local web server for testing.
 
