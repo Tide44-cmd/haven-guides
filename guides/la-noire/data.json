@@ -848,6 +848,13 @@
             {
               "type": "section",
               "title": "Ray's Cafe",
+              "optionalAchievements": [
+                {
+                  "name": "Stab-Rite",
+                  "hint": "Before leaving Ray’s Cafe for the first time, inspect the bloodstained knife in the trash can in the alley beside the café.",
+                  "url": "https://www.trueachievements.com/a244986/stabrite-achievement"
+                }
+              ],
               "clues": [
                 {
                   "id": "traffic-a-marriage-made-in-heaven-clue-02",
@@ -1004,6 +1011,12 @@
             {
               "type": "section",
               "title": "Pattison Residence",
+              "optionalAchievements": [
+                {
+                  "name": "Not So Hasty",
+                  "hint": "When Leroy Sabo flees on foot, keep him in your sights long enough to fire a warning shot and stop him."
+                }
+              ],
               "clues": [],
               "topics": [],
               "paragraphs": [
@@ -1046,6 +1059,16 @@
             {
               "type": "section",
               "title": "6 West Second Street",
+              "optionalAchievements": [
+                {
+                  "name": "Nowhere In A Hurry",
+                  "hint": "Catch and arrest Cliff Harrison before uniformed backup stops him."
+                },
+                {
+                  "name": "Racing For Pinks",
+                  "hint": "Inspect Harrison’s ownership papers here, Archer’s papers at Coombs Automotive, and Belasco’s papers at Central Police Station. Inspect the box of pink slips at 58 Industrial Street."
+                }
+              ],
               "clues": [
                 {
                   "id": "traffic-a-slip-of-the-tongue-clue-01",
@@ -1134,6 +1157,12 @@
             {
               "type": "section",
               "title": "Central Police Station",
+              "optionalAchievements": [
+                {
+                  "name": "Femme Imbécile",
+                  "hint": "When dispatch locates Jean Archer, run straight to the Western Union office. Answer her interview in order: Bad Cop; Accuse with Belasco’s ownership papers; Bad Cop."
+                }
+              ],
               "clues": [
                 {
                   "id": "traffic-a-slip-of-the-tongue-clue-08",
@@ -1183,7 +1212,7 @@
                 },
                 {
                   "instruction": "Association with Belasco: Accuse - Belasco's ownership papers",
-                  "response": "Femme Imbécile Correctly branch every question in the interview with Jean Archer."
+                  "response": ""
                 }
               ],
               "paragraphs": [
@@ -1389,6 +1418,12 @@
             {
               "type": "interview",
               "title": "Jessica Hamilton",
+              "optionalAchievements": [
+                {
+                  "name": "The Shadow",
+                  "hint": "After the hospital interview, follow June Ballard without being spotted. Wait outside Mallory’s Cafe until she picks up the phone, then go incognito in the empty booth."
+                }
+              ],
               "clues": [
                 {
                   "id": "traffic-the-fallen-idol-clue-07",
@@ -1464,6 +1499,12 @@
             {
               "type": "interview",
               "title": "Gloria Bishop",
+              "optionalAchievements": [
+                {
+                  "name": "The Hunch",
+                  "hint": "Bring four intuition points. Spend one on each of Gloria Bishop’s four questions and choose the correct answer every time."
+                }
+              ],
               "clues": [
                 {
                   "id": "traffic-the-fallen-idol-clue-13",
@@ -1673,6 +1714,12 @@
             {
               "type": "interview",
               "title": "Dick McColl",
+              "optionalAchievements": [
+                {
+                  "name": "Round Heels",
+                  "hint": "Get Dick McColl to disclose the license plate of Celine Henry’s companion at the Bamba Club. Use the interview answers below."
+                }
+              ],
               "clues": [
                 {
                   "id": "homicide-the-red-lipstick-murder-clue-07",
@@ -1752,6 +1799,12 @@
             {
               "type": "interview",
               "title": "Jacob Henry",
+              "optionalAchievements": [
+                {
+                  "name": "Keep A Lid On",
+                  "hint": "Win the brawl after the interview with your hat still on. Dodge incoming punches and counter when there’s an opening."
+                }
+              ],
               "clues": [],
               "topics": [
                 {
@@ -1811,6 +1864,12 @@
             {
               "type": "section",
               "title": "Mendez’s Residence",
+              "optionalAchievements": [
+                {
+                  "name": "Traffic Stop",
+                  "hint": "During the chase, pull alongside Mendez on his left so Rusty can shoot out a tire."
+                }
+              ],
               "clues": [
                 {
                   "id": "homicide-the-red-lipstick-murder-clue-15",
@@ -1979,6 +2038,12 @@
             {
               "type": "interview",
               "title": "Hugo Moller",
+              "optionalAchievements": [
+                {
+                  "name": "Asphalt Jungle",
+                  "hint": "When Hugo runs from the incinerator, close the gap and tackle him before he reaches the locked door."
+                }
+              ],
               "clues": [],
               "topics": [
                 {
@@ -3713,6 +3778,20 @@
             {
               "type": "section",
               "title": "Juan Garcia Cruz’s Residence",
+              "optionalAchievements": [
+                {
+                  "name": "Forcible Rear Entry",
+                  "hint": "Go around to the back door of the Las Palmas stash house and enter there before taking out Juan Garcia Cruz."
+                },
+                {
+                  "name": "Soup In The Pot",
+                  "hint": "Use the can opener in the stash room to open both soup cans."
+                },
+                {
+                  "name": "High Flyer",
+                  "hint": "Inspect the flyer, then go directly to 20th Century Market. The desk walkthrough recommends a separate run if you’re also aiming for five stars, since this route skips the factory visit."
+                }
+              ],
               "clues": [
                 {
                   "id": "vice-reefer-madness-clue-01",
@@ -3753,6 +3832,12 @@
             {
               "type": "section",
               "title": "Parnell’s Soup Factory",
+              "optionalAchievements": [
+                {
+                  "name": "Spare A Dime",
+                  "hint": "At Parnell’s Soup, line up the silver dollars so the letters spell Masangkay Metals."
+                }
+              ],
               "clues": [
                 {
                   "id": "vice-reefer-madness-clue-06",
@@ -3986,6 +4071,12 @@
             {
               "type": "section",
               "title": "Tail Candy Edwards",
+              "optionalAchievements": [
+                {
+                  "name": "The Moose",
+                  "hint": "Follow Candy Edwards without using cover or going incognito once the tail is underway. The initial setup and any point where the tail resumes are exceptions."
+                }
+              ],
               "clues": [],
               "topics": [],
               "paragraphs": [
@@ -4126,6 +4217,12 @@
             {
               "type": "section",
               "title": "Crime Scene",
+              "optionalAchievements": [
+                {
+                  "name": "A Good-Looking Corpse",
+                  "hint": "Inspect the pills on the bedroom floor and bedside table, then check the trash can downstairs for the morphine syrettes."
+                }
+              ],
               "clues": [
                 {
                   "id": "vice-the-naked-city-clue-02",
@@ -4282,6 +4379,12 @@
             {
               "type": "section",
               "title": "Tail Henry Arnett",
+              "optionalAchievements": [
+                {
+                  "name": "Fakeloo",
+                  "hint": "Follow Arnett from Hollywood Station to the pawnbroker and travel agent without being spotted."
+                }
+              ],
               "clues": [
                 {
                   "id": "vice-the-naked-city-clue-12",
@@ -4333,6 +4436,12 @@
             {
               "type": "interview",
               "title": "Mrs Evestrom",
+              "optionalAchievements": [
+                {
+                  "name": "Chauffeur Service",
+                  "hint": "After the interview, drive Heather Swanson to Arnett’s apartment without damaging the car."
+                }
+              ],
               "clues": [],
               "topics": [
                 {
@@ -4388,6 +4497,12 @@
             {
               "type": "section",
               "title": "Willy’s Apartment",
+              "optionalAchievements": [
+                {
+                  "name": "Give My Regards",
+                  "hint": "At the Broadway Hotel rooftop, shoot every letter off the tower before taking the final shot at Willy."
+                }
+              ],
               "clues": [],
               "topics": [],
               "paragraphs": [
@@ -4608,6 +4723,12 @@
             {
               "type": "interview",
               "title": "Felix Alvarro",
+              "optionalAchievements": [
+                {
+                  "name": "The Fighting Sixth",
+                  "hint": "Use the interview answers below to get Felix Alvarro to name the Marines involved in the Coolridge heist."
+                }
+              ],
               "clues": [
                 {
                   "id": "vice-manifest-destiny-clue-11",
@@ -5354,6 +5475,12 @@
             {
               "type": "interview",
               "title": "Leland Monroe",
+              "optionalAchievements": [
+                {
+                  "name": "Huckster",
+                  "hint": "Correctly answer at least one of the questions about Monroe’s developments or advertising campaign."
+                }
+              ],
               "clues": [],
               "topics": [
                 {
@@ -5798,6 +5925,12 @@
             {
               "type": "section",
               "title": "Explosion Site",
+              "optionalAchievements": [
+                {
+                  "name": "The Nose Knows",
+                  "hint": "Find and inspect the aircraft prop spinner among the blast debris."
+                }
+              ],
               "clues": [
                 {
                   "id": "arson-nicholson-electroplating-clue-01",
@@ -5854,6 +5987,12 @@
             {
               "type": "section",
               "title": "Deciphered Address",
+              "optionalAchievements": [
+                {
+                  "name": "Skeletons In The Icebox",
+                  "hint": "Inspect every clue in Okamoto’s ransacked apartment before leaving."
+                }
+              ],
               "clues": [
                 {
                   "id": "arson-nicholson-electroplating-clue-06",
@@ -5968,6 +6107,12 @@
             {
               "type": "section",
               "title": "House in the Photograph",
+              "optionalAchievements": [
+                {
+                  "name": "Out Of The Frying Pan",
+                  "hint": "Follow Vernon Mapes from the burning house to Hughes Aircraft on your first attempt. Stay close through the alleys."
+                }
+              ],
               "clues": [],
               "topics": [],
               "paragraphs": [
@@ -5979,6 +6124,12 @@
             {
               "type": "section",
               "title": "Hughes Aircraft",
+              "optionalAchievements": [
+                {
+                  "name": "Bulletproof Windshield",
+                  "hint": "During the final gunfight, take out two MP drivers while their vehicles are still moving."
+                }
+              ],
               "clues": [],
               "topics": [],
               "paragraphs": [

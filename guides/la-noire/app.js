@@ -63,10 +63,14 @@ function renderTopic(topic) {
 
 function renderBlock(block, index, caseItem, open) {
   const found = block.clues.filter(clue => has('clues', clue.id)).length;
+  const achievements = block.optionalAchievements || (block.optionalAchievement ? [block.optionalAchievement] : []);
   return `<details class="route-block" data-step="${index}" ${open ? 'open' : ''}>
     <summary><span class="route-index">${String(index + 1).padStart(2, '0')}</span><span><strong>${escapeHtml(block.title)}</strong><small>${block.clues.length ? `${found}/${block.clues.length} clues here · ${block.caseRunning || found}/${caseItem.clueTotal} in case` : block.type === 'interview' ? `${block.topics.length} interview topic${block.topics.length === 1 ? '' : 's'}` : 'Route guidance'}</small></span><i>⌄</i></summary>
     <div class="route-body">
-      ${block.optionalAchievement ? `<aside class="opportunity optional-achievement"><span>Optional achievement</span><strong><a href="${escapeHtml(block.optionalAchievement.url)}">${escapeHtml(block.optionalAchievement.name)}</a></strong><p>${escapeHtml(block.optionalAchievement.hint)}</p></aside>` : ''}
+      ${achievements.map(({ name, hint, url }) => {
+        const title = url ? `<a href="${escapeHtml(url)}">${escapeHtml(name)}</a>` : escapeHtml(name);
+        return `<aside class="opportunity optional-achievement"><span>Optional achievement</span><strong>${title}</strong><p>${escapeHtml(hint)}</p></aside>`;
+      }).join('')}
       ${block.clues.length ? `<div class="clue-list">${block.clues.map(clue => `<label class="check-row ${has('clues', clue.id) ? 'done' : ''}"><input type="checkbox" data-check="clues" data-id="${clue.id}" ${has('clues', clue.id) ? 'checked' : ''}><span><strong>${escapeHtml(clue.name)}</strong></span></label>`).join('')}</div>` : ''}
       ${block.topics.length ? `<div class="topic-list">${block.topics.map(renderTopic).join('')}</div>` : ''}
       ${block.paragraphs.map(paragraph => `<p class="route-copy">${escapeHtml(paragraph)}</p>`).join('')}
@@ -234,4 +238,4 @@ byId('reset-progress').addEventListener('click', () => {
   state = { clues: [], cases: [], crimes: [], vehicles: [], weapons: [] }; save(); render();
 });
 
-fetch('data.json?v=2').then(response => response.ok ? response.json() : Promise.reject(new Error('Guide failed to load'))).then(data => { guide = data; load(); render(); }).catch(error => { byId('case-result').textContent = 'Unable to load the case notebook.'; console.error(error); });
+fetch('data.json?v=3').then(response => response.ok ? response.json() : Promise.reject(new Error('Guide failed to load'))).then(data => { guide = data; load(); render(); }).catch(error => { byId('case-result').textContent = 'Unable to load the case notebook.'; console.error(error); });
