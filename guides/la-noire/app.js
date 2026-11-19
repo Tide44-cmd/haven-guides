@@ -6,7 +6,6 @@ let activeDesk = 'patrol';
 let activeCrimeDesk = 'all';
 let activeArsenal = 'all';
 let incompleteOnly = true;
-let firstCaseRender = true;
 
 const byId = id => document.getElementById(id);
 const escapeHtml = (value = '') => String(value).replace(/[&<>'"]/g, character => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&#39;', '"': '&quot;' })[character]);
@@ -31,17 +30,8 @@ function toggle(type, id, value) {
   save();
 }
 
-function markRelatedGearUsed(caseItem) {
-  let changed = false;
-  for (const item of caseItem.vehicleOpportunities) if (!has('vehicles', item.id)) { state.vehicles.push(item.id); changed = true; }
-  for (const item of caseItem.weaponOpportunities) if (!has('weapons', item.id)) { state.weapons.push(item.id); changed = true; }
-  if (changed) save();
-}
-
 function caseIsDone(caseItem) {
-  if (has('cases', caseItem.id)) return true;
-  const clues = caseItem.blocks.flatMap(block => block.clues);
-  return clues.length > 0 && clues.every(clue => has('clues', clue.id));
+  return has('cases', caseItem.id);
 }
 
 function renderHeader() {
@@ -56,12 +46,14 @@ function renderHeader() {
 
 function opportunityCards(caseItem) {
   const items = [
-    ...caseItem.weaponOpportunities.map(item => ({ ...item, kind: 'Weapon', icon: '⚠' })),
-    ...caseItem.vehicleOpportunities.map(item => ({ ...item, kind: 'Vehicle', icon: '◆' }))
+    ...caseItem.weaponOpportunities.map(item => ({ ...item, type: 'weapons', kind: 'Weapon', status: 'Used' })),
+    ...caseItem.vehicleOpportunities.map(item => ({ ...item, type: 'vehicles', kind: 'Vehicle', status: 'Found' }))
   ];
-  const sideObjectives = (caseItem.sideObjectives || []).map(item => ({ ...item, kind: 'Optional objective', icon: '☆' }));
-  if (!items.length && !sideObjectives.length) return '';
-  return `<div class="opportunity-grid">${[...items, ...sideObjectives].map(item => `<article class="opportunity ${item.kind === 'Optional objective' ? 'side-objective' : ''}"><span>${item.icon} ${item.kind}</span><strong>${item.source ? `<a href="${escapeHtml(item.source)}" target="_blank" rel="noopener">${escapeHtml(item.name)}</a>` : escapeHtml(item.name)}</strong><p>${escapeHtml(item.description || item.note)}</p></article>`).join('')}</div>`;
+  if (!items.length) return '';
+  return `<div class="opportunity-grid">${items.map(item => `<article class="opportunity">
+    <span>${item.kind}</span><strong>${escapeHtml(item.name)}</strong><p>${escapeHtml(item.note)}</p>
+    <label class="gear-check"><input type="checkbox" data-check="${item.type}" data-id="${item.id}" aria-label="${item.status}: ${escapeHtml(item.name)}" ${has(item.type, item.id) ? 'checked' : ''}> ${item.status}</label>
+  </article>`).join('')}</div>`;
 }
 
 function renderTopic(topic) {
@@ -69,11 +61,12 @@ function renderTopic(topic) {
   return `<div class="topic"><span>${escapeHtml(parts.shift())}</span><strong>${escapeHtml(parts.join(': '))}</strong>${topic.response ? `<p>${escapeHtml(topic.response)}</p>` : ''}</div>`;
 }
 
-function renderBlock(block, index, caseItem) {
+function renderBlock(block, index, caseItem, open) {
   const found = block.clues.filter(clue => has('clues', clue.id)).length;
-  return `<details class="route-block" data-route-block="${index}">
+  return `<details class="route-block" data-step="${index}" ${open ? 'open' : ''}>
     <summary><span class="route-index">${String(index + 1).padStart(2, '0')}</span><span><strong>${escapeHtml(block.title)}</strong><small>${block.clues.length ? `${found}/${block.clues.length} clues here · ${block.caseRunning || found}/${caseItem.clueTotal} in case` : block.type === 'interview' ? `${block.topics.length} interview topic${block.topics.length === 1 ? '' : 's'}` : 'Route guidance'}</small></span><i>⌄</i></summary>
     <div class="route-body">
+      ${block.optionalAchievement ? `<aside class="opportunity optional-achievement"><span>Optional achievement</span><strong><a href="${escapeHtml(block.optionalAchievement.url)}">${escapeHtml(block.optionalAchievement.name)}</a></strong><p>${escapeHtml(block.optionalAchievement.hint)}</p></aside>` : ''}
       ${block.clues.length ? `<div class="clue-list">${block.clues.map(clue => `<label class="check-row ${has('clues', clue.id) ? 'done' : ''}"><input type="checkbox" data-check="clues" data-id="${clue.id}" ${has('clues', clue.id) ? 'checked' : ''}><span><strong>${escapeHtml(clue.name)}</strong></span></label>`).join('')}</div>` : ''}
       ${block.topics.length ? `<div class="topic-list">${block.topics.map(renderTopic).join('')}</div>` : ''}
       ${block.paragraphs.map(paragraph => `<p class="route-copy">${escapeHtml(paragraph)}</p>`).join('')}
@@ -81,17 +74,17 @@ function renderBlock(block, index, caseItem) {
   </details>`;
 }
 
-function renderCase(caseItem, deskName, forceOpen) {
+function renderCase(caseItem, deskName, expandedSteps) {
   const clues = caseItem.blocks.flatMap(block => block.clues);
   const found = clues.filter(clue => has('clues', clue.id)).length;
   const done = caseIsDone(caseItem);
-  return `<details class="case-card ${done ? 'complete' : ''}" data-case-id="${caseItem.id}" ${forceOpen ? 'open' : ''}>
+  return `<details class="case-card ${done ? 'complete' : ''}" data-case-id="${caseItem.id}" ${expandedSteps ? 'open' : ''}>
     <summary><span class="case-file">${escapeHtml(deskName)} file</span><span class="case-title"><strong>${escapeHtml(caseItem.title)}</strong><small>${found}/${caseItem.clueTotal} clues found</small></span><span class="case-status">${done ? 'Closed' : 'Open'} <i>⌄</i></span></summary>
     <div class="case-body">
       ${caseItem.objectives.length ? `<div class="objectives"><span>Case objectives</span><ul>${caseItem.objectives.map(item => `<li>${escapeHtml(item)}</li>`).join('')}</ul></div>` : ''}
       ${opportunityCards(caseItem)}
-      <div class="route-list">${caseItem.blocks.map((block, index) => renderBlock(block, index, caseItem)).join('')}</div>
-      <div class="case-actions"><span>Clues save as you tick them. Close the case when you’re ready to move on.</span><button type="button" data-case-solved="${caseItem.id}" class="case-complete ${done ? 'done' : ''}">${done ? '✓ Case solved' : 'Mark case solved'}</button></div>
+      <div class="route-list">${caseItem.blocks.map((block, index) => renderBlock(block, index, caseItem, expandedSteps ? expandedSteps.has(String(index)) : index === 0)).join('')}</div>
+      <div class="case-actions"><button type="button" data-case-complete="${caseItem.id}" class="case-complete ${done ? 'done' : ''}">${done ? 'Reopen case' : 'Mark case solved'}</button></div>
     </div>
   </details>`;
 }
@@ -103,14 +96,16 @@ function renderCases() {
     return `<button type="button" class="desk-button ${desk.id === activeDesk ? 'active' : ''}" data-desk="${desk.id}"><strong>${desk.name}</strong><span>${done}/${desk.cases.length} cases</span></button>`;
   }).join('');
   const desk = guide.desks.find(item => item.id === activeDesk);
-  const openIds = firstCaseRender ? new Set() : new Set([...document.querySelectorAll('.case-card[open]')].map(item => item.dataset.caseId));
-  firstCaseRender = false;
+  const expandedCases = new Map([...document.querySelectorAll('.case-card[open]')].map(card => [
+    card.dataset.caseId,
+    new Set([...card.querySelectorAll('.route-block[open]')].map(step => step.dataset.step))
+  ]));
   const visible = desk.cases.filter(caseItem => {
     if (incompleteOnly && caseIsDone(caseItem)) return false;
     if (!query) return true;
     return JSON.stringify(caseItem).toLowerCase().includes(query);
   });
-  byId('case-list').innerHTML = visible.map(item => renderCase(item, desk.name, openIds.has(item.id))).join('');
+  byId('case-list').innerHTML = visible.map(item => renderCase(item, desk.name, expandedCases.get(item.id))).join('');
   byId('case-result').textContent = `${visible.length} of ${desk.cases.length} ${desk.name} cases shown`;
   showEmpty(!visible.length);
 }
@@ -164,23 +159,31 @@ document.addEventListener('click', event => {
   const tab = event.target.closest('[data-view]');
   if (tab) { activeView = tab.dataset.view; byId('search').value = ''; render(); return; }
   const desk = event.target.closest('[data-desk]');
-  if (desk) { activeDesk = desk.dataset.desk; firstCaseRender = true; render(); return; }
+  if (desk) { activeDesk = desk.dataset.desk; render(); return; }
   const crimeDesk = event.target.closest('[data-crime-desk]');
   if (crimeDesk) { activeCrimeDesk = crimeDesk.dataset.crimeDesk; render(); return; }
   const arsenal = event.target.closest('[data-arsenal]');
   if (arsenal) { activeArsenal = arsenal.dataset.arsenal; render(); return; }
-  const caseButton = event.target.closest('[data-case-solved]');
+  const caseButton = event.target.closest('[data-case-complete]');
   if (caseButton) {
-    const desk = guide.desks.find(item => item.id === activeDesk);
-    const caseIndex = desk.cases.findIndex(item => item.id === caseButton.dataset.caseSolved);
-    const currentCase = desk.cases[caseIndex];
-    const nextCase = desk.cases.slice(caseIndex + 1).find(item => !caseIsDone(item));
-    markRelatedGearUsed(currentCase);
-    toggle('cases', caseButton.dataset.caseSolved, true);
+    const id = caseButton.dataset.caseComplete;
+    const solving = !has('cases', id);
+    toggle('cases', id, solving);
+    const card = caseButton.closest('.case-card');
+    if (solving) card.open = false;
+    const orderedCases = guide.desks.flatMap(desk => desk.cases.map(item => ({ id: item.id, desk: desk.id })));
+    const next = solving && orderedCases.slice(orderedCases.findIndex(item => item.id === id) + 1).find(item => !has('cases', item.id));
+    if (next) {
+      activeDesk = next.desk;
+      byId('search').value = '';
+    }
     render();
-    if (nextCase) {
-      const nextCard = document.querySelector(`.case-card[data-case-id="${nextCase.id}"]`);
-      if (nextCard) { nextCard.open = true; nextCard.scrollIntoView({ behavior: 'smooth', block: 'center' }); }
+    const target = document.querySelector(`.case-card[data-case-id="${next ? next.id : id}"]`);
+    if (target) {
+      if (next) target.open = true;
+      target.querySelector('summary').focus();
+    } else {
+      document.querySelector('.desk-button.active')?.focus();
     }
   }
 });
@@ -188,22 +191,11 @@ document.addEventListener('click', event => {
 document.addEventListener('change', event => {
   const input = event.target.closest('[data-check]');
   if (!input) return;
-  const caseCard = input.closest('.case-card');
-  const openBlocks = caseCard ? new Set([...caseCard.querySelectorAll('.route-block[open]')].map(block => block.dataset.routeBlock)) : new Set();
+  const card = input.closest('.case-card');
   toggle(input.dataset.check, input.dataset.id, input.checked);
-  if (caseCard) {
-    const currentCase = guide.desks.flatMap(desk => desk.cases).find(item => item.id === caseCard.dataset.caseId);
-    const matchingItems = input.dataset.check === 'vehicles' ? currentCase?.vehicleOpportunities : input.dataset.check === 'weapons' ? currentCase?.weaponOpportunities : [];
-    const matchingItem = matchingItems?.find(item => item.id === input.dataset.id);
-    if (matchingItem) toggle(input.dataset.check, matchingItem.id, input.checked);
-  }
   render();
-  if (caseCard) {
-    const renderedCase = document.querySelector(`.case-card[data-case-id="${caseCard.dataset.caseId}"]`);
-    if (renderedCase) {
-      renderedCase.open = true;
-      renderedCase.querySelectorAll('.route-block').forEach(block => { block.open = openBlocks.has(block.dataset.routeBlock); });
-    }
+  if (card) {
+    document.querySelector(`.case-card[data-case-id="${card.dataset.caseId}"] [data-id="${input.dataset.id}"]`)?.focus({ preventScroll: true });
   }
 });
 
@@ -242,4 +234,4 @@ byId('reset-progress').addEventListener('click', () => {
   state = { clues: [], cases: [], crimes: [], vehicles: [], weapons: [] }; save(); render();
 });
 
-fetch('data.json').then(response => response.ok ? response.json() : Promise.reject(new Error('Guide failed to load'))).then(data => { guide = data; load(); render(); }).catch(error => { byId('case-result').textContent = 'Unable to load the case notebook.'; console.error(error); });
+fetch('data.json?v=2').then(response => response.ok ? response.json() : Promise.reject(new Error('Guide failed to load'))).then(data => { guide = data; load(); render(); }).catch(error => { byId('case-result').textContent = 'Unable to load the case notebook.'; console.error(error); });

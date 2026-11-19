@@ -1225,6 +1225,11 @@
             {
               "type": "section",
               "title": "58 Industrial Street",
+              "optionalAchievement": {
+                "name": "Chop Shop",
+                "hint": "During the Industrial Street raid, shoot the hanging engine block to take out a gunman.",
+                "url": "https://www.trueachievements.com/a244998/chop-shop-achievement"
+              },
               "clues": [
                 {
                   "id": "traffic-a-slip-of-the-tongue-clue-15",
